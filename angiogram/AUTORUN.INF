@@ -1,0 +1,5 @@
+[autorun]
+ICON=autorun.exe,0
+OPEN=autorun.exe srviewer\index.htm index.htm
+SHELL\srviewer\command=autorun.exe srviewer\index.htm
+SHELL\srviewer=Reporting Tool

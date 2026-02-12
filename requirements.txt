@@ -1,0 +1,6 @@
+segmentation-models-pytorch
+torch
+torchvision
+opencv-python
+tqdm
+numpy

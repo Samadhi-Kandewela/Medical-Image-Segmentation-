@@ -1,0 +1,206 @@
+Trispark Java DICOM Toolkit License Agreement
+
+TRISPARK IS WILLING TO LICENSE THE ACCOMPANYING JAVA DICOM TOOLKIT
+SOFTWARE AND ASSOCIATED DOCUMENTATION INCLUDING AUTHORIZED COPIES
+OF EACH (THE "SOFTWARE") TO YOU ("LICENSEE") ONLY ON THE CONDITION
+THAT LICENSEE ACCEPTS ALL OF THE TERMS IN THIS AGREEMENT
+
+PLEASE READ THE TERMS CAREFULLY BEFORE INSTALLING THE SOFTWARE.
+BY INSTALLING THE SOFTWARE, LICENSEE ACKNOWLEDGES THAT LICENSEE 
+HAS READ AND UNDERSTANDS THIS AGREEMENT AND AGREES TO BE BOUND 
+BY ITS TERMS AND CONDITIONS. IF LICENSEE DOES NOT ACCEPT THESE 
+LICENSE TERMS, THEN TRISPARK DOES NOT GRANT ANY LICENSE TO THE 
+SOFTWARE, AND LICENSEE MUST NOT INSTALL THE SOFTWARE.
+
+1. Grant of license
+
+1.1 Evaluation license
+If you downloaded a trial or evaluation version of the Software 
+from Trispark's website or obtained it through other means, 
+you may install and use one copy of the Software on a single 
+computer of  your organisation, for evaluation and testing purposes 
+during the evalution period. You may not use the Software for 
+commercial purposes. The Software may contain a  disabling mechanism 
+that will prevent it from being used after the evaluation period. 
+You must not tamper with the disabling mechanism or the Software.After 
+the evalutation period, if you do not order the registered version of 
+the Software, you must remove/destroy the Software and Documentation
+
+1.2 Developer license
+If you purchased a developer license, you are permitted to use the 
+Software, on a number of computers of your organisation, in 
+accordance with the number of purchased developer licences to build 
+java applets and java applications. A developer license does not 
+grant you the right to distribute the Software or use the Software 
+in a production environment other than your development environment.
+
+1.3 Runtime license
+If you purchased runtime licenses you are permitted to distribute 
+the software according to the number of purchased licenses, provided 
+that you:
+a. distribute the java applets and java applications that are built
+   with the Software only in conjunction with and as an integral part 
+   of your Web pages, and distribute the class libraries only as 
+   an integral part of your end-user application.
+b. your Web pages or software product(s) are targeted at end-users 
+   and are not a development tool;
+c. you do not use Trispark's name, logo or trademark to market your 
+   Web pages or application without explicit agreement with Trispark; 
+d. you include a valid copyright notice on your Web pages and 
+   software products.
+
+1.4 Source code license
+If you have purchased the source code license of the Software, you must 
+use reasonable efforts to maintain the confidentiality of the source 
+code, including ensuring that it is installed and used only on the 
+machines belonging to Licensee's organization, for development of 
+applets and applications that use the Software and that the source 
+code is not otherwise used or copied. 
+
+1.5 Use Definition
+The SOFTWARE is "in use" on a computer when it is loaded into temporary 
+memory (i.e. RAM) or installed into permanent memory (e.g. hard disk, 
+CD-ROM, or other storage device) of that computer,except that a copy 
+installed on a network server for the sole purpose of distribution 
+to other computers is not "in use".
+
+2. Modification
+Licensee may not modify the Java Dicom Toolkit Interface ("JDT",
+identified as classes contained within the "com.archimed" package 
+or any subpackages of the "com.archimed" package), by creating 
+additional classes  within the JDT or otherwise causing the addition 
+to or modification of the classes in the JDT.  In the event 
+that Licensee creates any Java-related API and distributes such 
+API to others for applet or application development, Licensee 
+must promptly publish an accurate specification for such API 
+for free use by all developers of Java-based software. Licencees 
+that are bound by a source code license may modify JDT by adding 
+classes to JDT or modifying existing JDT classes, only if 
+modified or added classes are defined outside the "com.archimed" 
+package tree.
+
+3. Restrictions.
+Software is confidential copyrighted information of Trispark and 
+title to all copies is retained by Trispark and/or its licensors. 
+Licensee shall not decompile, disassemble, decrypt, extract, 
+or otherwise reverse engineer Software. Software may not be 
+leased, assigned, or sublicensed, in whole or in part. Software 
+is not designed or intended for use in on-line control of aircraft, 
+air traffic, aircraft navigation or aircraft communications; or 
+in the design, construction, operation or maintenance of any 
+nuclear facility. Licensee warrants that it will not use or 
+redistribute the Software for such purposes.
+
+4. Trademarks and Logos.
+This Agreement does not authorize Licensee to use any Trispark 
+name, trademark or logo.
+
+5. Disclaimer of Warranty.
+Software is provided "AS IS," without a warranty of any kind. 
+ALL EXPRESS OR IMPLIED REPRESENTATIONS AND WARRANTIES, INCLUDING 
+ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED.
+
+6. Limitation of Liability.
+TRISPARK AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES 
+SUFFERED BY LICENSEE OR ANY THIRD PARTY AS A RESULT OF USING OR 
+DISTRIBUTING SOFTWARE. IN NO EVENT WILL TRISPARK OR ITS LICENSORS 
+BE LIABLE FOR ANY LOST REVENUE, PROFIT OR DATA, OR FOR DIRECT, 
+INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES, 
+HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY, ARISING 
+OUT OF THE USE OF OR INABILITY TO USE SOFTWARE, EVEN IF TRISPARK 
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOU AGREE TO 
+INDEMNIFY, HOLD HARMLESS AND DEFEND TRISPARK FROM AND AGAINST ANY 
+CLAIMS OR LAWSUITS, INCLUDING ATTORNEY'S FEES, THAT ARISE OR RESULT 
+FROM THE USE OR DISTRIBUTION OF YOUR WEB PAGES AND/OR APPLICATIONS. 
+The Software or the use of the Software may be subject to regulatory 
+provisions related to products used in the Health Care Industry. 
+Prior to using the Software, it is Licensee's responsibility to 
+ensure that Licensee's  use of the Software will not violate any 
+legal or regulatory provisions.
+
+
+7. Termination.  
+Licensee may terminate this Agreement at any time by destroying all 
+copies of Software. This Agreement will terminate immediately without 
+notice from Trispark if Licensee fails to comply with any provision 
+of this Agreement or when the period for which this licence holds 
+expires. Upon such termination, Licensee must destroy all copies 
+of Software in its posession.
+
+8. Severability. 
+If any of the above provisions are held to be in violation of applicable 
+law, void, or unenforceable in any jurisdiction, then such provisions 
+are herewith waived or amended to the extent necessary for the Agreement 
+to be otherwise enforceable in such jurisdiction.  However, if in 
+Trispark's opinion deletion or amendment of any provisions of the 
+Agreement by operation of this paragraph unreasonably compromises 
+the rights or increase the liabilities of Trispark or its licensors, 
+Trispark reserves the right to terminate the Agreement.
+
+9. Publicity. 
+In the event that licensee has obtained a developer license, 
+runtime license or source code license, Trispark reserves the right 
+to reference Licensee as one of Trispark's customers by mentioning 
+Licensee's company name in documents such as, but not limited to, 
+webpages of Trispark's website, emails originating from Trispark's 
+employees, publicity brochures and fact sheets, unless explicitly  
+stated otherwise by Licensee. In no event shall Trispark publish any 
+other information about Licenseeother than the single fact that 
+Licensee is a customer of Trispark.
+
+10. Entire Agreement.  
+This Agreement is the parties' entire agreement relating to the Software. 
+It supersedes all prior or contemporaneous oral or written communications, 
+proposals, warranties, and representations with respect to its subject 
+matter, and following Licensee's acceptance of this license by clicking 
+on the "Accept" Button, will prevail over any conflicting or additional 
+terms of any quote, order, acknowledgment, or any other communications 
+by or between the parties. No modification to this Agreement will be 
+binding, unless in writing and signed by an authorized representative 
+of each party.
+
+11. License related to sofware for the retrieval of MAC addresses of 
+ethernet cards in the com.archimed.dicom.uid package in this release:
+
+The com.archimed.dicom.uid package uses third-party software to obtain 
+physical mac addresses from ethernet cards in order to generate a
+unique uid. The license agreement of this third-party software is copied
+verbatim hereunder and applies only to the retrieval of MAC addresses:
+
+"This software is copyrighted by Paul Blankenbaker, Global
+Atmospherics, Inc. and Unified Technologies, Inc., and other parties.
+The following terms apply to all files associated with the software
+unless explicitly disclaimed in individual files.
+
+The authors hereby grant permission to use, copy, modify, distribute,
+and license this software and its documentation for any purpose, provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions. No written agreement,
+license, or royalty fee is required for any of the authorized uses.
+Modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here, provided that
+the new terms are clearly indicated on the first page of each file where
+they apply.
+
+IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE
+IS PROVIDED ON AN "AS IS" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE
+NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
+MODIFICATIONS.
+
+RESTRICTED RIGHTS: Use, duplication or disclosure by the government
+is subject to the restrictions as set forth in subparagraph (c) (1) (ii)
+of the Rights in Technical Data and Computer Software Clause as DFARS
+252.227-7013 and FAR 52.227-19."
+
+
+
+ 

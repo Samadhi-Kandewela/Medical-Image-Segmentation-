@@ -1,0 +1,3118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+    2-letter language codes defined in ISO 639:
+        en: English   de: German    fr: French   it: Italian     es: Spanish   pt: Portuguese
+        da: Danish    fi: Finnish   nl: Dutch    no: Norwegian   sv: Swedish
+-->
+<Messages>
+    <LBL_HEADER>
+        <msg lang="en">Header</msg>
+        <msg lang="de">Kopf</msg>
+        <msg lang="fr">En-t&#234;te</msg>
+        <msg lang="it">Intestazione</msg>
+        <msg lang="es">Encabezamiento</msg>
+        <msg lang="pt">Cabe&#231;alho</msg>
+        <msg lang="da">Hoved</msg>
+        <msg lang="fi">Yl&#228;tunniste</msg>
+        <msg lang="nl">Header</msg>
+        <msg lang="no">Overskrift</msg>
+        <msg lang="sv">Rubrik</msg>
+    </LBL_HEADER>
+    <LBL_LOGO_NAME_ADDRESS>
+        <msg lang="en">Hospital Logo / Name / Address</msg>
+        <msg lang="de">Logo / Name / Adresse der Klinik</msg>
+        <msg lang="fr">Logo / Nom / Adresse de l'h&#244;pital</msg>
+        <msg lang="it">Logo / Nome / Indirizzo dell'ospedale</msg>
+        <msg lang="es">Logotipo / Nombre / Direcci&#243;n de su hospital</msg>
+        <msg lang="pt">Log&#243;tipo / Nome / Endere&#231;o de seu Hospital</msg>
+        <msg lang="da">Hospital Logo / Name / Address</msg>
+        <msg lang="fi">Sairaalan logo / Nimi / Osoite</msg>
+        <msg lang="nl">Ziekenhuislogo / naam / adres</msg>
+        <msg lang="no">Sykehusets logo / navn / adresse</msg>
+        <msg lang="sv">Sjukhus/Logo/namn/Adress</msg>
+    </LBL_LOGO_NAME_ADDRESS>
+    <LBL_PHYSICIAN_LIST>
+        <msg lang="en">Physician List</msg>
+        <msg lang="de">&#196;rzteliste</msg>
+        <msg lang="fr">Liste des m&#233;decins</msg>
+        <msg lang="it">Elenco medici</msg>
+        <msg lang="es">Lista de m&#233;dicos</msg>
+        <msg lang="pt">Lista M&#233;dicos</msg>
+        <msg lang="da">Liste over l&#230;ger</msg>
+        <msg lang="fi">L&#228;&#228;k&#228;riluettelo</msg>
+        <msg lang="nl">Lijst artsen</msg>
+        <msg lang="no">Legeliste</msg>
+        <msg lang="sv">L&#228;karf&#246;rteckning</msg>
+    </LBL_PHYSICIAN_LIST>
+    <LBL_REPORT_TITLE>
+        <msg lang="en">Report Title</msg>
+        <msg lang="de">Berichttitel</msg>
+        <msg lang="fr">Titre rapport</msg>
+        <msg lang="it">Titolo report</msg>
+        <msg lang="es">T&#237;tulo del informe</msg>
+        <msg lang="pt">T&#237;tulo do Relat&#243;rio</msg>
+        <msg lang="da">Rapport navn</msg>
+        <msg lang="fi">Raportin nimi</msg>
+        <msg lang="nl">Rapportitel</msg>
+        <msg lang="no">Rapportens tittel</msg>
+        <msg lang="sv">Rapporttitel</msg>
+    </LBL_REPORT_TITLE>
+    <LBL_YOUR_HOSPITALS_NAME>
+        <msg lang="en">Your Hospital's Name</msg>
+        <msg lang="de">Name der Klinik</msg>
+        <msg lang="fr">Nom de l'h&#244;pital</msg>
+        <msg lang="it">Nome dell'ospedale</msg>
+        <msg lang="es">Nombre de su hospital</msg>
+        <msg lang="pt">Nome do seu Hospital</msg>
+        <msg lang="da">Hospitalets navn</msg>
+        <msg lang="fi">Sairaalasi nimi</msg>
+        <msg lang="nl">De naam van uw ziekenhuis</msg>
+        <msg lang="no">Navn p&#229; ditt sykehus</msg>
+        <msg lang="sv">Namnet p&#229; ditt sjukhus</msg>
+    </LBL_YOUR_HOSPITALS_NAME>
+    <LBL_YOUR_HOSPITALS_ADDRESS>
+        <msg lang="en">Your Hospital's Address, Phone, Web</msg>
+        <msg lang="de">Adresse, Telefon-Nr., Web-Adresse der Klinik</msg>
+        <msg lang="fr">Adresse, t&#233;l&#233;phone et courriel de l'h&#244;pital</msg>
+        <msg lang="it">Indirizzo, telefono, URL dell'ospedale</msg>
+        <msg lang="es">Direcci&#243;n, tel&#233;fono, p&#225;gina web de su hospital</msg>
+        <msg lang="pt">Endere&#231;o, Telefone, Website do seu Hospital</msg>
+        <msg lang="da">Hospitalets adresse, telefonnr., hjemmeside</msg>
+        <msg lang="fi">Sairaalasi osoite, puhelin, Internet-osoite</msg>
+        <msg lang="nl">Adres, telefoonnumer, webpagina van uw ziekenhuis</msg>
+        <msg lang="no">Adresse, telefonnummer, web-adresse til ditt sykehus</msg>
+        <msg lang="sv">Sjukhusets adress, telefonnummer, webbadress</msg>
+    </LBL_YOUR_HOSPITALS_ADDRESS>
+    <LBL_PATIENT_DEMOGRAPHICS>
+        <msg lang="en">Patient Demographics</msg>
+        <msg lang="de">Patientendaten</msg>
+        <msg lang="fr">Donn&#233;es sur le patient</msg>
+        <msg lang="it">Dati demografici paziente</msg>
+        <msg lang="es">Datos del paciente</msg>
+        <msg lang="pt">Dados Pessoais Paciente</msg>
+        <msg lang="da">Patientdemografier</msg>
+        <msg lang="fi">Potilaan henkil&#246;tiedot</msg>
+        <msg lang="nl">Demografische gegevens pati&#235;nt</msg>
+        <msg lang="no">Pasientdata</msg>
+        <msg lang="sv">Patientdemografier</msg>
+    </LBL_PATIENT_DEMOGRAPHICS>
+    <LBL_IDENTIFICATION>
+        <msg lang="en">Identification</msg>
+        <msg lang="de">Identifikation</msg>
+        <msg lang="fr">Identification</msg>
+        <msg lang="it">Identificazione</msg>
+        <msg lang="es">Identificaci&#243;n</msg>
+        <msg lang="pt">Identifica&#231;&#227;o</msg>
+        <msg lang="da">Identifikation</msg>
+        <msg lang="fi">Henkil&#246;tiedot</msg>
+        <msg lang="nl">Identificatie</msg>
+        <msg lang="no">Identifikasjon</msg>
+        <msg lang="sv">Identifiering</msg>
+    </LBL_IDENTIFICATION>
+    <LBL_MEDICAL_HISTORY>
+        <msg lang="en">Medical History</msg>
+        <msg lang="de">Krankengeschichte</msg>
+        <msg lang="fr">Ant&#233;c&#233;dents m&#233;dicaux</msg>
+        <msg lang="it">Anamnesi</msg>
+        <msg lang="es">Historial m&#233;dico</msg>
+        <msg lang="pt">Historial M&#233;dico</msg>
+        <msg lang="da">Sygejournal</msg>
+        <msg lang="fi">Hoitohistoria</msg>
+        <msg lang="nl">Medische geschiedenis</msg>
+        <msg lang="no">Medisinsk historikk</msg>
+        <msg lang="sv">Sjukjournal</msg>
+    </LBL_MEDICAL_HISTORY>
+    <LBL_PHYSICIAN_INFO>
+        <msg lang="en">Physician Info</msg>
+        <msg lang="de">Arztinformationen</msg>
+        <msg lang="fr">Informations sur le m&#233;decin</msg>
+        <msg lang="it">Informazioni sul medico</msg>
+        <msg lang="es">Info del m&#233;dico</msg>
+        <msg lang="pt">Inform. M&#233;dico</msg>
+        <msg lang="da">Oplysninger om l&#230;ge</msg>
+        <msg lang="fi">L&#228;&#228;k&#228;rin tiedot</msg>
+        <msg lang="nl">Arts informatie</msg>
+        <msg lang="no">Info om legen</msg>
+        <msg lang="sv">L&#228;karinfo</msg>
+    </LBL_PHYSICIAN_INFO>
+    <LBL_EMPLOYMENT_HISTORY>
+        <msg lang="en">Employment History</msg>
+        <msg lang="de">Berufsgeschichte</msg>
+        <msg lang="fr">Ant&#233;c&#233;dents professionnels</msg>
+        <msg lang="it">Storia professionale</msg>
+        <msg lang="es">Historial laboral</msg>
+        <msg lang="pt">Historial Profissional</msg>
+        <msg lang="da">Ans&#230;ttelsesoversigt</msg>
+        <msg lang="fi">Ty&#246;historia</msg>
+        <msg lang="nl">Arbeidsverleden</msg>
+        <msg lang="no">Ansettelseshistorikk</msg>
+        <msg lang="sv">Arbetserfarenhet</msg>
+    </LBL_EMPLOYMENT_HISTORY>
+    <LBL_RESPIRATORY>
+        <msg lang="en">Respiratory</msg>
+        <msg lang="de">Atmung</msg>
+        <msg lang="fr">Respiratoire</msg>
+        <msg lang="it">Respiratorio</msg>
+        <msg lang="es">Respiratorio</msg>
+        <msg lang="pt">Respirat&#243;rio</msg>
+        <msg lang="da">Respiratorisk</msg>
+        <msg lang="fi">Hengitys</msg>
+        <msg lang="nl">Ademhaling</msg>
+        <msg lang="no">Respiratorisk</msg>
+        <msg lang="sv">Respiratorisk</msg>
+    </LBL_RESPIRATORY>
+    <LBL_PREDECESSOR_DOCUMENTS>
+        <msg lang="en">Predecessor Documents</msg>
+        <msg lang="de">Vorg&#228;nger-Dokumente</msg>
+        <msg lang="fr">Documents pr&#233;c&#233;dents</msg>
+        <msg lang="it">Documenti precedenti</msg>
+        <msg lang="es">Documentos del predecesor</msg>
+        <msg lang="pt">Documentos Precedentes</msg>
+        <msg lang="da">Tidligere dokumenter</msg>
+        <msg lang="fi">Aiemmat dokumentit</msg>
+        <msg lang="nl">Documenten van voorganger</msg>
+        <msg lang="no">Forgjengerdokumenter</msg>
+        <msg lang="sv">Dokument fr&#229;n f&#246;reg&#229;ngare</msg>
+    </LBL_PREDECESSOR_DOCUMENTS>
+    <LBL_IMAGES_ONLY>
+        <msg lang="en">&lt;Images></msg>
+        <msg lang="de">&lt;Bilder></msg>
+        <msg lang="fr">&lt;Images></msg>
+        <msg lang="it">&lt;Immagini></msg>
+        <msg lang="es">&lt;Im&#225;genes></msg>
+        <msg lang="pt">&lt;Imagens></msg>
+        <msg lang="da">&lt;Billede></msg>
+        <msg lang="fi">&lt;Kuvat></msg>
+        <msg lang="nl">&lt;afbeeldingen></msg>
+        <msg lang="no">&lt;Bilder></msg>
+        <msg lang="sv">&lt;Bilder></msg>
+    </LBL_IMAGES_ONLY>
+    <LBL_MESSAGE>
+        <msg lang="en">Message</msg>
+        <msg lang="de">Meldung</msg>
+        <msg lang="fr">Message</msg>
+        <msg lang="it">Messaggio</msg>
+        <msg lang="es">Mensaje</msg>
+        <msg lang="pt">Mensagem</msg>
+        <msg lang="da">Meddelelse</msg>
+        <msg lang="fi">Sanoma</msg>
+        <msg lang="nl">Bericht</msg>
+        <msg lang="no">Melding</msg>
+        <msg lang="sv">Meddelande</msg>
+    </LBL_MESSAGE>
+    <LBL_DIAGRAM>
+        <msg lang="en">Diagram</msg>
+        <msg lang="de">Diagramm</msg>
+        <msg lang="fr">Diagramme</msg>
+        <msg lang="it">Diagramma</msg>
+        <msg lang="es">Diagrama</msg>
+        <msg lang="pt">Diagrama</msg>
+        <msg lang="da">Diagram</msg>
+        <msg lang="fi">Kaavio</msg>
+        <msg lang="nl">Diagram</msg>
+        <msg lang="no">Diagram</msg>
+        <msg lang="sv">Diagram</msg>
+    </LBL_DIAGRAM>
+    <LBL_DIAGRAMS>
+        <msg lang="en">Diagrams</msg>
+        <msg lang="de">Diagramme</msg>
+        <msg lang="fr">Diagrammes</msg>
+        <msg lang="it">Diagrammi</msg>
+        <msg lang="es">Diagramas</msg>
+        <msg lang="pt">Diagramas</msg>
+        <msg lang="da">Diagrammer</msg>
+        <msg lang="fi">Kaaviot</msg>
+        <msg lang="nl">Diagrammen</msg>
+        <msg lang="no">Diagrammer</msg>
+        <msg lang="sv">Diagram</msg>
+    </LBL_DIAGRAMS>
+    <LBL_PHYSICIAN_SIGNATURES>
+        <msg lang="en">Physician Signatures</msg>
+        <msg lang="de">Arztunterschriften</msg>
+        <msg lang="fr">Signatures du m&#233;decin</msg>
+        <msg lang="it">Firme dei medici</msg>
+        <msg lang="es">Firmas de m&#233;dicos</msg>
+        <msg lang="pt">Assinaturas M&#233;dicos</msg>
+        <msg lang="da">L&#230;gesignaturer</msg>
+        <msg lang="fi">L&#228;&#228;k&#228;reiden allekirjoitukset</msg>
+        <msg lang="nl">Handtekeningen artsen</msg>
+        <msg lang="no">Legens underskrift</msg>
+        <msg lang="sv">L&#228;kares underskrift</msg>
+    </LBL_PHYSICIAN_SIGNATURES>
+    <LBL_PATIENT>
+        <msg lang="en">Patient</msg>
+        <msg lang="de">Patient</msg>
+        <msg lang="fr">Patient</msg>
+        <msg lang="it">Paziente</msg>
+        <msg lang="es">Paciente</msg>
+        <msg lang="pt">Paciente</msg>
+        <msg lang="da">Patient</msg>
+        <msg lang="fi">Potilas</msg>
+        <msg lang="nl">Pati&#235;nt</msg>
+        <msg lang="no">Pasient</msg>
+        <msg lang="sv">Patient</msg>
+    </LBL_PATIENT>
+    <LBL_PATIENTID>
+        <msg lang="en">Patient ID</msg>
+        <msg lang="de">Patienten-ID</msg>
+        <msg lang="fr">ID patient</msg>
+        <msg lang="it">ID paziente</msg>
+        <msg lang="es">ID de paciente</msg>
+        <msg lang="pt">ID Paciente</msg>
+        <msg lang="da">Patient-id</msg>
+        <msg lang="fi">Potilaan henkil&#246;tunnus</msg>
+        <msg lang="nl">Pati&#235;nt ID</msg>
+        <msg lang="no">Pasient-ID</msg>
+        <msg lang="sv">Patient-ID</msg>
+    </LBL_PATIENTID>
+    <LBL_NAME>
+        <msg lang="en">Name</msg>
+        <msg lang="de">Name</msg>
+        <msg lang="fr">Nom</msg>
+        <msg lang="it">Nome</msg>
+        <msg lang="es">Nombre</msg>
+        <msg lang="pt">Nome</msg>
+        <msg lang="da">Navn</msg>
+        <msg lang="fi">Nimi</msg>
+        <msg lang="nl">Naam</msg>
+        <msg lang="no">Navn</msg>
+        <msg lang="sv">Namn</msg>
+    </LBL_NAME>
+    <LBL_SEX>
+        <msg lang="en">Sex</msg>
+        <msg lang="de">Geschlecht</msg>
+        <msg lang="fr">Sexe</msg>
+        <msg lang="it">Sesso</msg>
+        <msg lang="es">Sexo</msg>
+        <msg lang="pt">Sexo</msg>
+        <msg lang="da">K&#248;n</msg>
+        <msg lang="fi">Sukupuoli</msg>
+        <msg lang="nl">Geslacht</msg>
+        <msg lang="no">Kj&#248;nn</msg>
+        <msg lang="sv">K&#246;n</msg>
+
+        <item name="male" value="M">
+            <msg lang="en">Male</msg>
+            <msg lang="de">M&#228;nnlich</msg>
+            <msg lang="fr">Homme</msg>
+            <msg lang="it">Maschile</msg>
+            <msg lang="es">Hombre</msg>
+            <msg lang="pt">Masculino</msg>
+            <msg lang="da">Mand</msg>
+            <msg lang="fi">Mies</msg>
+            <msg lang="nl">Man</msg>
+            <msg lang="no">Mann</msg>
+            <msg lang="sv">Man</msg>
+        </item>
+        <item name="female" value="F">
+            <msg lang="en">Female</msg>
+            <msg lang="de">Weiblich</msg>
+            <msg lang="fr">Femme</msg>
+            <msg lang="it">Femminile</msg>
+            <msg lang="es">Mujer</msg>
+            <msg lang="pt">Feminino</msg>
+            <msg lang="da">Kvinde</msg>
+            <msg lang="fi">Nainen</msg>
+            <msg lang="nl">Vrouw</msg>
+            <msg lang="no">Kvinne</msg>
+            <msg lang="sv">Kvinna</msg>
+        </item>
+        <item name="other" value="O">
+            <msg lang="en">Other</msg>
+            <msg lang="de">Sonstiges</msg>
+            <msg lang="fr">Autre</msg>
+            <msg lang="it">Altro</msg>
+            <msg lang="es">Otro</msg>
+            <msg lang="pt">Outro</msg>
+            <msg lang="da">Andet</msg>
+            <msg lang="fi">Muuta</msg>
+            <msg lang="nl">Andere</msg>
+            <msg lang="no">Annet</msg>
+            <msg lang="sv">Annat</msg>
+        </item>
+    </LBL_SEX>
+    <LBL_BOOL>
+        <msg lang="en">Bool</msg>
+        <msg lang="de">Bool</msg>
+        <msg lang="fr">Bool</msg>
+        <msg lang="it">Bool</msg>
+        <msg lang="es">Bool</msg>
+        <msg lang="pt">Bool</msg>
+        <msg lang="da">Bool</msg>
+        <msg lang="fi">Bool</msg>
+        <msg lang="nl">Bool</msg>
+        <msg lang="no">Bool</msg>
+        <msg lang="sv">Bool</msg>
+
+        <item name="yes" value="Y">
+            <msg lang="en">Yes</msg>
+            <msg lang="de">Ja</msg>
+            <msg lang="fr">Oui</msg>
+            <msg lang="it">S&#236;</msg>
+            <msg lang="es">S&#237;</msg>
+            <msg lang="pt">Sim</msg>
+            <msg lang="da">Ja</msg>
+            <msg lang="fi">Kyll&#228;</msg>
+            <msg lang="nl">Ja</msg>
+            <msg lang="no">Ja</msg>
+            <msg lang="sv">Ja</msg>
+        </item>
+        <item name="no" value="N">
+            <msg lang="en">No</msg>
+            <msg lang="de">Nein</msg>
+            <msg lang="fr">Non</msg>
+            <msg lang="it">No</msg>
+            <msg lang="es">No</msg>
+            <msg lang="pt">N&#227;o</msg>
+            <msg lang="da">Nej</msg>
+            <msg lang="fi">Ei</msg>
+            <msg lang="nl">Nee</msg>
+            <msg lang="no">Nei</msg>
+            <msg lang="sv">Nej</msg>
+        </item>
+    </LBL_BOOL>
+    <LBL_BIRTHDATE>
+        <msg lang="en">Birth date</msg>
+        <msg lang="de">Geburtsdatum</msg>
+        <msg lang="fr">Date de naissance</msg>
+        <msg lang="it">Data di nascita</msg>
+        <msg lang="es">Fecha de nacimiento</msg>
+        <msg lang="pt">Data de Nascimento</msg>
+        <msg lang="da">F&#248;dselsdato</msg>
+        <msg lang="fi">Syntym&#228;aika</msg>        
+        <msg lang="nl">Geboortedatum</msg>
+        <msg lang="no">F&#248;dselsdato</msg>
+        <msg lang="sv">F&#246;delsedatum</msg>
+    </LBL_BIRTHDATE>
+    <LBL_AGE>
+        <msg lang="en">Age</msg>
+        <msg lang="de">Alter</msg>
+        <msg lang="fr">Age</msg>
+        <msg lang="it">Et&#224;</msg>
+        <msg lang="es">Edad</msg>
+        <msg lang="pt">Idade</msg>
+        <msg lang="da">Alder</msg>
+        <msg lang="fi">Ik&#228;</msg>
+        <msg lang="nl">Leeftijd</msg>
+        <msg lang="no">Alder</msg>
+        <msg lang="sv">&#197;lder</msg>
+    </LBL_AGE>
+    <LBL_ETHNIC_GROUP>
+        <msg lang="en">Ethnic Group</msg>
+        <msg lang="de">Ethnische Zugeh&#246;rigkeit</msg>
+        <msg lang="fr">Groupe ethnique</msg>
+        <msg lang="it">Gruppo etnico</msg>
+        <msg lang="es">Grupo &#233;tnico</msg>
+        <msg lang="pt">Grupo &#201;tnico</msg>
+        <msg lang="da">Etnisk tilh&#248;rsforhold</msg>
+        <msg lang="fi">Etninen ryhm&#228;</msg>
+        <msg lang="nl">Etnische groep</msg>
+        <msg lang="no">Etnisk gruppe</msg>
+        <msg lang="sv">Etnisk grupp</msg>
+    </LBL_ETHNIC_GROUP>
+    <LBL_STUDYID>
+        <msg lang="en">Exam No.</msg>
+        <msg lang="de">Unters.-Nr.</msg>
+        <msg lang="fr">Examen n&#176;</msg>
+        <msg lang="it">Esame n.</msg>
+        <msg lang="es">N&#186; de examen</msg>
+        <msg lang="pt">N&#186; Exame</msg>
+        <msg lang="da">Unders&#248;gelsesnr.</msg>
+        <msg lang="fi">Tutkimuksen nro</msg>
+        <msg lang="nl">Examennr.</msg>
+        <msg lang="no">Unders&#248;kelsenr.</msg>
+        <msg lang="sv">Unders&#246;kningsnummer</msg>
+    </LBL_STUDYID>
+    <LBL_MEDICAL_RECORD>
+        <msg lang="en">Medical Record No.</msg>
+        <msg lang="de">Krankenakten-Nr.</msg>
+        <msg lang="fr">Dossier m&#233;dical n&#176;</msg>
+        <msg lang="it">Cartella clinica n.</msg>
+        <msg lang="es">N&#186; de historial m&#233;dico</msg>
+        <msg lang="pt">N&#186; Registo M&#233;dico</msg>
+        <msg lang="da">Patientens journalnummer</msg>
+        <msg lang="fi">Potilaskertomuksen nro</msg>
+        <msg lang="nl">Medisch verslag nr.</msg>
+        <msg lang="no">Medisinsk journalnr.</msg>
+        <msg lang="sv">Medicinskt registreringsnummer</msg>
+    </LBL_MEDICAL_RECORD>
+    <LBL_ACCESSION_NUMBER>
+        <msg lang="en">Accession Number</msg>
+        <msg lang="de">Zugriffsnummer</msg>
+        <msg lang="fr">Num&#233;ro d'ordre</msg>
+        <msg lang="it">Numero richiesta</msg>
+        <msg lang="es">N&#250;mero de pedido</msg>
+        <msg lang="pt">N&#250;mero de pedido</msg>
+        <msg lang="da">Adgangsnummer</msg>
+        <msg lang="fi">J&#228;rjestysnumero</msg>
+        <msg lang="nl">Toegangsdatum</msg>
+        <msg lang="no">Tilgangsnummer</msg>
+        <msg lang="sv">Accessions nummer</msg>
+    </LBL_ACCESSION_NUMBER>
+    <LBL_STUDYDATE>
+        <msg lang="en">Exam Date</msg>
+        <msg lang="de">Unters.-Datum</msg>
+        <msg lang="fr">Date d'examen</msg>
+        <msg lang="it">Data esame</msg>
+        <msg lang="es">Fecha de examen</msg>
+        <msg lang="pt">Data Exame</msg>
+        <msg lang="da">Unders&#248;gelsesdato</msg>
+        <msg lang="fi">Tutkimusp&#228;iv&#228;</msg>
+        <msg lang="nl">Datum Onderzoek</msg>
+        <msg lang="no">Unders&#248;kelsesdato</msg>
+        <msg lang="sv">Unders&#246;knings datum</msg>
+    </LBL_STUDYDATE>
+    <LBL_CONTENT_DATE>
+        <msg lang="en">Content Date</msg>
+        <msg lang="de">Inhalts-Datum</msg>
+        <msg lang="fr">Date du contenu</msg>
+        <msg lang="it">Data contenuto</msg>
+        <msg lang="es">Fecha de contenido</msg>
+        <msg lang="pt">Data Conte&#250;do</msg>
+        <msg lang="da">Indholdsdato</msg>
+        <msg lang="fi">Sis&#228;ll&#246;n p&#228;iv&#228;m&#228;&#228;r&#228;</msg>
+        <msg lang="nl">Datum inhoud</msg>
+        <msg lang="no">Innholdsdato</msg>
+        <msg lang="sv">Inneh&#229;llsdatum</msg>
+    </LBL_CONTENT_DATE>
+    <LBL_REQUESTED_PROC_DESC>
+        <msg lang="en">Requested Procedure Description</msg>
+        <msg lang="de">Angeforderte Verfahrensbeschreibung</msg>
+        <msg lang="fr">Description de proc&#233;dure demand&#233;e</msg>
+        <msg lang="it">Descrizione procedura richiesta</msg>
+        <msg lang="es">Descripci&#243;n procedimiento requerido</msg>
+        <msg lang="pt">Descri&#231;&#248;o procedimento solicitado</msg>
+        <msg lang="da">Anmodet om procedurebeskrivelse</msg>
+        <msg lang="fi">Pyydetty toimenpidekuvaus</msg>
+        <msg lang="nl">Aangevraagde procedurebeschrijving</msg>
+        <msg lang="no">Beskrivelse av &#248;nsket prosedyre</msg>
+        <msg lang="sv">Beg&#228;rd f&#246;rfarandebeskrivning</msg>
+    </LBL_REQUESTED_PROC_DESC>
+    <LBL_WEIGHT>
+        <msg lang="en">Weight</msg>
+        <msg lang="de">Gewicht</msg>
+        <msg lang="fr">Poids</msg>
+        <msg lang="it">Peso</msg>
+        <msg lang="es">Peso</msg>
+        <msg lang="pt">Peso</msg>
+        <msg lang="da">V&#230;gt</msg>
+        <msg lang="fi">Paino</msg>
+        <msg lang="nl">Gewicht</msg>
+        <msg lang="no">Vekt</msg>
+        <msg lang="sv">Vikt</msg>
+    </LBL_WEIGHT>
+    <LBL_HEIGHT>
+        <msg lang="en">Height</msg>
+        <msg lang="de">Gr&#246;&#223;e</msg>
+        <msg lang="fr">Taille</msg>
+        <msg lang="it">Statura</msg>
+        <msg lang="es">Estatura</msg>
+        <msg lang="pt">Altura</msg>
+        <msg lang="da">H&#248;jde</msg>
+        <msg lang="fi">Pituus</msg>
+        <msg lang="nl">Lengte</msg>
+        <msg lang="no">H&#248;yde</msg>
+        <msg lang="sv">L&#228;ngd</msg>
+    </LBL_HEIGHT>
+    <LBL_BODY_SURFACE_AREA>
+        <msg lang="en">Body Surface Area</msg>
+        <msg lang="de">K&#246;rperoberfl&#228;che</msg>
+        <msg lang="fr">Zone de surface corporelle</msg>
+        <msg lang="it">Area della superficie corporea</msg>
+        <msg lang="es">Superficie corporal</msg>
+        <msg lang="pt">&#193;rea de Superf&#237;cie Corporal</msg>
+        <msg lang="da">Kropsoverfladeareal</msg>
+        <msg lang="fi">Kehon pinta-ala</msg>
+        <msg lang="nl">Lichaamsoppervlak</msg>
+        <msg lang="no">Kroppsoverflateareal</msg>
+        <msg lang="sv">Kroppsyta</msg>
+    </LBL_BODY_SURFACE_AREA>
+    <LBL_BODY_MASS_INDEX>
+        <msg lang="en">Body Mass Index</msg>
+        <msg lang="de">K&#246;rper-Masse-Index</msg>
+        <msg lang="fr">Indice de masse corporelle</msg>
+        <msg lang="it">Indice di massa corporea</msg>
+        <msg lang="es">&#205;ndice de masa corporal</msg>
+        <msg lang="pt">&#205;ndice de Massa Corporal</msg>
+        <msg lang="da">Kropsmasseindeks</msg>
+        <msg lang="fi">Painoindeksi</msg>
+        <msg lang="nl">Lichaamsgewicht-index</msg>
+        <msg lang="no">Kroppsmasseindeks</msg>
+        <msg lang="sv">BMI-v&#228;rde</msg>
+    </LBL_BODY_MASS_INDEX>
+    <LBL_ALLERGIES>
+        <msg lang="en">Allergies</msg>
+        <msg lang="de">Allergien</msg>
+        <msg lang="fr">Allergies</msg>
+        <msg lang="it">Allergie</msg>
+        <msg lang="es">Alergias</msg>
+        <msg lang="pt">Alergias</msg>
+        <msg lang="da">Allergier</msg>
+        <msg lang="fi">Allergiat</msg>
+        <msg lang="nl">Allergie&#235;n</msg>
+        <msg lang="no">Allergier</msg>
+        <msg lang="sv">Allergier</msg>
+    </LBL_ALLERGIES>
+    <LBL_CHOLESTEROL>
+        <msg lang="en">Cholesterol</msg>
+        <msg lang="de">Cholesterol</msg>
+        <msg lang="fr">Cholest&#233;rol</msg>
+        <msg lang="it">Colesterolo</msg>
+        <msg lang="es">Colesterol</msg>
+        <msg lang="pt">Colesterol</msg>
+        <msg lang="da">Kolesterol</msg>
+        <msg lang="fi">Kolesteroli</msg>
+        <msg lang="nl">Cholesterol</msg>
+        <msg lang="no">Kolesterol</msg>
+        <msg lang="sv">Kolesterol</msg>
+    </LBL_CHOLESTEROL>
+    <LBL_LDL>
+        <msg lang="en">LDL</msg>
+        <msg lang="de">LDL</msg>
+        <msg lang="fr">LDL</msg>
+        <msg lang="it">LDL</msg>
+        <msg lang="es">LDL</msg>
+        <msg lang="pt">LDL</msg>
+        <msg lang="da">LDL</msg>
+        <msg lang="fi">LDL</msg>
+        <msg lang="nl">LDL</msg>
+        <msg lang="no">LDL</msg>
+        <msg lang="sv">LDL</msg>
+    </LBL_LDL>
+    <LBL_HDL>
+        <msg lang="en">HDL</msg>
+        <msg lang="de">HDL</msg>
+        <msg lang="fr">HDL</msg>
+        <msg lang="it">HDL</msg>
+        <msg lang="es">HDL</msg>
+        <msg lang="pt">HDL</msg>
+        <msg lang="da">HDL</msg>
+        <msg lang="fi">HDL</msg>
+        <msg lang="nl">HDL</msg>
+        <msg lang="no">HDL</msg>
+        <msg lang="sv">HDL</msg>
+    </LBL_HDL>
+    <LBL_TRIGLYCERIDES>
+        <msg lang="en">Triglycerides</msg>
+        <msg lang="de">Triglyceride</msg>
+        <msg lang="fr">Triglyc&#233;rides</msg>
+        <msg lang="it">Trigliceridi</msg>
+        <msg lang="es">Triglic&#233;ridos</msg>
+        <msg lang="pt">Triglicer&#237;deos</msg>
+        <msg lang="da">Triglycerider</msg>
+        <msg lang="fi">Triglyseridit</msg>
+        <msg lang="nl">Triglyceriden</msg>
+        <msg lang="no">Triglyserider</msg>
+        <msg lang="sv">Triglycerider</msg>
+    </LBL_TRIGLYCERIDES>
+    <LBL_BLOOD_PRESSURE>
+        <msg lang="en">Blood Pressure</msg>
+        <msg lang="de">Blutdruck</msg>
+        <msg lang="fr">Pression art&#233;rielle</msg>
+        <msg lang="it">Pressione sanguigna</msg>
+        <msg lang="es">Presi&#243;n sangu&#237;nea</msg>
+        <msg lang="pt">Press&#227;o Sangu&#237;nea</msg>
+        <msg lang="da">Blodtryk</msg>
+        <msg lang="fi">Verenpaine</msg>
+        <msg lang="nl">Bloeddruk</msg>
+        <msg lang="no">Blodtrykk</msg>
+        <msg lang="sv">Blodtryck</msg>
+    </LBL_BLOOD_PRESSURE>
+    <LBL_SYSTOLIC>
+        <msg lang="en">Systolic</msg>
+        <msg lang="de">Systolisch</msg>
+        <msg lang="fr">Systolique</msg>
+        <msg lang="it">Sistolica</msg>
+        <msg lang="es">Sist&#243;lica</msg>
+        <msg lang="pt">Sist&#243;lico</msg>
+        <msg lang="da">Systolisk</msg>
+        <msg lang="fi">Systolinen</msg>
+        <msg lang="nl">Systolisch</msg>
+        <msg lang="no">Systolisk</msg>
+        <msg lang="sv">Systoliskt</msg>
+    </LBL_SYSTOLIC>
+    <LBL_DIASTOLIC>
+        <msg lang="en">Diastolic</msg>
+        <msg lang="de">Diastolisch</msg>
+        <msg lang="fr">Diastolique</msg>
+        <msg lang="it">Diastolica</msg>
+        <msg lang="es">Diast&#243;lica</msg>
+        <msg lang="pt">Diast&#243;lico</msg>
+        <msg lang="da">Diastolisk</msg>
+        <msg lang="fi">Diastolinen</msg>
+        <msg lang="nl">Diastolisch</msg>
+        <msg lang="no">Diastolisk</msg>
+        <msg lang="sv">Diastoliskt</msg>
+    </LBL_DIASTOLIC>
+    <LBL_DIABETES>
+        <msg lang="en">Diabetes</msg>
+        <msg lang="de">Diabetes</msg>
+        <msg lang="fr">Diab&#232;te</msg>
+        <msg lang="it">Diabete</msg>
+        <msg lang="es">Diabetes</msg>
+        <msg lang="pt">Diabetes</msg>
+        <msg lang="da">Diabetes</msg>
+        <msg lang="fi">Diabetes</msg>
+        <msg lang="nl">Diabetes</msg>
+        <msg lang="no">Diabetes</msg>
+        <msg lang="sv">Diabetes</msg>
+    </LBL_DIABETES>
+    <LBL_YEARS>
+        <msg lang="en">Years</msg>
+        <msg lang="de">Jahre</msg>
+        <msg lang="fr">Ann&#233;es</msg>
+        <msg lang="it">Anni</msg>
+        <msg lang="es">A&#241;os</msg>
+        <msg lang="pt">Anos</msg>
+        <msg lang="da">&#197;r</msg>
+        <msg lang="fi">Vuotta</msg>
+        <msg lang="nl">Jaar</msg>
+        <msg lang="no">&#197;r</msg>
+        <msg lang="sv">&#197;r</msg>
+    </LBL_YEARS>
+    <LBL_SMOKING>
+        <msg lang="en">Smoking</msg>
+        <msg lang="de">Rauchen</msg>
+        <msg lang="fr">Fumeur</msg>
+        <msg lang="it">Fumatore</msg>
+        <msg lang="es">Fumador</msg>
+        <msg lang="pt">Fumador</msg>
+        <msg lang="da">Rygning</msg>
+        <msg lang="fi">Tupakointi</msg>
+        <msg lang="nl">Roken</msg>
+        <msg lang="no">R&#248;yker</msg>
+        <msg lang="sv">R&#246;kning</msg>
+    </LBL_SMOKING>
+    <LBL_OVERWEIGHT>
+        <msg lang="en">Overweight</msg>
+        <msg lang="de">&#220;bergewicht</msg>
+        <msg lang="fr">Surpoids</msg>
+        <msg lang="it">Sovrappeso</msg>
+        <msg lang="es">Sobrepeso</msg>
+        <msg lang="pt">Excesso de peso</msg>
+        <msg lang="da">Overv&#230;gtig</msg>
+        <msg lang="fi">Ylipaino</msg>
+        <msg lang="nl">Overgewicht</msg>
+        <msg lang="no">Overvektig</msg>
+        <msg lang="sv">&#214;vervikt</msg>
+    </LBL_OVERWEIGHT>
+    <LBL_PACKS>
+        <msg lang="en">Packs</msg>
+        <msg lang="de">Packungen</msg>
+        <msg lang="fr">Paquets</msg>
+        <msg lang="it">Pacchetti</msg>
+        <msg lang="es">Paquetes</msg>
+        <msg lang="pt">Ma&#231;os</msg>
+        <msg lang="da">Pakker</msg>
+        <msg lang="fi">Askia</msg>
+        <msg lang="nl">Pakjes</msg>
+        <msg lang="no">Pakker</msg>
+        <msg lang="sv">Paket</msg>
+    </LBL_PACKS>
+    <LBL_MEDICATIONS>
+        <msg lang="en">Medications</msg>
+        <msg lang="de">Medikation</msg>
+        <msg lang="fr">M&#233;dicaments</msg>
+        <msg lang="it">Farmaci</msg>
+        <msg lang="es">Medicaci&#243;n</msg>
+        <msg lang="pt">Medica&#231;&#245;es</msg>
+        <msg lang="da">Medicin</msg>
+        <msg lang="fi">L&#228;&#228;kitykset</msg>
+        <msg lang="nl">Medicaties</msg>
+        <msg lang="no">Medisiner</msg>
+        <msg lang="sv">Mediciner</msg>
+    </LBL_MEDICATIONS>
+    <LBL_ORDERING_PHYSICIAN>
+        <msg lang="en">Ordering Physician</msg>
+        <msg lang="de">&#220;berweisender Arzt</msg>
+        <msg lang="fr">M&#233;decin ayant effectu&#233; la prescription</msg>
+        <msg lang="it">Medico prescrittore</msg>
+        <msg lang="es">M&#233;dico prescriptor</msg>
+        <msg lang="pt">M&#233;dico Encarregado</msg>
+        <msg lang="da">Ordinerende l&#230;ge</msg>
+        <msg lang="fi">Tilaava l&#228;&#228;k&#228;ri</msg>
+        <msg lang="nl">Voorschrijvende arts</msg>
+        <msg lang="no">Bestillende lege</msg>
+        <msg lang="sv">Best&#228;llande l&#228;kare</msg>
+    </LBL_ORDERING_PHYSICIAN>
+    <LBL_REFERRING_PHYSICIAN>
+        <msg lang="en">Referring Physician</msg>
+        <msg lang="de">Behandelnder Arzt</msg>
+        <msg lang="fr">M&#233;decin traitant</msg>
+        <msg lang="it">Medico refertatore</msg>
+        <msg lang="es">M&#233;dico general</msg>
+        <msg lang="pt">M&#233;dico Assistente</msg>
+        <msg lang="da">Henvisende l&#230;ge</msg>
+        <msg lang="fi">L&#228;hett&#228;v&#228; l&#228;&#228;k&#228;ri</msg>
+        <msg lang="nl">Refererende arts</msg>
+        <msg lang="no">Henvisende lege</msg>
+        <msg lang="sv">Remitterande l&#228;kare</msg>
+    </LBL_REFERRING_PHYSICIAN>
+    <LBL_RADIOLOGIST>
+        <msg lang="en">Radiologist</msg>
+        <msg lang="de">Radiologe</msg>
+        <msg lang="fr">Radioloque</msg>
+        <msg lang="it">Radiologo</msg>
+        <msg lang="es">Radi&#243;logo</msg>
+        <msg lang="pt">Radiologista</msg>
+        <msg lang="da">Radiolog</msg>
+        <msg lang="fi">Radiologi</msg>
+        <msg lang="nl">Radioloog</msg>
+        <msg lang="no">Radiolog</msg>
+        <msg lang="sv">Radiolog</msg>
+    </LBL_RADIOLOGIST>
+    <LBL_CARDIOLOGIST>
+        <msg lang="en">Cardiologist</msg>
+        <msg lang="de">Kardiologe</msg>
+        <msg lang="fr">Cardiologue</msg>
+        <msg lang="it">Cardiologo</msg>
+        <msg lang="es">Cardi&#243;logo</msg>
+        <msg lang="pt">Cardiologista</msg>
+        <msg lang="da">Speciall&#230;ge i kardiologi</msg>
+        <msg lang="fi">Kardiologi</msg>
+        <msg lang="nl">Cardioloog</msg>
+        <msg lang="no">Kardiolog</msg>
+        <msg lang="sv">Kardiolog</msg>
+    </LBL_CARDIOLOGIST>
+    <LBL_ENDOSCOPIST>
+        <msg lang="en">Endoscopist</msg>
+        <msg lang="de">Endoskop-Untersucher</msg>
+        <msg lang="fr">Endoscopiste</msg>
+        <msg lang="it">Endoscopista</msg>
+        <msg lang="es">Endoscopista</msg>
+        <msg lang="pt">Endoscopista</msg>
+        <msg lang="da">Endoskopil&#230;ge</msg>
+        <msg lang="fi">Endoskopisti</msg>
+        <msg lang="nl">Endoscopist</msg>
+        <msg lang="no">Endoskopist</msg>
+        <msg lang="sv">Endoskopist</msg>
+    </LBL_ENDOSCOPIST>
+    <LBL_TECHNOLOGIST>
+        <msg lang="en">Technologist</msg>
+        <msg lang="de">MTA</msg>
+        <msg lang="fr">Technologue</msg>
+        <msg lang="it">Tecnico</msg>
+        <msg lang="es">Tecn&#243;logo</msg>
+        <msg lang="pt">T&#233;cnico</msg>
+        <msg lang="da">Teknolog</msg>
+        <msg lang="fi">Teknologi</msg>
+        <msg lang="nl">Technoloog</msg>
+        <msg lang="no">Teknolog</msg>
+        <msg lang="sv">R&#246;ntgensjuksk&#246;terska</msg>
+    </LBL_TECHNOLOGIST>
+    <LBL_REGISTERED_NURSE>
+        <msg lang="en">Registered Nurse</msg>
+        <msg lang="de">Examinierte Krankenschwester</msg>
+        <msg lang="fr">Infirmier (&#232;re) dipl&#244;m&#233;(e)</msg>
+        <msg lang="it">Infermiere/a diplomato/a</msg>
+        <msg lang="es">Enfermero registrado</msg>
+        <msg lang="pt">Enfermeira Registada</msg>
+        <msg lang="da">Registeret sygeplejerske</msg>
+        <msg lang="fi">Rekister&#246;ity hoitaja</msg>
+        <msg lang="nl">Verpleegkundige</msg>
+        <msg lang="no">Godkjent sykepleier</msg>
+        <msg lang="sv">Registrerad sjuksk&#246;terska</msg>
+    </LBL_REGISTERED_NURSE>
+    <LBL_PERFORMED_PROC_CODE_SEQ>
+        <msg lang="en">Performed Procedure Code Sequence</msg>
+        <msg lang="de">Codesequenz durchgef&#252;hrt. Verfahren</msg>
+        <msg lang="fr">S&#233;quence Code Proc&#233;dure effectu&#233;e</msg>
+        <msg lang="it">Sequenza codifica proced. eseguita</msg>
+        <msg lang="es">Secuencia c&#243;digo proced. requerido</msg>
+        <msg lang="pt">C&#243;digos do procedimento realizado</msg>
+        <msg lang="da">Kodesekvens for udf&#248;rt procedure</msg>
+        <msg lang="fi">Suoritetun toimenpidekoodin sekv.</msg>
+        <msg lang="nl">Codevolgorde uitgevoerde procedure</msg>
+        <msg lang="no">Kodesekvens for utf&#248;rt prosedyre</msg>
+        <msg lang="sv">Utf&#246;rt f&#246;rfarandes kodsekvens</msg>
+    </LBL_PERFORMED_PROC_CODE_SEQ>
+    <LBL_SMOKING_QUIT_TRIAL_NR>
+        <msg lang="en">How many times has patient tried to quit smoking?</msg>
+        <msg lang="de">Wie oft hat der Patient versucht, mit dem Rauchen aufzuh&#246;ren?</msg>
+        <msg lang="fr">Combien de fois le patient a-t-il essay&#233; d'arr&#234;ter de fumer?</msg>
+        <msg lang="it">Quante volte il paziente ha provato a smettere di fumare?</msg>
+        <msg lang="es">&#191;Cu&#225;ntas veces ha intentado el paciente dejar de fumar?</msg>
+        <msg lang="pt">Quantas vezes o paciente tentou deixar de fumar?</msg>
+        <msg lang="da">Hvor mange gange har patienten pr&#248;vet at kvitte cigaretrygning?</msg>
+        <msg lang="fi">Kuinka usein potilas on yritt&#228;nyt lopettaa tupakanpolton?</msg>
+        <msg lang="nl">Hoe vaak heeft pati&#235;nt geprobeerd te stoppen met roken?</msg>
+        <msg lang="no">Hvor mange ganger har pasienten pr&#248;vd &#229; slutte &#229; r&#248;yke?</msg>
+        <msg lang="sv">Hur m&#229;nga g&#229;nger har patienten f&#246;rs&#246;kt att sluta r&#246;ka?</msg>
+
+        <item name="0">
+            <msg lang="en">0</msg>
+            <msg lang="de">0</msg>
+            <msg lang="fr">0</msg>
+            <msg lang="it">0</msg>
+            <msg lang="es">0</msg>
+            <msg lang="pt">0</msg>
+            <msg lang="da">0</msg>
+            <msg lang="fi">0</msg>
+            <msg lang="nl">0</msg>
+            <msg lang="no">0</msg>
+            <msg lang="sv">0</msg>
+        </item>
+        <item name="1">
+            <msg lang="en">1</msg>
+            <msg lang="de">1</msg>
+            <msg lang="fr">1</msg>
+            <msg lang="it">1</msg>
+            <msg lang="es">1</msg>
+            <msg lang="pt">1</msg>
+            <msg lang="da">1</msg>
+            <msg lang="fi">1</msg>
+            <msg lang="nl">1</msg>
+            <msg lang="no">1</msg>
+            <msg lang="sv">1</msg>
+        </item>
+        <item name="2">
+            <msg lang="en">2</msg>
+            <msg lang="de">2</msg>
+            <msg lang="fr">2</msg>
+            <msg lang="it">2</msg>
+            <msg lang="es">2</msg>
+            <msg lang="pt">2</msg>
+            <msg lang="da">2</msg>
+            <msg lang="fi">2</msg>
+            <msg lang="nl">2</msg>
+            <msg lang="no">2</msg>
+            <msg lang="sv">2</msg>
+        </item>
+        <item name="3">
+            <msg lang="en">3</msg>
+            <msg lang="de">3</msg>
+            <msg lang="fr">3</msg>
+            <msg lang="it">3</msg>
+            <msg lang="es">3</msg>
+            <msg lang="pt">3</msg>
+            <msg lang="da">3</msg>
+            <msg lang="fi">3</msg>
+            <msg lang="nl">3</msg>
+            <msg lang="no">3</msg>
+            <msg lang="sv">3</msg>
+        </item>
+        <item name="4">
+            <msg lang="en">4</msg>
+            <msg lang="de">4</msg>
+            <msg lang="fr">4</msg>
+            <msg lang="it">4</msg>
+            <msg lang="es">4</msg>
+            <msg lang="pt">4</msg>
+            <msg lang="da">4</msg>
+            <msg lang="fi">4</msg>
+            <msg lang="nl">4</msg>
+            <msg lang="no">4</msg>
+            <msg lang="sv">4</msg>
+        </item>
+        <item name="5 or more">
+            <msg lang="en">5 or more</msg>
+            <msg lang="de">5 oder mehr</msg>
+            <msg lang="fr">5 ou plus</msg>
+            <msg lang="it">5 o pi&#249;</msg>
+            <msg lang="es">5 o m&#225;s a&#241;os</msg>
+            <msg lang="pt">5 ou mais</msg>
+            <msg lang="da">5 eller mere</msg>
+            <msg lang="fi">5 tai enemm&#228;n</msg>
+            <msg lang="nl">5 of meer</msg>
+            <msg lang="no">5 eller mer</msg>
+            <msg lang="sv">5 eller mer</msg>
+        </item>
+    </LBL_SMOKING_QUIT_TRIAL_NR>
+    <LBL_PACKS_PER_DAY>
+        <msg lang="en">How many pack(s) a day has the patient smoked?</msg>
+        <msg lang="de">Wie viele Packungen rauchte der Patient t&#228;glich?</msg>
+        <msg lang="fr">Combien de paquets de cigarettes le patient fume-t-il par jour ?</msg>
+        <msg lang="it">Quanti pacchetti al giorno ha fumato il paziente?</msg>
+        <msg lang="es">&#191;Cu&#225;ntos paquetes diarios ha fumado el paciente?</msg>
+        <msg lang="pt">O paciente fuma quantos ma&#231;os de cigarros por dia?</msg>
+        <msg lang="da">Hvor mange pakke(er) har patienten r&#248;get dagligt?</msg>
+        <msg lang="fi">Kuinka monta rasiaa savukkeita potilas on polttanut p&#228;iv&#228;ss&#228;?</msg>
+        <msg lang="nl">Hoeveel pakjes rookte de pati&#235;nt per dag?</msg>
+        <msg lang="no">Hvor mange pakker om dagen har pasienten r&#248;kt?</msg>
+        <msg lang="sv">Hur m&#229;nga paket per dag har patienten r&#246;kt?</msg>
+
+        <item name="less than 1 pack per day">
+            <msg lang="en">less than 1 pack per day</msg>
+            <msg lang="de">weniger als eine Schachtel pro Tag</msg>
+            <msg lang="fr">moins de 1 paquet par jour</msg>
+            <msg lang="it">meno di 1 pacchetto al giorno</msg>
+            <msg lang="es">menos de 1 paquete al d&#237;a</msg>
+            <msg lang="pt">menos de 1 ma&#231;o por dia</msg>
+            <msg lang="da">Mindre end 1 pakke daglig</msg>
+            <msg lang="fi">alle 1 aski p&#228;iv&#228;ss&#228;</msg>
+            <msg lang="nl">minder dan 1 pakje per dag</msg>
+            <msg lang="no">mindre enn 1 pakke om dagen</msg>
+            <msg lang="sv">mindre &#228;n ett paket om dagen</msg>
+        </item>
+        <item name="1-2 packs per day">
+            <msg lang="en">1-2 packs per day</msg>
+            <msg lang="de">1-2 Schachteln pro Tag</msg>
+            <msg lang="fr">1-2 paquets par jour</msg>
+            <msg lang="it">1-2 pacchetti al giorno</msg>
+            <msg lang="es">1-2 paquetes por d&#237;a</msg>
+            <msg lang="pt">1-2 ma&#231;os por dia</msg>
+            <msg lang="da">1-2 pakker daglig</msg>
+            <msg lang="fi">1-2 askia p&#228;iv&#228;ss&#228;</msg>
+            <msg lang="nl">1-2 pakjes per dag</msg>
+            <msg lang="no">1-2 pakker om dagen</msg>
+            <msg lang="sv">1-2 paket per dag</msg>
+        </item>
+        <item name="more than 2 packs per day">
+            <msg lang="en">more than 2 packs per day</msg>
+            <msg lang="de">mehr als 2 Schachteln pro Tag</msg>
+            <msg lang="fr">plus de 2 paquets par jour</msg>
+            <msg lang="it">pi&#249; di 2 pacchetti al giorno</msg>
+            <msg lang="es">m&#225;s de 2 paquetes al d&#237;a</msg>
+            <msg lang="pt">mais de 2 ma&#231;os por dia</msg>
+            <msg lang="da">Mere end 2 pakker daglig</msg>
+            <msg lang="fi">yli 2 askia p&#228;iv&#228;ss&#228;</msg>
+            <msg lang="nl">meer dan 2 pakjes per dag</msg>
+            <msg lang="no">mer enn 2 pakker om dagen</msg>
+            <msg lang="sv">mer &#228;n tv&#229; paket om dagen</msg>
+        </item>
+    </LBL_PACKS_PER_DAY>
+    <LBL_OTHER_TOBACCO_USED>
+        <msg lang="en">Select other tobacco products used</msg>
+        <msg lang="de">Andere zu sich genommene Tabakprodukte anw&#228;hlen</msg>
+        <msg lang="fr">S&#233;lectionnez les autres produits de tabac consomm&#233;s</msg>
+        <msg lang="it">Selezionare altri prodotti a base di tabacco utilizzati</msg>
+        <msg lang="es">Seleccione otros productos de tabaco utilizados</msg>
+        <msg lang="pt">Seleccionar outros produtos de tabaco utilizados</msg>
+        <msg lang="da">V&#230;lg andre benyttede tobaksprodukter</msg>
+        <msg lang="fi">Valitse muita potilaan k&#228;ytt&#228;mi&#228; tupakkatuotteita</msg>
+        <msg lang="nl">Selecteer andere gebruikte tabaksproducten</msg>
+        <msg lang="no">Velg andre tobakksprodukter som brukes</msg>
+        <msg lang="sv">V&#228;lj andra tobaksprodukter som anv&#228;nts</msg>
+
+        <item name="Chewing tobacco">
+            <msg lang="en">Chewing tobacco</msg>
+            <msg lang="de">Kautabak</msg>
+            <msg lang="fr">Tabac &#224; m&#226;cher</msg>
+            <msg lang="it">Masticatore di tabacco</msg>
+            <msg lang="es">Tabaco de mascar</msg>
+            <msg lang="pt">Tabaco de mascar</msg>
+            <msg lang="da">Skr&#229;</msg>
+            <msg lang="fi">Purutupakka</msg>
+            <msg lang="nl">Pruimtabak</msg>
+            <msg lang="no">Tyggetobakk</msg>
+            <msg lang="sv">Tuggtobak</msg>
+        </item>
+        <item name="Pipe">
+            <msg lang="en">Pipe</msg>
+            <msg lang="de">Pfeife</msg>
+            <msg lang="fr">Pipe</msg>
+            <msg lang="it">Pipa</msg>
+            <msg lang="es">Pipa</msg>
+            <msg lang="pt">Cachimbo</msg>
+            <msg lang="da">Pibe</msg>
+            <msg lang="fi">Piippu</msg>
+            <msg lang="nl">Pijp</msg>
+            <msg lang="no">Pipe</msg>
+            <msg lang="sv">R&#246;r</msg>
+        </item>
+        <item name="Cigar">
+            <msg lang="en">Cigar</msg>
+            <msg lang="de">Zigarre</msg>
+            <msg lang="fr">Cigare</msg>
+            <msg lang="it">Sigaro</msg>
+            <msg lang="es">Cigarro</msg>
+            <msg lang="pt">Charuto</msg>
+            <msg lang="da">Cigar</msg>
+            <msg lang="fi">Sikari</msg>
+            <msg lang="nl">Sigaar</msg>
+            <msg lang="no">Sigar</msg>
+            <msg lang="sv">Cigarr</msg>
+        </item>
+        <item name="Snuff">
+            <msg lang="en">Snuff</msg>
+            <msg lang="de">Schnupftabak</msg>
+            <msg lang="fr">Tabac &#224; priser</msg>
+            <msg lang="it">Tabacco da fiuto</msg>
+            <msg lang="es">Rape</msg>
+            <msg lang="pt">Rap&#233;</msg>
+            <msg lang="da">Snustobak</msg>
+            <msg lang="fi">Nuuska</msg>
+            <msg lang="nl">Snuiftabak</msg>
+            <msg lang="no">Snus</msg>
+            <msg lang="sv">Luktsnus</msg>
+        </item>
+    </LBL_OTHER_TOBACCO_USED>
+    <LBL_SECOND_HAND_SMOKE>
+        <item name="No">
+            <msg lang="en">No</msg>
+            <msg lang="de">Nein</msg>
+            <msg lang="fr">Non</msg>
+            <msg lang="it">No</msg>
+            <msg lang="es">No</msg>
+            <msg lang="pt">N&#227;o</msg>
+            <msg lang="da">Nej</msg>
+            <msg lang="fi">Ei </msg>
+            <msg lang="nl">Nee</msg>
+            <msg lang="no">Nei</msg>
+            <msg lang="sv">Nej</msg>
+        </item>
+        <item name="Yes, for less than 5 years">
+            <msg lang="en">Yes, for less than 5 years</msg>
+            <msg lang="de">Ja, weniger als 5 Jahre lang</msg>
+            <msg lang="fr">Oui, pendant moins de 5 ans</msg>
+            <msg lang="it">S&#236;, per meno di 5 anni</msg>
+            <msg lang="es">S&#237;, durante menos de 5 a&#241;os</msg>
+            <msg lang="pt">Sim, durante menos de 5 anos</msg>
+            <msg lang="da">Ja, i mindre end 5 &#229;r</msg>
+            <msg lang="fi">Kyll&#228;, alle 5 vuotta</msg>
+            <msg lang="nl">Ja, minder dan 5 jaar</msg>
+            <msg lang="no">Ja, i mindre enn 5 &#229;r</msg>
+            <msg lang="sv">Ja, i mindre &#228;n 5 &#229;r</msg>
+        </item>
+        <item name="Yes, for 5-10 years">
+            <msg lang="en">Yes, for 5-10 years</msg>
+            <msg lang="de">Ja, zwischen 5 und 10 Jahren</msg>
+            <msg lang="fr">Oui, pendant 5-10 ans</msg>
+            <msg lang="it">S&#236;, per 5-10 anni</msg>
+            <msg lang="es">S&#237;, durante 5-10 a&#241;os</msg>
+            <msg lang="pt">Sim, durante 5 e 10 anos</msg>
+            <msg lang="da">Ja, for 5-10 &#229;r</msg>
+            <msg lang="fi">Kyll&#228;, 5-10 vuotta</msg>
+            <msg lang="nl">Ja, 5-10 jaar</msg>
+            <msg lang="no">Ja, i 5-10 &#229;r</msg>
+            <msg lang="sv">Ja, i 5-10 &#229;r</msg>
+        </item>
+        <item name="Yes, for 10+ years">
+            <msg lang="en">Yes, for 10+ years</msg>
+            <msg lang="de">Ja, mehr als 10 Jahre lang</msg>
+            <msg lang="fr">Oui, pendant plus de 10 ans</msg>
+            <msg lang="it">S&#236;, per pi&#249; di 10 anni</msg>
+            <msg lang="es">S&#237;, durante m&#225;s de 10 a&#241;os</msg>
+            <msg lang="pt">Sim, por mais de 10 anos</msg>
+            <msg lang="da">Ja, for mere end 10 &#229;r</msg>
+            <msg lang="fi">Kyll&#228;, yli 10 vuotta</msg>
+            <msg lang="nl">Ja, meer dan 10 jaar</msg>
+            <msg lang="no">Ja, i 10+ &#229;r</msg>
+            <msg lang="sv">Ja, i 10+ &#229;r</msg>
+        </item>
+    </LBL_SECOND_HAND_SMOKE>
+    <LBL_ASTHMA_HISTORY>
+        <msg lang="en">Does patient have a history of asthma?</msg>
+        <msg lang="de">Hat der Patient eine Asthma-Krankengeschichte?</msg>
+        <msg lang="fr">Le patient pr&#233;sente-t-il des ant&#233;c&#233;dents d'asthme?</msg>
+        <msg lang="it">Il paziente ha mai sofferto di asma?</msg>
+        <msg lang="es">&#191;Tiene el paciente historial de asma?</msg>
+        <msg lang="pt">O(a) paciente j&#225; teve asma?</msg>
+        <msg lang="da">Har patienten haft astma?</msg>
+        <msg lang="fi">Onko potilaalla ollut astmaa?</msg>
+        <msg lang="nl">Heeft de pati&#235;nt een astmageschiedenis?</msg>
+        <msg lang="no">Har pasienten er astmahistorie?</msg>
+        <msg lang="sv">Har patienten haft astma?</msg>
+
+        <item name="No">
+            <msg lang="en">No</msg>
+            <msg lang="de">Nein</msg>
+            <msg lang="fr">Non</msg>
+            <msg lang="it">No</msg>
+            <msg lang="es">No</msg>
+            <msg lang="pt">N&#227;o</msg>
+            <msg lang="da">Nej</msg>
+            <msg lang="fi">Ei</msg>
+            <msg lang="nl">Nee</msg>
+            <msg lang="no">Nei</msg>
+            <msg lang="sv">Nej</msg>
+        </item>
+        <item name="Yes, as a child">
+            <msg lang="en">Yes, as a child</msg>
+            <msg lang="de">Ja, als Kind</msg>
+            <msg lang="fr">Oui, durant l'enfance</msg>
+            <msg lang="it">S&#236;, da bambino</msg>
+            <msg lang="es">S&#237;, de ni&#241;o</msg>
+            <msg lang="pt">Sim, quando era crian&#231;a</msg>
+            <msg lang="da">Ja, som et barn</msg>
+            <msg lang="fi">Kyll&#228;, lapsena</msg>
+            <msg lang="nl">Ja, als kind</msg>
+            <msg lang="no">Ja, som barn</msg>
+            <msg lang="sv">Ja, som barn</msg>
+        </item>
+        <item name="Yes, as an adult">
+            <msg lang="en">Yes, as an adult</msg>
+            <msg lang="de">Ja,als Erwachsener</msg>
+            <msg lang="fr">Oui, &#224; l'&#226;ge adulte</msg>
+            <msg lang="it">S&#236;, da adulto</msg>
+            <msg lang="es">S&#237;, de adulto</msg>
+            <msg lang="pt">Sim, quando adulto</msg>
+            <msg lang="da">Ja, som voksen</msg>
+            <msg lang="fi">Kyll&#228;, aikuisena</msg>
+            <msg lang="nl">Ja, als volwassene</msg>
+            <msg lang="no">Ja, som voksen</msg>
+            <msg lang="sv">Ja, som vuxen</msg>
+        </item>
+        <item name="Yes, as both an adult and a child">
+            <msg lang="en">Yes, as both an adult and a child</msg>
+            <msg lang="de">Ja, sowohl als Kind als auch als Erwachsener</msg>
+            <msg lang="fr">Oui, &#224; l'&#226;ge adulte et durant l'enfance</msg>
+            <msg lang="it">S&#236;, da adulto e da bambino</msg>
+            <msg lang="es">S&#237;, tanto de ni&#241;o, como de adulto</msg>
+            <msg lang="pt">Sim quando crian&#231;a e quando adulto</msg>
+            <msg lang="da">Ja, b&#229;de som barn og voksen</msg>
+            <msg lang="fi">Kyll&#228;, sek&#228; aikuisena ett&#228; lapsena</msg>
+            <msg lang="nl">Ja, zowel als kind als volwassene</msg>
+            <msg lang="no">Ja, b&#229;de som voksen og som barn</msg>
+            <msg lang="sv">Ja, b&#229;de som barn och vuxen</msg>
+        </item>
+    </LBL_ASTHMA_HISTORY>
+    <LBL_ABNORMAL_CHEST_X-RAY_DIAG>
+        <msg lang="en">If so, what was the diagnosis?</msg>
+        <msg lang="de">Wenn ja, wie lautete die Diagnose?</msg>
+        <msg lang="fr">Si oui, quel &#233;tait le diagnostic?</msg>
+        <msg lang="it">In caso affermativo, qual &#232; stata la diagnosi?</msg>
+        <msg lang="es">De ser as&#237;, cu&#225;l es el diagn&#243;stico?</msg>
+        <msg lang="pt">Se for o caso, qual foi o diagn&#243;stico?</msg>
+        <msg lang="da">Hvis det er tilf&#230;ldet, hvad var diagnosen?</msg>
+        <msg lang="fi">Jos, niin mik&#228; oli diagnoosi?</msg>
+        <msg lang="nl">Indien ja, wat was de diagnose?</msg>
+        <msg lang="no">Hvis ja, hva var diagnosen</msg>
+        <msg lang="sv">I s&#229; fall, vilken diagnos var det?</msg>
+<!-- Tuberculosis -->
+        <item name="TB">
+            <msg lang="en">TB</msg>
+            <msg lang="de">TB</msg>
+            <msg lang="fr">TB</msg>
+            <msg lang="it">TB</msg>
+            <msg lang="es">TB</msg>
+            <msg lang="pt">TB</msg>
+            <msg lang="da">TB</msg>
+            <msg lang="fi">TB</msg>
+            <msg lang="nl">TB</msg>
+            <msg lang="no">TB</msg>
+            <msg lang="sv">TB</msg>
+        </item>
+        <item name="Bronchitis">
+            <msg lang="en">Bronchitis</msg>
+            <msg lang="de">Bronchitis</msg>
+            <msg lang="fr">Bronchite</msg>
+            <msg lang="it">Bronchite</msg>
+            <msg lang="es">Bronquitis</msg>
+            <msg lang="pt">Bronquite</msg>
+            <msg lang="da">Bronkitis</msg>
+            <msg lang="fi">Bronkitis</msg>
+            <msg lang="nl">Bronchitis</msg>
+            <msg lang="no">Bronkitt</msg>
+            <msg lang="sv">Bronkit</msg>
+        </item>
+<!-- Chronic Obstructive Pulmonary Disease -->
+        <item name="COPD">
+            <msg lang="en">COPD</msg>
+            <msg lang="de">COPD</msg>
+            <msg lang="fr">MPOC</msg>
+            <msg lang="it">COPD</msg>
+            <msg lang="es">COPD</msg>
+            <msg lang="pt">COPD</msg>
+            <msg lang="da">CORD (kronisk obstruktiv lungesygdom)</msg>
+            <msg lang="fi">COPD</msg>
+            <msg lang="nl">COPD</msg>
+            <msg lang="no">COPD</msg>
+            <msg lang="sv">COPD</msg>
+        </item>
+        <item name="Emphysema">
+            <msg lang="en">Emphysema</msg>
+            <msg lang="de">Emphysem</msg>
+            <msg lang="fr">Emphys&#232;me</msg>
+            <msg lang="it">Enfisema</msg>
+            <msg lang="es">Enfisema</msg>
+            <msg lang="pt">Enfisema</msg>
+            <msg lang="da">Emfysem</msg>
+            <msg lang="fi">Emfyseema</msg>
+            <msg lang="nl">Emfyseem</msg>
+            <msg lang="no">Emfysem</msg>
+            <msg lang="sv">Emfysem</msg>
+        </item>
+        <item name="Pneumonia">
+            <msg lang="en">Pneumonia</msg>
+            <msg lang="de">Pneumonie</msg>
+            <msg lang="fr">Pneumonie</msg>
+            <msg lang="it">Polmonite</msg>
+            <msg lang="es">Neumon&#237;a</msg>
+            <msg lang="pt">Pneumonia</msg>
+            <msg lang="da">Lungebet&#230;ndelse</msg>
+            <msg lang="fi">Keuhkokuume</msg>
+            <msg lang="nl">Longontsteking</msg>
+            <msg lang="no">Lungebetennelse</msg>
+            <msg lang="sv">Lunginflammation</msg>
+        </item>
+        <item name="Don't Know">
+            <msg lang="en">Don't Know</msg>
+            <msg lang="de">Wei&#223; nicht</msg>
+            <msg lang="fr">Ne sait pas</msg>
+            <msg lang="it">Non so</msg>
+            <msg lang="es">Desconocido</msg>
+            <msg lang="pt">N&#227;o sabe</msg>
+            <msg lang="da">Ved ikke</msg>
+            <msg lang="fi">Ei tied&#228;</msg>
+            <msg lang="nl">Weet niet</msg>
+            <msg lang="no">Vet ikke</msg>
+            <msg lang="sv">Vet ej</msg>
+        </item>
+        <item name="Other">
+            <msg lang="en">Other</msg>
+            <msg lang="de">Andere</msg>
+            <msg lang="fr">Autres</msg>
+            <msg lang="it">Altro</msg>
+            <msg lang="es">Otros</msg>
+            <msg lang="pt">Outros</msg>
+            <msg lang="da">Andet</msg>
+            <msg lang="fi">Muu</msg>
+            <msg lang="nl">Andere</msg>
+            <msg lang="no">Annet</msg>
+            <msg lang="sv">Annat</msg>
+        </item>
+    </LBL_ABNORMAL_CHEST_X-RAY_DIAG>
+    <LBL_CONDITIONS>
+        <msg lang="en">Please check any conditions for which the patient has seen a health care provider or taken medication in the past five years</msg>
+        <msg lang="de">Bitte alle Bedingungen ankreuzen, wegen denen der Patient in den letzten f&#252;nf Jahren einen Arzt besucht oder Medikamente eingenommen hat</msg>
+        <msg lang="fr">Notez tout problème médical pour lequel le patient a consulté ou pris des médicaments au cours des 5 dernières années</msg>
+        <msg lang="it">Verificare tutte le condizioni per cui il paziente ha fatto ricorso a un medico o a farmaci negli ultimi cinque anni</msg>
+        <msg lang="es">Compruebe las circunstancias en las que el paciente ha solicitado asistencia m&#233;dica o tomado medicaci&#243;n durante los &#250;ltimos cinco a&#241;os</msg>
+        <msg lang="pt">Por favor verificar todas as condi&#231;&#245;es em que o paciente visitou os de servi&#231;os de sa&#250;de ou tomou medicamentos nos &#250;ltimos cinco anos</msg>
+        <msg lang="da">S&#230;t kryds ved alle de tilstande, for hvilke patienten er blevet tilset af sundhedspersonale eller har taget medicin inden for de sidste fem &#229;r</msg>
+        <msg lang="fi">Tarkista kaikki oireet, joita potilas on hoidattanut ja joihin h&#228;n on saanut l&#228;&#228;kityst&#228; viimeisten viiden vuoden aikana</msg>
+        <msg lang="nl">Controleer condities waarvoor de pati&#235;nt aan zorgverlener heeft bezocht, of medicatie voor heeft genomen in de afgelopen 5 jaar</msg>
+        <msg lang="no">Merk av for eventuelle lidelser som pasienten har v&#230;rt til behandling for eller tatt medisin for i l&#248;pet av de siste fem &#229;rene</msg>
+        <msg lang="sv">Kontrollera om patienten har haft n&#229;gon sjukdom som han/hon s&#246;kt v&#229;rd f&#246;r eller tagit medicin f&#246;r under de senaste fem &#229;ren </msg>
+        <item name="High blood pressure">
+            <msg lang="en">High blood pressure</msg>
+            <msg lang="de">Hoher Blutdruck</msg>
+            <msg lang="fr">Hypertension</msg>
+            <msg lang="it">Pressione sanguigna elevata</msg>
+            <msg lang="es">Hipertensi&#243;n</msg>
+            <msg lang="pt">Press&#227;o sangu&#237;nea alta</msg>
+            <msg lang="da">H&#248;jt blodtryk</msg>
+            <msg lang="fi">Korkea verenpaine</msg>
+            <msg lang="nl">Hoge bloeddruk</msg>
+            <msg lang="no">H&#248;yt blodtrykk</msg>
+            <msg lang="sv">H&#246;gt blodtryck</msg>
+        </item>
+        <item name="Diabetes">
+            <msg lang="en">Diabetes</msg>
+            <msg lang="de">Diabetes</msg>
+            <msg lang="fr">Diab&#232;te</msg>
+            <msg lang="it">Diabete</msg>
+            <msg lang="es">Diabetes</msg>
+            <msg lang="pt">Diabetes</msg>
+            <msg lang="da">Diabetes</msg>
+            <msg lang="fi">Diabetes</msg>
+            <msg lang="nl">Diabetes</msg>
+            <msg lang="no">Diabetes</msg>
+            <msg lang="sv">Diabetes</msg>
+        </item>
+        <item name="Chest pain">
+            <msg lang="en">Chest pain</msg>
+            <msg lang="de">Brustschmerzen</msg>
+            <msg lang="fr">Douleur thoracique</msg>
+            <msg lang="it">Dolori al torace</msg>
+            <msg lang="es">Dolor en el t&#243;rax</msg>
+            <msg lang="pt">Dor no peito</msg>
+            <msg lang="da">Smerter i brystkassen</msg>
+            <msg lang="fi">Rintakipu</msg>
+            <msg lang="nl">Pijn op de borst</msg>
+            <msg lang="no">Brystsmerter</msg>
+            <msg lang="sv">Br&#246;stsm&#228;rtor</msg>
+        </item>
+        <item name="Heart attack or bypass surgery">
+            <msg lang="en">Heart attack or bypass surgery</msg>
+            <msg lang="de">Herzattacke oder Bypassoperation</msg>
+            <msg lang="fr">Crise cardiaque ou pontage chirurgical</msg>
+            <msg lang="it">Attacco cardiaco o bypass chirurgico</msg>
+            <msg lang="es">Ataque cardiaco o intervenci&#243;n de bypass</msg>
+            <msg lang="pt">Ataque card&#237;aco ou ponte</msg>
+            <msg lang="da">Hjerteanfald eller bypass operation</msg>
+            <msg lang="fi">Syd&#228;ninfarkti tai ohitusleikkaus</msg>
+            <msg lang="nl">Hartaanval of bypassoperatie</msg>
+            <msg lang="no">Hjerteinfarkt eller bypass-kirurgi</msg>
+            <msg lang="sv">Hj&#228;rtinfarkt eller bypassoperation</msg>
+        </item>
+        <item name="Shortness of breath">
+            <msg lang="en">Shortness of breath</msg>
+            <msg lang="de">Kurzatmigkeit</msg>
+            <msg lang="fr">Essoufflement</msg>
+            <msg lang="it">Dispnea</msg>
+            <msg lang="es">Le falta el aire</msg>
+            <msg lang="pt">Falta de ar</msg>
+            <msg lang="da">&#197;nden&#248;d</msg>
+            <msg lang="fi">Hengenahdistusta</msg>
+            <msg lang="nl">Kortademigheid</msg>
+            <msg lang="no">Kortpustethet</msg>
+            <msg lang="sv">Kort andning</msg>
+        </item>
+        <item name="Other">
+            <msg lang="en">Other</msg>
+            <msg lang="de">Andere</msg>
+            <msg lang="fr">Autres</msg>
+            <msg lang="it">Altro</msg>
+            <msg lang="es">Otros</msg>
+            <msg lang="pt">Outros</msg>
+            <msg lang="da">Andet</msg>
+            <msg lang="fi">Muu</msg>
+            <msg lang="nl">Andere</msg>
+            <msg lang="no">Annet</msg>
+            <msg lang="sv">Annat</msg>
+        </item>
+    </LBL_CONDITIONS>
+    <LBL_CURRENT_LIVING_LOCATION>
+        <msg lang="en">Current Living Location</msg>
+        <msg lang="de">Aktueller Wohnsitz</msg>
+        <msg lang="fr">Adresse du domicile actuel</msg>
+        <msg lang="it">Luogo di residenza attuale</msg>
+        <msg lang="es">Domicilio actual</msg>
+        <msg lang="pt">Resid&#234;ncia actual</msg>
+        <msg lang="da">Nuv&#230;rende bop&#230;l</msg>
+        <msg lang="fi">Nykyinen asuinpaikka</msg>
+        <msg lang="nl">Huidige woonplaats</msg>
+        <msg lang="no">N&#229;v&#230;rende bopel</msg>
+        <msg lang="sv">Nuvarande hemvist</msg>
+        <item name="Urban">
+            <msg lang="en">Urban</msg>
+            <msg lang="de">In der Stadt</msg>
+            <msg lang="fr">Urbain</msg>
+            <msg lang="it">Urbano</msg>
+            <msg lang="es">Urbano</msg>
+            <msg lang="pt">Urbano</msg>
+            <msg lang="da">By</msg>
+            <msg lang="fi">Kaupunki</msg>
+            <msg lang="nl">Stedelijk</msg>
+            <msg lang="no">By</msg>
+            <msg lang="sv">Stadsmilj&#246;</msg>
+        </item>
+        <item name="Suburban">
+            <msg lang="en">Suburban</msg>
+            <msg lang="de">In der Vorstadt</msg>
+            <msg lang="fr">Suburbain</msg>
+            <msg lang="it">Suburbano</msg>
+            <msg lang="es">Suburbano</msg>
+            <msg lang="pt">Suburbano</msg>
+            <msg lang="da">Forstad</msg>
+            <msg lang="fi">Esikaupunki</msg>
+            <msg lang="nl">Lands</msg>
+            <msg lang="no">Forstad</msg>
+            <msg lang="sv">F&#246;rortsmilj&#246;</msg>
+        </item>
+        <item name="Rural">
+            <msg lang="en">Rural</msg>
+            <msg lang="de">Auf dem Land</msg>
+            <msg lang="fr">Rural</msg>
+            <msg lang="it">Rurale</msg>
+            <msg lang="es">Rural</msg>
+            <msg lang="pt">Rural</msg>
+            <msg lang="da">Rural</msg>
+            <msg lang="fi">Maaseutu</msg>
+            <msg lang="nl">Landelijk</msg>
+            <msg lang="no">Land</msg>
+            <msg lang="sv">Landsbygd</msg>
+        </item>
+    </LBL_CURRENT_LIVING_LOCATION>
+    <LBL_CANCER_DIAGNOSIS>
+        <msg lang="en">Cancer diagnosis</msg>
+        <msg lang="de">Krebsdiagnose</msg>
+        <msg lang="fr">Diagnostic de cancer</msg>
+        <msg lang="it">Diagnosi cancro</msg>
+        <msg lang="es">Diagn&#243;stico del c&#225;ncer</msg>
+        <msg lang="pt">Dagn&#243;stico cancer&#237;geno</msg>
+        <msg lang="da">Cancerdiagnose</msg>
+        <msg lang="fi">Sy&#246;p&#228;diagnoosi</msg>
+        <msg lang="nl">Kankerdiagnose</msg>
+        <msg lang="no">Kreftdiagnostikk</msg>
+        <msg lang="sv">Kolesterol</msg>
+        <item value="Others">
+            <msg lang="en">Others</msg>
+            <msg lang="de">Sonstiges</msg>
+            <msg lang="fr">Autre</msg>
+            <msg lang="it">Altro</msg>
+            <msg lang="es">Otros</msg>
+            <msg lang="pt">Outros</msg>
+            <msg lang="da">Andre</msg>
+            <msg lang="fi">Muuta</msg>
+            <msg lang="nl">Andere</msg>
+            <msg lang="no">Andre</msg>
+            <msg lang="sv">&#214;vriga</msg>
+        </item>
+        <item value="Head and neck">
+            <msg lang="en">Head and neck</msg>
+            <msg lang="de">Kopf und Hals</msg>
+            <msg lang="fr">T&#234;te et cou</msg>
+            <msg lang="it">Testa e collo</msg>
+            <msg lang="es">Cabeza y cuello</msg>
+            <msg lang="pt">Cabe&#231;a e pesco&#231;o</msg>
+            <msg lang="da">Hoved og hals</msg>
+            <msg lang="fi">P&#228;&#228; ja kaula</msg>
+            <msg lang="nl">Hoofd en nek</msg>
+            <msg lang="no">Hode og nakke</msg>
+            <msg lang="sv">Huvud och hals</msg>
+        </item>
+        <item value="Thyroid and parathyroid">
+            <msg lang="en">Thyroid and parathyroid</msg>
+            <msg lang="de">Schilddr&#252;se und Nebenschilddr&#252;se</msg>
+            <msg lang="fr">Thyro&#239;de et parathyro&#239;de</msg>
+            <msg lang="it">Tiroide e paratiroide</msg>
+            <msg lang="es">Tiroide y paratiroide</msg>
+            <msg lang="pt">Tir&#243;ide e paratir&#243;ide</msg>
+            <msg lang="da">Thyroideia og parathyroideia</msg>
+            <msg lang="fi">Kilpirauhanen ja etukilpirauhanen</msg>
+            <msg lang="nl">Schildklier en bijschildklier</msg>
+            <msg lang="no">Tyreoidea og paratyreoidea</msg>
+            <msg lang="sv">Thyreoid och parathyreoid</msg>
+        </item>
+        <item value="Non-small-cell lung">
+            <msg lang="en">Non-small-cell lung</msg>
+            <msg lang="de">Nicht-kleinzellige Lunge</msg>
+            <msg lang="fr">Cancer du poumon non &#224; petites cellules</msg>
+            <msg lang="it">Cancro del polmone non a piccole cellule</msg>
+            <msg lang="es">C&#225;ncer de pulm&#243;n de c&#233;lulas no peque&#241;as</msg>
+            <msg lang="pt">C&#233;lulas do pulm&#227;o n&#227;o pequenas</msg>
+            <msg lang="da">Ikke-lille-celle lunge</msg>
+            <msg lang="fi">Ei keuhkon pikkusolujen</msg>
+            <msg lang="nl">Niet-kleine cel long</msg>
+            <msg lang="no">Ikke-sm&#229;cellet lunge</msg>
+            <msg lang="sv">Icke sm&#229;cellig lunga</msg>
+        </item>
+        <item value="Small-cell lung">
+            <msg lang="en">Small-cell lung</msg>
+            <msg lang="de">Kleinzellige Lunge</msg>
+            <msg lang="fr">Cancer du poumon &#224; petites cellules</msg>
+            <msg lang="it">C&#233;lulas du pulm&#227;o pequenas</msg>
+            <msg lang="es">C&#225;ncer de pulm&#243;n de c&#233;lulas peque&#241;as</msg>
+            <msg lang="pt">C&#233;lulas do pulm&#227;o n&#227;o pequenas</msg>
+            <msg lang="da">Lille-celle lunge</msg>
+            <msg lang="fi">Keuhkon pikkusolujen</msg>
+            <msg lang="nl">kleine-cel long</msg>
+            <msg lang="no">Sm&#229;cellet lunge</msg>
+            <msg lang="sv">Sm&#229;cellig lunga</msg>
+        </item>
+        <item value="Mesothelioma">
+            <msg lang="en">Mesothelioma</msg>
+            <msg lang="de">Mesotheliom</msg>
+            <msg lang="fr">M&#233;soth&#233;liome</msg>
+            <msg lang="it">Mesotelioma</msg>
+            <msg lang="es">Mesotelioma</msg>
+            <msg lang="pt">Mesotelioma</msg>
+            <msg lang="da">Mesothelioma</msg>
+            <msg lang="fi">Keuhkopussin sy&#246;p&#228;</msg>
+            <msg lang="nl">Mesothelioom</msg>
+            <msg lang="no">Mesoteliom</msg>
+            <msg lang="sv">Mesothelioma</msg>
+        </item>
+        <item value="Breast">
+            <msg lang="en">Breast</msg>
+            <msg lang="de">Brust</msg>
+            <msg lang="fr">Sein</msg>
+            <msg lang="it">Mammella</msg>
+            <msg lang="es">Pecho</msg>
+            <msg lang="pt">Peito</msg>
+            <msg lang="da">Bryst</msg>
+            <msg lang="fi">Rintakipu</msg>
+            <msg lang="nl">Borst</msg>
+            <msg lang="no">Bryst</msg>
+            <msg lang="sv">Br&#246;st</msg>
+        </item>
+        <item value="Esophageal">
+            <msg lang="en">Esophageal</msg>
+            <msg lang="de">&#214;sophagus</msg>
+            <msg lang="fr">Oesophagien</msg>
+            <msg lang="it">Esofageo</msg>
+            <msg lang="es">Esof&#225;gico</msg>
+            <msg lang="pt">Esof&#225;gico</msg>
+            <msg lang="da">Esophageal</msg>
+            <msg lang="fi">Ruokatorven</msg>
+            <msg lang="nl">Oesofagaal</msg>
+            <msg lang="no">&#216;sofag</msg>
+            <msg lang="sv">Esofageal</msg>
+        </item>
+        <item value="Colorectal">
+            <msg lang="en">Colorectal</msg>
+            <msg lang="de">Kolorektal</msg>
+            <msg lang="fr">Colorectal</msg>
+            <msg lang="it">Colorettale</msg>
+            <msg lang="es">Colorrectal</msg>
+            <msg lang="pt">Colorectal</msg>
+            <msg lang="da">Colorektal</msg>
+            <msg lang="fi">Paksusuoli - per&#228;suoli</msg>
+            <msg lang="nl">Darm</msg>
+            <msg lang="no">Kolorektal</msg>
+            <msg lang="sv">Kolorektal</msg>
+        </item>
+        <item value="Prostate">
+            <msg lang="en">Prostate</msg>
+            <msg lang="de">Prostata</msg>
+            <msg lang="fr">Prostate</msg>
+            <msg lang="it">Prostata</msg>
+            <msg lang="es">Pr&#243;stata</msg>
+            <msg lang="pt">Pr&#243;stata</msg>
+            <msg lang="da">Prostata</msg>
+            <msg lang="fi">Eturauhanen</msg>
+            <msg lang="nl">Prostaat</msg>
+            <msg lang="no">Prostata</msg>
+            <msg lang="sv">Prostata</msg>
+        </item>
+        <item value="Cervical">
+            <msg lang="en">Cervical</msg>
+            <msg lang="de">Zervikal</msg>
+            <msg lang="fr">Cervical</msg>
+            <msg lang="it">Cervicale</msg>
+            <msg lang="es">Cervical</msg>
+            <msg lang="pt">Cervical</msg>
+            <msg lang="da">Cervical</msg>
+            <msg lang="fi">Kaula-, kohdunkaula-</msg>
+            <msg lang="nl">Cervicaal</msg>
+            <msg lang="no">Cervikal</msg>
+            <msg lang="sv">Cervikal</msg>
+        </item>
+        <item value="Ovarian">
+            <msg lang="en">Ovarian</msg>
+            <msg lang="de">Eierstock</msg>
+            <msg lang="fr">Ovarien</msg>
+            <msg lang="it">Ovarico</msg>
+            <msg lang="es">Ov&#225;rico</msg>
+            <msg lang="pt">Ov&#225;rico</msg>
+            <msg lang="da">Ovarisk</msg>
+            <msg lang="fi">Munasarjan</msg>
+            <msg lang="nl">Ovariaal</msg>
+            <msg lang="no">Ovarial</msg>
+            <msg lang="sv">Ovarial</msg>
+        </item>
+        <item value="Melanoma">
+            <msg lang="en">Melanoma</msg>
+            <msg lang="de">Melanom</msg>
+            <msg lang="fr">M&#233;lanome</msg>
+            <msg lang="it">Melanoma</msg>
+            <msg lang="es">Melanoma</msg>
+            <msg lang="pt">Melanoma</msg>
+            <msg lang="da">Melanom</msg>
+            <msg lang="fi">Melanoma</msg>
+            <msg lang="nl">Melanoom</msg>
+            <msg lang="no">Melanom</msg>
+            <msg lang="sv">Melanom</msg>
+        </item>
+    </LBL_CANCER_DIAGNOSIS>
+    <LBL_AJCC_UICC_STAGING>
+        <msg lang="en">AJCC/UICC Staging</msg>
+        <msg lang="de">AJCC/UICC-Stadiumseinteilung</msg>
+        <msg lang="fr">Classification AJCC/UICC</msg>
+        <msg lang="it">Classificazione AJCC/UICC</msg>
+        <msg lang="es">Estadio AJCC/UICC</msg>
+        <msg lang="pt">Activa&#231;&#227;o AJCC/UICC</msg>
+        <msg lang="da">AJCC/UICC-klassifikation</msg>
+        <msg lang="fi">AJCC/UICC vaiheistaminen</msg>
+        <msg lang="nl">AJCC/UICC staging</msg>
+        <msg lang="no">AJCC/UICC-klassifisering</msg>
+        <msg lang="sv">AJCC/UICC-arrangemang</msg>
+    </LBL_AJCC_UICC_STAGING>
+    <LBL_T_CATEGORY>
+        <item value="Tx">
+            <msg lang="en">Tx</msg>
+            <msg lang="de">Tx</msg>
+            <msg lang="fr">Tx</msg>
+            <msg lang="it">Tx</msg>
+            <msg lang="es">Tx</msg>
+            <msg lang="pt">Tx</msg>
+            <msg lang="da">Tx</msg>
+            <msg lang="fi">Tx</msg>
+            <msg lang="nl">Tx</msg>
+            <msg lang="no">Tx</msg>
+            <msg lang="sv">Tx</msg>
+        </item>
+        <item value="Tis">
+            <msg lang="en">Tis</msg>
+            <msg lang="de">Tis</msg>
+            <msg lang="fr">Tis</msg>
+            <msg lang="it">Tis</msg>
+            <msg lang="es">Tis</msg>
+            <msg lang="pt">Tis</msg>
+            <msg lang="da">Tis</msg>
+            <msg lang="fi">Tis</msg>
+            <msg lang="nl">Tis</msg>
+            <msg lang="no">Tis</msg>
+            <msg lang="sv">Tis</msg>
+        </item>
+        <item value="T0">
+            <msg lang="en">T0</msg>
+            <msg lang="de">T0</msg>
+            <msg lang="fr">T0</msg>
+            <msg lang="it">T0</msg>
+            <msg lang="es">T0</msg>
+            <msg lang="pt">T0</msg>
+            <msg lang="da">T0</msg>
+            <msg lang="fi">T0</msg>
+            <msg lang="nl">T0</msg>
+            <msg lang="no">T0</msg>
+            <msg lang="sv">T0</msg>
+        </item>
+        <item value="T1">
+            <msg lang="en">T1</msg>
+            <msg lang="de">T1</msg>
+            <msg lang="fr">T1</msg>
+            <msg lang="it">T1</msg>
+            <msg lang="es">T1</msg>
+            <msg lang="pt">T1</msg>
+            <msg lang="da">T1</msg>
+            <msg lang="fi">T1</msg>
+            <msg lang="nl">T1</msg>
+            <msg lang="no">T1</msg>
+            <msg lang="sv">T1</msg>
+        </item>
+        <item value="T1a">
+            <msg lang="en">T1a</msg>
+            <msg lang="de">T1a</msg>
+            <msg lang="fr">T1a</msg>
+            <msg lang="it">T1a</msg>
+            <msg lang="es">T1a</msg>
+            <msg lang="pt">T1a</msg>
+            <msg lang="da">T1a</msg>
+            <msg lang="fi">T1a</msg>
+            <msg lang="nl">T1a</msg>
+            <msg lang="no">T1a</msg>
+            <msg lang="sv">T1a</msg>
+        </item>
+        <item value="T1b">
+            <msg lang="en">T1b</msg>
+            <msg lang="de">T1b</msg>
+            <msg lang="fr">T1b</msg>
+            <msg lang="it">T1b</msg>
+            <msg lang="es">T1b</msg>
+            <msg lang="pt">T1b</msg>
+            <msg lang="da">T1b</msg>
+            <msg lang="fi">T1b</msg>
+            <msg lang="nl">T1b</msg>
+            <msg lang="no">T1b</msg>
+            <msg lang="sv">T1b</msg>
+        </item>
+        <item value="T1c">
+            <msg lang="en">T1c</msg>
+            <msg lang="de">T1c</msg>
+            <msg lang="fr">T1c</msg>
+            <msg lang="it">T1c</msg>
+            <msg lang="es">T1c</msg>
+            <msg lang="pt">T1c</msg>
+            <msg lang="da">T1c</msg>
+            <msg lang="fi">T1c</msg>
+            <msg lang="nl">T1c</msg>
+            <msg lang="no">T1c</msg>
+            <msg lang="sv">T1c</msg>
+        </item>
+        <item value="T2">
+            <msg lang="en">T2</msg>
+            <msg lang="de">T2</msg>
+            <msg lang="fr">T2</msg>
+            <msg lang="it">T2</msg>
+            <msg lang="es">T2</msg>
+            <msg lang="pt">T2</msg>
+            <msg lang="da">T2</msg>
+            <msg lang="fi">T2</msg>
+            <msg lang="nl">T2</msg>
+            <msg lang="no">T2</msg>
+            <msg lang="sv">T2</msg>
+        </item>
+        <item value="T2a">
+            <msg lang="en">T2a</msg>
+            <msg lang="de">T2a</msg>
+            <msg lang="fr">T2a</msg>
+            <msg lang="it">T2a</msg>
+            <msg lang="es">T2a</msg>
+            <msg lang="pt">T2a</msg>
+            <msg lang="da">T2a</msg>
+            <msg lang="fi">T2a</msg>
+            <msg lang="nl">T2a</msg>
+            <msg lang="no">T2a</msg>
+            <msg lang="sv">T2a</msg>
+        </item>
+        <item value="T2b">
+            <msg lang="en">T2b</msg>
+            <msg lang="de">T2b</msg>
+            <msg lang="fr">T2b</msg>
+            <msg lang="it">T2b</msg>
+            <msg lang="es">T2b</msg>
+            <msg lang="pt">T2b</msg>
+            <msg lang="da">T2b</msg>
+            <msg lang="fi">T2b</msg>
+            <msg lang="nl">T2b</msg>
+            <msg lang="no">T2b</msg>
+            <msg lang="sv">T2b</msg>
+        </item>
+        <item value="T2c">
+            <msg lang="en">T2c</msg>
+            <msg lang="de">T2c</msg>
+            <msg lang="fr">T2c</msg>
+            <msg lang="it">T2c</msg>
+            <msg lang="es">T2c</msg>
+            <msg lang="pt">T2c</msg>
+            <msg lang="da">T2c</msg>
+            <msg lang="fi">T2c</msg>
+            <msg lang="nl">T2c</msg>
+            <msg lang="no">T2c</msg>
+            <msg lang="sv">T2c</msg>
+        </item>
+        <item value="T3">
+            <msg lang="en">T3</msg>
+            <msg lang="de">T3</msg>
+            <msg lang="fr">T3</msg>
+            <msg lang="it">T3</msg>
+            <msg lang="es">T3</msg>
+            <msg lang="pt">T3</msg>
+            <msg lang="da">T3</msg>
+            <msg lang="fi">T3</msg>
+            <msg lang="nl">T3</msg>
+            <msg lang="no">T3</msg>
+            <msg lang="sv">T3</msg>
+        </item>
+        <item value="T3a">
+            <msg lang="en">T3a</msg>
+            <msg lang="de">T3a</msg>
+            <msg lang="fr">T3a</msg>
+            <msg lang="it">T3a</msg>
+            <msg lang="es">T3a</msg>
+            <msg lang="pt">T3a</msg>
+            <msg lang="da">T3a</msg>
+            <msg lang="fi">T3a</msg>
+            <msg lang="nl">T3a</msg>
+            <msg lang="no">T3a</msg>
+            <msg lang="sv">T3a</msg>
+        </item>
+        <item value="T3b">
+            <msg lang="en">T3b</msg>
+            <msg lang="de">T3b</msg>
+            <msg lang="fr">T3b</msg>
+            <msg lang="it">T3b</msg>
+            <msg lang="es">T3b</msg>
+            <msg lang="pt">T3b</msg>
+            <msg lang="da">T3b</msg>
+            <msg lang="fi">T3b</msg>
+            <msg lang="nl">T3b</msg>
+            <msg lang="no">T3b</msg>
+            <msg lang="sv">T3b</msg>
+        </item>
+        <item value="T3c">
+            <msg lang="en">T3c</msg>
+            <msg lang="de">T3c</msg>
+            <msg lang="fr">T3c</msg>
+            <msg lang="it">T3c</msg>
+            <msg lang="es">T3c</msg>
+            <msg lang="pt">T3c</msg>
+            <msg lang="da">T3c</msg>
+            <msg lang="fi">T3c</msg>
+            <msg lang="nl">T3c</msg>
+            <msg lang="no">T3c</msg>
+            <msg lang="sv">T3c</msg>
+        </item>
+        <item value="T4">
+            <msg lang="en">T4</msg>
+            <msg lang="de">T4</msg>
+            <msg lang="fr">T4</msg>
+            <msg lang="it">T4</msg>
+            <msg lang="es">T4</msg>
+            <msg lang="pt">T4</msg>
+            <msg lang="da">T4</msg>
+            <msg lang="fi">T4</msg>
+            <msg lang="nl">T4</msg>
+            <msg lang="no">T4</msg>
+            <msg lang="sv">T4</msg>
+        </item>
+        <item value="T4a">
+            <msg lang="en">T4a</msg>
+            <msg lang="de">T4a</msg>
+            <msg lang="fr">T4a</msg>
+            <msg lang="it">T4a</msg>
+            <msg lang="es">T4a</msg>
+            <msg lang="pt">T4a</msg>
+            <msg lang="da">T4a</msg>
+            <msg lang="fi">T4a</msg>
+            <msg lang="nl">T4a</msg>
+            <msg lang="no">T4a</msg>
+            <msg lang="sv">T4a</msg>
+        </item>
+        <item value="T4b">
+            <msg lang="en">T4b</msg>
+            <msg lang="de">T4b</msg>
+            <msg lang="fr">T4b</msg>
+            <msg lang="it">T4b</msg>
+            <msg lang="es">T4b</msg>
+            <msg lang="pt">T4b</msg>
+            <msg lang="da">T4b</msg>
+            <msg lang="fi">T4b</msg>
+            <msg lang="nl">T4b</msg>
+            <msg lang="no">T4b</msg>
+            <msg lang="sv">T4b</msg>
+        </item>
+        <item value="T4c">
+            <msg lang="en">T4c</msg>
+            <msg lang="de">T4c</msg>
+            <msg lang="fr">T4c</msg>
+            <msg lang="it">T4c</msg>
+            <msg lang="es">T4c</msg>
+            <msg lang="pt">T4c</msg>
+            <msg lang="da">T4c</msg>
+            <msg lang="fi">T4c</msg>
+            <msg lang="nl">T4c</msg>
+            <msg lang="no">T4c</msg>
+            <msg lang="sv">T4c</msg>
+        </item>
+        <item value="T4d">
+            <msg lang="en">T4d</msg>
+            <msg lang="de">T4d</msg>
+            <msg lang="fr">T4d</msg>
+            <msg lang="it">T4d</msg>
+            <msg lang="es">T4d</msg>
+            <msg lang="pt">T4d</msg>
+            <msg lang="da">T4d</msg>
+            <msg lang="fi">T4d</msg>
+            <msg lang="nl">T4d</msg>
+            <msg lang="no">T4d</msg>
+            <msg lang="sv">T4d</msg>
+        </item>
+    </LBL_T_CATEGORY>
+    <LBL_N_CATEGORY>
+        <item value="Nx">
+            <msg lang="en">Nx</msg>
+            <msg lang="de">Nx</msg>
+            <msg lang="fr">Nx</msg>
+            <msg lang="it">Nx</msg>
+            <msg lang="es">Nx</msg>
+            <msg lang="pt">Nx</msg>
+            <msg lang="da">Nx</msg>
+            <msg lang="fi">Nx</msg>
+            <msg lang="nl">Nx</msg>
+            <msg lang="no">Nx</msg>
+            <msg lang="sv">Nx</msg>
+        </item>
+        <item value="N0">
+            <msg lang="en">N0</msg>
+            <msg lang="de">N0</msg>
+            <msg lang="fr">N0</msg>
+            <msg lang="it">N0</msg>
+            <msg lang="es">N0</msg>
+            <msg lang="pt">N0</msg>
+            <msg lang="da">N0</msg>
+            <msg lang="fi">N0</msg>
+            <msg lang="nl">N0</msg>
+            <msg lang="no">N0</msg>
+            <msg lang="sv">N0</msg>
+        </item>
+        <item value="N1">
+            <msg lang="en">N1</msg>
+            <msg lang="de">N1</msg>
+            <msg lang="fr">N1</msg>
+            <msg lang="it">N1</msg>
+            <msg lang="es">N1</msg>
+            <msg lang="pt">N1</msg>
+            <msg lang="da">N1</msg>
+            <msg lang="fi">N1</msg>
+            <msg lang="nl">N1</msg>
+            <msg lang="no">N1</msg>
+            <msg lang="sv">N1</msg>
+        </item>
+        <item value="N1a">
+            <msg lang="en">N1a</msg>
+            <msg lang="de">N1a</msg>
+            <msg lang="fr">N1a</msg>
+            <msg lang="it">N1a</msg>
+            <msg lang="es">N1a</msg>
+            <msg lang="pt">N1a</msg>
+            <msg lang="da">N1a</msg>
+            <msg lang="fi">N1a</msg>
+            <msg lang="nl">N1a</msg>
+            <msg lang="no">N1a</msg>
+            <msg lang="sv">N1a</msg>
+        </item>
+        <item value="N1b">
+            <msg lang="en">N1b</msg>
+            <msg lang="de">N1b</msg>
+            <msg lang="fr">N1b</msg>
+            <msg lang="it">N1b</msg>
+            <msg lang="es">N1b</msg>
+            <msg lang="pt">N1b</msg>
+            <msg lang="da">N1b</msg>
+            <msg lang="fi">N1b</msg>
+            <msg lang="nl">N1b</msg>
+            <msg lang="no">N1b</msg>
+            <msg lang="sv">N1b</msg>
+        </item>
+        <item value="N2">
+            <msg lang="en">N2</msg>
+            <msg lang="de">N2</msg>
+            <msg lang="fr">N2</msg>
+            <msg lang="it">N2</msg>
+            <msg lang="es">N2</msg>
+            <msg lang="pt">N2</msg>
+            <msg lang="da">N2</msg>
+            <msg lang="fi">N2</msg>
+            <msg lang="nl">N2</msg>
+            <msg lang="no">N2</msg>
+            <msg lang="sv">N2</msg>
+        </item>
+        <item value="N2a">
+            <msg lang="en">N2a</msg>
+            <msg lang="de">N2a</msg>
+            <msg lang="fr">N2a</msg>
+            <msg lang="it">N2a</msg>
+            <msg lang="es">N2a</msg>
+            <msg lang="pt">N2a</msg>
+            <msg lang="da">N2a</msg>
+            <msg lang="fi">N2a</msg>
+            <msg lang="nl">N2a</msg>
+            <msg lang="no">N2a</msg>
+            <msg lang="sv">N2a</msg>
+        </item>
+        <item value="N2b">
+            <msg lang="en">N2b</msg>
+            <msg lang="de">N2b</msg>
+            <msg lang="fr">N2b</msg>
+            <msg lang="it">N2b</msg>
+            <msg lang="es">N2b</msg>
+            <msg lang="pt">N2b</msg>
+            <msg lang="da">N2b</msg>
+            <msg lang="fi">N2b</msg>
+            <msg lang="nl">N2b</msg>
+            <msg lang="no">N2b</msg>
+            <msg lang="sv">N2b</msg>
+        </item>
+        <item value="N2c">
+            <msg lang="en">N2c</msg>
+            <msg lang="de">N2c</msg>
+            <msg lang="fr">N2c</msg>
+            <msg lang="it">N2c</msg>
+            <msg lang="es">N2c</msg>
+            <msg lang="pt">N2c</msg>
+            <msg lang="da">N2c</msg>
+            <msg lang="fi">N2c</msg>
+            <msg lang="nl">N2c</msg>
+            <msg lang="no">N2c</msg>
+            <msg lang="sv">N2c</msg>
+        </item>
+        <item value="N2d">
+            <msg lang="en">N2d</msg>
+            <msg lang="de">N2d</msg>
+            <msg lang="fr">N2d</msg>
+            <msg lang="it">N2d</msg>
+            <msg lang="es">N2d</msg>
+            <msg lang="pt">N2d</msg>
+            <msg lang="da">N2d</msg>
+            <msg lang="fi">N2d</msg>
+            <msg lang="nl">N2d</msg>
+            <msg lang="no">N2d</msg>
+            <msg lang="sv">N2d</msg>
+        </item>
+        <item value="N3">
+            <msg lang="en">N3</msg>
+            <msg lang="de">N3</msg>
+            <msg lang="fr">N3</msg>
+            <msg lang="it">N3</msg>
+            <msg lang="es">N3</msg>
+            <msg lang="pt">N3</msg>
+            <msg lang="da">N3</msg>
+            <msg lang="fi">N3</msg>
+            <msg lang="nl">N3</msg>
+            <msg lang="no">N3</msg>
+            <msg lang="sv">N3</msg>
+        </item>
+    </LBL_N_CATEGORY>
+    <LBL_M_CATEGORY>
+        <item value="Mx">
+            <msg lang="en">Mx</msg>
+            <msg lang="de">Mx</msg>
+            <msg lang="fr">Mx</msg>
+            <msg lang="it">Mx</msg>
+            <msg lang="es">Mx</msg>
+            <msg lang="pt">Mx</msg>
+            <msg lang="da">Mx</msg>
+            <msg lang="fi">Mx</msg>
+            <msg lang="nl">Mx</msg>
+            <msg lang="no">Mx</msg>
+            <msg lang="sv">Mx</msg>
+        </item>
+        <item value="M0">
+            <msg lang="en">M0</msg>
+            <msg lang="de">M0</msg>
+            <msg lang="fr">M0</msg>
+            <msg lang="it">M0</msg>
+            <msg lang="es">M0</msg>
+            <msg lang="pt">M0</msg>
+            <msg lang="da">M0</msg>
+            <msg lang="fi">M0</msg>
+            <msg lang="nl">M0</msg>
+            <msg lang="no">M0</msg>
+            <msg lang="sv">M0</msg>
+        </item>
+        <item value="M1">
+            <msg lang="en">M1</msg>
+            <msg lang="de">M1</msg>
+            <msg lang="fr">M1</msg>
+            <msg lang="it">M1</msg>
+            <msg lang="es">M1</msg>
+            <msg lang="pt">M1</msg>
+            <msg lang="da">M1</msg>
+            <msg lang="fi">M1</msg>
+            <msg lang="nl">M1</msg>
+            <msg lang="no">M1</msg>
+            <msg lang="sv">M1</msg>
+        </item>
+        <item value="M2">
+            <msg lang="en">M2</msg>
+            <msg lang="de">M2</msg>
+            <msg lang="fr">M2</msg>
+            <msg lang="it">M2</msg>
+            <msg lang="es">M2</msg>
+            <msg lang="pt">M2</msg>
+            <msg lang="da">M2</msg>
+            <msg lang="fi">M2</msg>
+            <msg lang="nl">M2</msg>
+            <msg lang="no">M2</msg>
+            <msg lang="sv">M2</msg>
+        </item>
+        <item value="M3">
+            <msg lang="en">M3</msg>
+            <msg lang="de">M3</msg>
+            <msg lang="fr">M3</msg>
+            <msg lang="it">M3</msg>
+            <msg lang="es">M3</msg>
+            <msg lang="pt">M3</msg>
+            <msg lang="da">M3</msg>
+            <msg lang="fi">M3</msg>
+            <msg lang="nl">M3</msg>
+            <msg lang="no">M3</msg>
+            <msg lang="sv">M3</msg>
+        </item>
+    </LBL_M_CATEGORY>
+    <LBL_STAGE_GROUPING>
+        <item value="0">
+            <msg lang="en">0</msg>
+            <msg lang="de">0</msg>
+            <msg lang="fr">0</msg>
+            <msg lang="it">0</msg>
+            <msg lang="es">0</msg>
+            <msg lang="pt">0</msg>
+            <msg lang="da">0</msg>
+            <msg lang="fi">0</msg>
+            <msg lang="nl">0</msg>
+            <msg lang="no">0</msg>
+            <msg lang="sv">0</msg>
+        </item>
+        <item value="IA">
+            <msg lang="en">IA</msg>
+            <msg lang="de">IA</msg>
+            <msg lang="fr">IA</msg>
+            <msg lang="it">IA</msg>
+            <msg lang="es">IA</msg>
+            <msg lang="pt">IA</msg>
+            <msg lang="da">IA</msg>
+            <msg lang="fi">IA</msg>
+            <msg lang="nl">IA</msg>
+            <msg lang="no">IA</msg>
+            <msg lang="sv">IA</msg>
+        </item>
+        <item value="IA1">
+            <msg lang="en">IA1</msg>
+            <msg lang="de">IA1</msg>
+            <msg lang="fr">IA1</msg>
+            <msg lang="it">IA1</msg>
+            <msg lang="es">IA1</msg>
+            <msg lang="pt">IA1</msg>
+            <msg lang="da">IA1</msg>
+            <msg lang="fi">IA1</msg>
+            <msg lang="nl">IA1</msg>
+            <msg lang="no">IA1</msg>
+            <msg lang="sv">IA1</msg>
+        </item>
+        <item value="IA2">
+            <msg lang="en">IA2</msg>
+            <msg lang="de">IA2</msg>
+            <msg lang="fr">IA2</msg>
+            <msg lang="it">IA2</msg>
+            <msg lang="es">IA2</msg>
+            <msg lang="pt">IA2</msg>
+            <msg lang="da">IA2</msg>
+            <msg lang="fi">IA2</msg>
+            <msg lang="nl">IA2</msg>
+            <msg lang="no">IA2</msg>
+            <msg lang="sv">IA2</msg>
+        </item>
+        <item value="IB">
+            <msg lang="en">IB</msg>
+            <msg lang="de">IB</msg>
+            <msg lang="fr">IB</msg>
+            <msg lang="it">IB</msg>
+            <msg lang="es">IB</msg>
+            <msg lang="pt">IB</msg>
+            <msg lang="da">IB</msg>
+            <msg lang="fi">IB</msg>
+            <msg lang="nl">IB</msg>
+            <msg lang="no">IB</msg>
+            <msg lang="sv">IB</msg>
+        </item>
+        <item value="II">
+            <msg lang="en">II</msg>
+            <msg lang="de">II</msg>
+            <msg lang="fr">II</msg>
+            <msg lang="it">II</msg>
+            <msg lang="es">II</msg>
+            <msg lang="pt">II</msg>
+            <msg lang="da">II</msg>
+            <msg lang="fi">II</msg>
+            <msg lang="nl">II</msg>
+            <msg lang="no">II</msg>
+            <msg lang="sv">II</msg>
+        </item>
+        <item value="IIA">
+            <msg lang="en">IIA</msg>
+            <msg lang="de">IIA</msg>
+            <msg lang="fr">IIA</msg>
+            <msg lang="it">IIA</msg>
+            <msg lang="es">IIA</msg>
+            <msg lang="pt">IIA</msg>
+            <msg lang="da">IIA</msg>
+            <msg lang="fi">IIA</msg>
+            <msg lang="nl">IIA</msg>
+            <msg lang="no">IIA</msg>
+            <msg lang="sv">IIA</msg>
+        </item>
+        <item value="IIB">
+            <msg lang="en">IIB</msg>
+            <msg lang="de">IIB</msg>
+            <msg lang="fr">IIB</msg>
+            <msg lang="it">IIB</msg>
+            <msg lang="es">IIB</msg>
+            <msg lang="pt">IIB</msg>
+            <msg lang="da">IIB</msg>
+            <msg lang="fi">IIB</msg>
+            <msg lang="nl">IIB</msg>
+            <msg lang="no">IIB</msg>
+            <msg lang="sv">IIB</msg>
+        </item>
+        <item value="IIC">
+            <msg lang="en">IIC</msg>
+            <msg lang="de">IIC</msg>
+            <msg lang="fr">IIC</msg>
+            <msg lang="it">IIC</msg>
+            <msg lang="es">IIC</msg>
+            <msg lang="pt">IIC</msg>
+            <msg lang="da">IIC</msg>
+            <msg lang="fi">IIC</msg>
+            <msg lang="nl">IIC</msg>
+            <msg lang="no">IIC</msg>
+            <msg lang="sv">IIC</msg>
+        </item>
+        <item value="III">
+            <msg lang="en">III</msg>
+            <msg lang="de">III</msg>
+            <msg lang="fr">III</msg>
+            <msg lang="it">III</msg>
+            <msg lang="es">III</msg>
+            <msg lang="pt">III</msg>
+            <msg lang="da">III</msg>
+            <msg lang="fi">III</msg>
+            <msg lang="nl">III</msg>
+            <msg lang="no">III</msg>
+            <msg lang="sv">III</msg>
+        </item>
+        <item value="IIIA">
+            <msg lang="en">IIIA</msg>
+            <msg lang="de">IIIA</msg>
+            <msg lang="fr">IIIA</msg>
+            <msg lang="it">IIIA</msg>
+            <msg lang="es">IIIA</msg>
+            <msg lang="pt">IIIA</msg>
+            <msg lang="da">IIIA</msg>
+            <msg lang="fi">IIIA</msg>
+            <msg lang="nl">IIIA</msg>
+            <msg lang="no">IIIA</msg>
+            <msg lang="sv">IIIA</msg>
+        </item>
+        <item value="IIIB">
+            <msg lang="en">IIIB</msg>
+            <msg lang="de">IIIB</msg>
+            <msg lang="fr">IIIB</msg>
+            <msg lang="it">IIIB</msg>
+            <msg lang="es">IIIB</msg>
+            <msg lang="pt">IIIB</msg>
+            <msg lang="da">IIIB</msg>
+            <msg lang="fi">IIIB</msg>
+            <msg lang="nl">IIIB</msg>
+            <msg lang="no">IIIB</msg>
+            <msg lang="sv">IIIB</msg>
+        </item>
+        <item value="IIIC">
+            <msg lang="en">IIIC</msg>
+            <msg lang="de">IIIC</msg>
+            <msg lang="fr">IIIC</msg>
+            <msg lang="it">IIIC</msg>
+            <msg lang="es">IIIC</msg>
+            <msg lang="pt">IIIC</msg>
+            <msg lang="da">IIIC</msg>
+            <msg lang="fi">IIIC</msg>
+            <msg lang="nl">IIIC</msg>
+            <msg lang="no">IIIC</msg>
+            <msg lang="sv">IIIC</msg>
+        </item>
+        <item value="IV">
+            <msg lang="en">IV</msg>
+            <msg lang="de">IV</msg>
+            <msg lang="fr">IV</msg>
+            <msg lang="it">IV</msg>
+            <msg lang="es">IV</msg>
+            <msg lang="pt">IV</msg>
+            <msg lang="da">IV</msg>
+            <msg lang="fi">IV</msg>
+            <msg lang="nl">IV</msg>
+            <msg lang="no">IV</msg>
+            <msg lang="sv">IV</msg>
+        </item>
+        <item value="IVA">
+            <msg lang="en">IVA</msg>
+            <msg lang="de">IVA</msg>
+            <msg lang="fr">IVA</msg>
+            <msg lang="it">IVA</msg>
+            <msg lang="es">IVA</msg>
+            <msg lang="pt">IVA</msg>
+            <msg lang="da">IVA</msg>
+            <msg lang="fi">IVA</msg>
+            <msg lang="nl">IVA</msg>
+            <msg lang="no">IVA</msg>
+            <msg lang="sv">IVA</msg>
+        </item>
+        <item value="IVB">
+            <msg lang="en">IVB</msg>
+            <msg lang="de">IVB</msg>
+            <msg lang="fr">IVB</msg>
+            <msg lang="it">IVB</msg>
+            <msg lang="es">IVB</msg>
+            <msg lang="pt">IVB</msg>
+            <msg lang="da">IVB</msg>
+            <msg lang="fi">IVB</msg>
+            <msg lang="nl">IVB</msg>
+            <msg lang="no">IVB</msg>
+            <msg lang="sv">IVB</msg>
+        </item>
+    </LBL_STAGE_GROUPING>
+    <LBL_YEAR>
+        <msg lang="en">years</msg>
+        <msg lang="de">Jahre</msg>
+        <msg lang="fr">ann&#233;es</msg>
+        <msg lang="it">anni</msg>
+        <msg lang="es">a&#241;os</msg>
+        <msg lang="pt">anos</msg>
+        <msg lang="da">&#229;r</msg>
+        <msg lang="fi">vuotta</msg>
+        <msg lang="nl">jaren</msg>
+        <msg lang="no">&#229;r</msg>
+        <msg lang="sv">&#229;r</msg>
+    </LBL_YEAR>
+    <LBL_DAY>
+        <msg lang="en">Days</msg>
+        <msg lang="de">Tage</msg>
+        <msg lang="fr">jours</msg>
+        <msg lang="it">giorni</msg>
+        <msg lang="es">d&#237;as</msg>
+        <msg lang="pt">dias</msg>
+        <msg lang="da">Dage</msg>
+        <msg lang="fi">P&#228;iv&#228;&#228;</msg>
+        <msg lang="nl">Dagen</msg>
+        <msg lang="no">Dager</msg>
+        <msg lang="sv">Dagar</msg>
+    </LBL_DAY>
+    <LBL_HOURS>
+        <msg lang="en">hours</msg>
+        <msg lang="de">hours</msg>
+        <msg lang="fr">hours</msg>
+        <msg lang="it">ore</msg>
+        <msg lang="es">hours</msg>
+        <msg lang="pt">horas</msg>
+        <msg lang="da">time</msg>
+        <msg lang="fi">tuntia</msg>
+        <msg lang="nl">uur</msg>
+        <msg lang="no">timer</msg>
+        <msg lang="sv">timmar</msg>
+    </LBL_HOURS>
+
+    <LBL_COMPLETION_FLAG>
+        <msg lang="en">Completion flag</msg>
+        <msg lang="de">Abschluss-Flag</msg>
+        <msg lang="fr">Indicateur d'ach&#232;vement</msg>
+        <msg lang="it">Flag di completamento</msg>
+        <msg lang="es">Bandera de finalizaci&#243;n</msg>
+        <msg lang="pt">Flag de encerramento</msg>
+        <msg lang="da">Udf&#248;rselsflag</msg>
+        <msg lang="fi">Suoritettu-lippu</msg>
+        <msg lang="nl">Voltooi&#239;ngsvlag</msg>
+        <msg lang="no">Fullf&#248;ringsflagg</msg>
+        <msg lang="sv">Slutf&#246;randeflagga</msg>
+        <item value="PARTIAL">
+            <msg lang="en">PARTIAL</msg>
+            <msg lang="de">PARTIAL</msg>
+            <msg lang="fr">PARTIAL</msg>
+            <msg lang="it">PARTIAL</msg>
+            <msg lang="es">PARTIAL</msg>
+            <msg lang="pt">PARTIAL</msg>
+            <msg lang="da">PARTIAL</msg>
+            <msg lang="fi">PARTIAL</msg>
+            <msg lang="nl">PARTIAL</msg>
+            <msg lang="no">PARTIAL</msg>
+            <msg lang="sv">PARTIAL</msg>
+        </item>
+        <item value="COMPLETE">
+            <msg lang="en">COMPLETE</msg>
+            <msg lang="de">COMPLETE</msg>
+            <msg lang="fr">COMPLETE</msg>
+            <msg lang="it">COMPLETE</msg>
+            <msg lang="es">COMPLETE</msg>
+            <msg lang="pt">COMPLETE</msg>
+            <msg lang="da">COMPLETE</msg>
+            <msg lang="fi">COMPLETE</msg>
+            <msg lang="nl">COMPLETE</msg>
+            <msg lang="no">COMPLETE</msg>
+            <msg lang="sv">COMPLETE</msg>
+        </item>
+    </LBL_COMPLETION_FLAG>
+
+    <LBL_VERIFICATION_FLAG>
+        <msg lang="en">Verification flag</msg>
+        <msg lang="de">&#220;berpr&#252;fungs-Flag</msg>
+        <msg lang="fr">Indicateur de v&#233;rification</msg>
+        <msg lang="it">Flag di verifica</msg>
+        <msg lang="es">Etiqueta de verificaci&#243;n</msg>
+        <msg lang="pt">Flag de verifica&#231;&#227;o</msg>
+        <msg lang="da">Kontrolflag</msg>
+        <msg lang="fi">Tarkistus-lippu</msg>
+        <msg lang="nl">Verificatievlag</msg>
+        <msg lang="no">Bekreftelsesflagg</msg>
+        <msg lang="sv">Verifikations flagga</msg>
+        <item value="UNVERIFIED">
+            <msg lang="en">UNVERIFIED</msg>
+            <msg lang="de">UNVERIFIED</msg>
+            <msg lang="fr">UNVERIFIED</msg>
+            <msg lang="it">UNVERIFIED</msg>
+            <msg lang="es">UNVERIFIED</msg>
+            <msg lang="pt">UNVERIFIED</msg>
+            <msg lang="da">UNVERIFIED</msg>
+            <msg lang="fi">UNVERIFIED</msg>
+            <msg lang="nl">UNVERIFIED</msg>
+            <msg lang="no">UNVERIFIED</msg>
+            <msg lang="sv">UNVERIFIED</msg>
+        </item>
+        <item value="VERIFIED">
+            <msg lang="en">VERIFIED</msg>
+            <msg lang="de">VERIFIED</msg>
+            <msg lang="fr">VERIFIED</msg>
+            <msg lang="it">VERIFIED</msg>
+            <msg lang="es">VERIFIED</msg>
+            <msg lang="pt">VERIFIED</msg>
+            <msg lang="da">VERIFIED</msg>
+            <msg lang="fi">VERIFIED</msg>
+            <msg lang="nl">VERIFIED</msg>
+            <msg lang="no">VERIFIED</msg>
+            <msg lang="sv">VERIFIED</msg>
+        </item>
+    </LBL_VERIFICATION_FLAG>
+    <LBL_VERIFYING_OBSERVER>
+        <msg lang="en">Verifying Observer</msg>
+        <msg lang="de">Pr&#252;fer</msg>
+        <msg lang="fr">Charg&#233; de v&#233;rification</msg>
+        <msg lang="it">Addetto alla verifica</msg>
+        <msg lang="es">Encargado de verificaci&#243;n</msg>
+        <msg lang="pt">Observador de verifica&#231;&#227;o</msg>
+        <msg lang="da">Kontrollerende observat&#248;r</msg>
+        <msg lang="fi">Tiedot vahvistava henkil&#246;</msg>
+        <msg lang="nl">Verifi&#235;rende waarnemer</msg>
+        <msg lang="no">Bekreftende observat&#248;r</msg>
+        <msg lang="sv">Verifierande observat&#246;r</msg>
+    </LBL_VERIFYING_OBSERVER>
+    <LBL_VERIFYING_ORGANIZATION>
+        <msg lang="en">Verifying Organization</msg>
+        <msg lang="de">Pr&#252;feinrichtung</msg>
+        <msg lang="fr">Organisme de v&#233;rification</msg>
+        <msg lang="it">Ente verificatore</msg>
+        <msg lang="es">Organismo de verificaci&#243;n</msg>
+        <msg lang="pt">Organismo de verifica&#231;&#227;o</msg>
+        <msg lang="da">Kontrollerende organisation</msg>
+        <msg lang="fi">Tiedot vahvistava organisaatio</msg>
+        <msg lang="nl">Verifi&#235;rende organisatie</msg>
+        <msg lang="no">Bekreftende organisasjon</msg>
+        <msg lang="sv">Verifierande organisation</msg>
+    </LBL_VERIFYING_ORGANIZATION>
+    <LBL_VERIFICATION_DATETIME>
+        <msg lang="en">Verification DateTime</msg>
+        <msg lang="de">Pr&#252;fdatum</msg>
+        <msg lang="fr">Date de v&#233;rification</msg>
+        <msg lang="it">Data di verifica</msg>
+        <msg lang="es">Fecha de verificaci&#243;n</msg>
+        <msg lang="pt">Data da verifica&#231;&#227;o</msg>
+        <msg lang="da">Kontrol DagTid</msg>
+        <msg lang="fi">Tulosten vahvistusp&#228;iv&#228;m&#228;&#228;r&#228;</msg>
+        <msg lang="nl">Verificatie datum Tijd</msg>
+        <msg lang="no">Bekreftelsesdato</msg>
+        <msg lang="sv">Tidpunkt och datum f&#246;r verifieringen</msg>
+    </LBL_VERIFICATION_DATETIME>
+    <LBL_SAVE>
+        <msg lang="en">Save</msg>
+        <msg lang="de">Speichern</msg>
+        <msg lang="fr">Sauver</msg>
+        <msg lang="it">Salva</msg>
+        <msg lang="es">Guardar</msg>
+        <msg lang="pt">Gravar</msg>
+        <msg lang="da">Gem</msg>
+        <msg lang="fi">Tallenna</msg>
+        <msg lang="nl">Opslaan</msg>
+        <msg lang="no">Lagre</msg>
+        <msg lang="sv">Spara</msg>
+    </LBL_SAVE>
+    <LBL_TOTAL>
+        <msg lang="en">Total</msg>
+        <msg lang="de">Gesamt</msg>
+        <msg lang="fr">Total</msg>
+        <msg lang="it">Totale</msg>
+        <msg lang="es">Total</msg>
+        <msg lang="pt">Total</msg>
+        <msg lang="da">Total</msg>
+        <msg lang="fi">Yhteens&#228;</msg>
+        <msg lang="nl">Totaal</msg>
+        <msg lang="no">Totalt</msg>
+        <msg lang="sv">Totalt</msg>
+    </LBL_TOTAL>
+    <LBL_NODULE>
+        <msg lang="en">Nodule</msg>
+        <msg lang="de">Knoten</msg>
+        <msg lang="fr">Nodule</msg>
+        <msg lang="it">Nodulo</msg>
+        <msg lang="es">N&#243;dulo</msg>
+        <msg lang="pt">N&#243;dulo</msg>
+        <msg lang="da">Noduli</msg>
+        <msg lang="fi">Nodulus</msg>
+        <msg lang="nl">Knoop</msg>
+        <msg lang="no">Klump</msg>
+        <msg lang="sv">Knuta</msg>
+    </LBL_NODULE>
+    <LBL_LUNG>
+        <msg lang="en">Lung</msg>
+        <msg lang="de">Lunge</msg>
+        <msg lang="fr">Poumon</msg>
+        <msg lang="it">Polmone</msg>
+        <msg lang="es">Pulm&#243;n</msg>
+        <msg lang="pt">Pulm&#227;o</msg>
+        <msg lang="da">Lunge</msg>
+        <msg lang="fi">Keuhko</msg>
+        <msg lang="nl">Long</msg>
+        <msg lang="no">Lunge</msg>
+        <msg lang="sv">Lunga</msg>
+    </LBL_LUNG>
+    <LBL_TOTAL_VOLUME>
+        <msg lang="en">Total Volume</msg>
+        <msg lang="de">Gesamtvolumen</msg>
+        <msg lang="fr">Volume total</msg>
+        <msg lang="it">Volume totale</msg>
+        <msg lang="es">Volumen total</msg>
+        <msg lang="pt">Volume total</msg>
+        <msg lang="da">Total volumen</msg>
+        <msg lang="fi">Kokonaistilavuus</msg>
+        <msg lang="nl">Totaal volume</msg>
+        <msg lang="no">Totalvolum</msg>
+        <msg lang="sv">Total volym</msg>
+    </LBL_TOTAL_VOLUME>
+    <LBL_TOTAL_NODULE_VOLUME>
+        <msg lang="en">Total Nodule Volume</msg>
+        <msg lang="de">Gesamtvolumen des Kn&#246;tchens</msg>
+        <msg lang="fr">Volume total du nodule</msg>
+        <msg lang="it">Volume totale del nodulo</msg>
+        <msg lang="es">Volumen total del n&#243;dulo</msg>
+        <msg lang="pt">Volume total do n&#243;dulo</msg>
+        <msg lang="da">Total nodul volumen</msg>
+        <msg lang="fi">Noduluksen kokonaistilavuus</msg>
+        <msg lang="nl">Totale knoopvolume</msg>
+        <msg lang="no">Klumpens totalvolum</msg>
+        <msg lang="sv">Total nodulvolym</msg>
+    </LBL_TOTAL_NODULE_VOLUME>
+    <LBL_SOLID>
+        <msg lang="en">Solid</msg>
+        <msg lang="de">fest</msg>
+        <msg lang="fr">Solide</msg>
+        <msg lang="it">solido</msg>
+        <msg lang="es">S&#243;lido</msg>
+        <msg lang="pt">S&#243;lido</msg>
+        <msg lang="da">Solid</msg>
+        <msg lang="fi">Solidi</msg>
+        <msg lang="nl">Vast</msg>
+        <msg lang="no">Fast</msg>
+        <msg lang="sv">Solid</msg>
+    </LBL_SOLID>
+    <LBL_NONSOLID>
+        <msg lang="en">Non-solid</msg>
+        <msg lang="de">Nicht fest</msg>
+        <msg lang="fr">Non solide</msg>
+        <msg lang="it">Non solido</msg>
+        <msg lang="es">No s&#243;lido</msg>
+        <msg lang="pt">N&#227;o s&#243;lido</msg>
+        <msg lang="da">Ikke-fast</msg>
+        <msg lang="fi">Ei-solidi</msg>
+        <msg lang="nl">Niet vast</msg>
+        <msg lang="no">Ikke-fast</msg>
+        <msg lang="sv">Icke-solid</msg>
+    </LBL_NONSOLID>
+    <LBL_ES_VOLUME>
+        <msg lang="en">ES Volume</msg>
+        <msg lang="de">ES Volume</msg>
+        <msg lang="fr">ES Volume</msg>
+        <msg lang="it">Volume Id</msg>
+        <msg lang="es">ES Volume</msg>
+        <msg lang="pt">ES Volume</msg>
+        <msg lang="da">ES volumen</msg>
+        <msg lang="fi">ES Volyymi</msg>
+        <msg lang="nl">ES volume</msg>
+        <msg lang="no">ES Volume</msg>
+        <msg lang="sv">ES-volym</msg>
+    </LBL_ES_VOLUME>
+    <LBL_ED_VOLUME>
+        <msg lang="en">ED Volume</msg>
+        <msg lang="de">ED Volume</msg>
+        <msg lang="fr">ED Volume</msg>
+        <msg lang="it">ED Volume</msg>
+        <msg lang="es">ED Volume</msg>
+        <msg lang="pt">ED Volume</msg>
+        <msg lang="da">ED volumen</msg>
+        <msg lang="fi">ED-volyymi</msg>
+        <msg lang="nl">ED volume</msg>
+        <msg lang="no">ED Volume</msg>
+        <msg lang="sv">ED-volym</msg>
+    </LBL_ED_VOLUME>
+    <LBL_STROKE_VOLUME>
+        <msg lang="en">SV</msg>
+        <msg lang="de">SV</msg>
+        <msg lang="fr">SV</msg>
+        <msg lang="it">SV</msg>
+        <msg lang="es">SV</msg>
+        <msg lang="pt">SV</msg>
+        <msg lang="da">SV</msg>
+        <msg lang="fi">SV</msg>
+        <msg lang="nl">SV</msg>
+        <msg lang="no">Slagvolum</msg>
+        <msg lang="sv">SV</msg>
+    </LBL_STROKE_VOLUME>
+    <LBL_EJECTION_FRACTION>
+        <msg lang="en">EF</msg>
+        <msg lang="de">EF</msg>
+        <msg lang="fr">EF</msg>
+        <msg lang="it">EF</msg>
+        <msg lang="es">EF</msg>
+        <msg lang="pt">EF</msg>
+        <msg lang="da">EF</msg>
+        <msg lang="fi">EF</msg>
+        <msg lang="nl">EF</msg>
+        <msg lang="no">EF</msg>
+        <msg lang="sv">EF</msg>
+    </LBL_EJECTION_FRACTION>
+    <LBL_WALL_MASS>
+        <msg lang="en">Myocardial Mass</msg>
+        <msg lang="de">Myokardmasse</msg>
+        <msg lang="fr">Masse myocardique</msg>
+        <msg lang="it">Massa miocardica</msg>
+        <msg lang="es">Masa del miocardio</msg>
+        <msg lang="pt">Massa Mioc&#225;rdica</msg>
+        <msg lang="da">Myokardiemasse</msg>
+        <msg lang="fi">Myokardiaalinen massa</msg>
+        <msg lang="nl">Myocardiale massa</msg>
+        <msg lang="no">Myokardisk masse</msg>
+        <msg lang="sv">Myokardiell massa</msg>
+    </LBL_WALL_MASS>
+    <LBL_THICKENING_ANALYSIS>
+        <msg lang="en">Wall Thickening</msg>
+        <msg lang="de">Wandverdickung</msg>
+        <msg lang="fr">&#201;paississement des parois</msg>
+        <msg lang="it">Ispessimento parietale</msg>
+        <msg lang="es">Espesamiento de la pared</msg>
+        <msg lang="pt">Espessura Parede</msg>
+        <msg lang="da">V&#230;gfortykkelse</msg>
+        <msg lang="fi">Sein&#228;m&#228; paksuuntunut</msg>
+        <msg lang="nl">Wandverdikking</msg>
+        <msg lang="no">Veggfortykkelse</msg>
+        <msg lang="sv">V&#228;ggens tjocklek</msg>
+    </LBL_THICKENING_ANALYSIS>
+    <LBL_CARDIAC_OUTPUT>
+        <msg lang="en">CO</msg>
+        <msg lang="de">CO</msg>
+        <msg lang="fr">CO</msg>
+        <msg lang="it">CO</msg>
+        <msg lang="es">CO</msg>
+        <msg lang="pt">CO</msg>
+        <msg lang="da">CO</msg>
+        <msg lang="fi">CO</msg>
+        <msg lang="nl">CO</msg>
+        <msg lang="no">CO</msg>
+        <msg lang="sv">CO</msg>
+    </LBL_CARDIAC_OUTPUT>
+    <LBL_HOUNSFIELD_STATISTICS>
+        <msg lang="en"></msg>
+        <msg lang="de"></msg>
+        <msg lang="fr"></msg>
+        <msg lang="it"></msg>
+        <msg lang="es"></msg>
+        <msg lang="pt"></msg>
+        <msg lang="da"></msg>
+        <msg lang="fi"></msg>
+        <msg lang="nl"></msg>
+        <msg lang="no"></msg>
+        <msg lang="sv"></msg>
+    </LBL_HOUNSFIELD_STATISTICS>
+    <LBL_NA>
+        <msg lang="en">N/A</msg>
+        <msg lang="de">N/A</msg>
+        <msg lang="fr">N/A</msg>
+        <msg lang="it">N/D</msg>
+        <msg lang="es">N/P</msg>
+        <msg lang="pt">N/P</msg>
+        <msg lang="da">A/I</msg>
+        <msg lang="fi">N/A</msg>
+        <msg lang="nl">n.v.t</msg>
+        <msg lang="no">I/A</msg>
+        <msg lang="sv">Ej tillämpligt</msg>
+    </LBL_NA>
+    <LBL_SOFTWARE_VERSION>
+        <msg lang="en">Software Version</msg>
+        <msg lang="de">Software Version</msg>
+        <msg lang="fr">Software Version</msg>
+        <msg lang="it">Software Version</msg>
+        <msg lang="es">Software Version</msg>
+        <msg lang="pt">Software Version</msg>
+        <msg lang="da">Software Version</msg>
+        <msg lang="fi">Software Version</msg>
+        <msg lang="nl">Software Version</msg>
+        <msg lang="no">Software Version</msg>
+        <msg lang="sv">Software Version</msg>
+    </LBL_SOFTWARE_VERSION>
+    <MSG_WRONG_DATE_FORMAT>
+        <msg lang="en">Wrong date format. Please use YYYY-MM-DD!</msg>
+        <msg lang="de">Falsches Datumsformat Bitte JJJJ-MM-TT verwenden!</msg>
+        <msg lang="fr">Format date incorrect. Utiliser le format AAAA-MM-JJ!</msg>
+        <msg lang="it">Formato data errato. Utilizzare il formato AAAA-MM-GG.</msg>
+        <msg lang="es">Formato de fecha err&#243;neo. Use el formato AAAA-MM-DD.</msg>
+        <msg lang="pt">Formato de data incorrecto. Queira utilizar AAAA-MM-DD!</msg>
+        <msg lang="da">Forkert datoformat. Brug venligst &#197;&#197;&#197;&#197;-MM-DD!</msg>
+        <msg lang="fi">V&#228;&#228;r&#228; p&#228;iv&#228;m&#228;&#228;r&#228;n muoto. K&#228;yt&#228; muotoa VVVV-KK-PP!</msg>
+        <msg lang="nl">Verkeerd datumformaat. Gebruik aub. JJJJ-MM_DD</msg>
+        <msg lang="no">Feil datoformat. Bruk formatet &#197;&#197;&#197;&#197;-MM-DD!</msg>
+        <msg lang="sv">Fel datumformat. Anv&#228;nd &#197;&#197;&#197;&#197;-MM-DD!</msg>
+    </MSG_WRONG_DATE_FORMAT>
+    <MSG_LEAVE_BLANK>
+        <msg lang="en">Please enter a valid date or leave blank.</msg>
+        <msg lang="de">Bitte ein g&#252;ltiges Datum eingeben oder leer lassen.</msg>
+        <msg lang="fr">Entrer une date valide ou laisser le champ vide.</msg>
+        <msg lang="it">Inserire una data valida o lasciare vuoto.</msg>
+        <msg lang="es">Escriba una fecha correcta o d&#233;jela en blanco.</msg>
+        <msg lang="pt">Queira inserir uma data v&#225;lida ou deixar em branco.</msg>
+        <msg lang="da">Skal udfyldes med korrekt dato eller efterlades tomt.</msg>
+        <msg lang="fi">Anna oikea p&#228;iv&#228;m&#228;&#228;r&#228; tai j&#228;t&#228; tyhj&#228;ksi.</msg>
+        <msg lang="nl">Voer een geldige datum in, of laat open.</msg>
+        <msg lang="no">Oppgi en gyldig dato, eller la feltet st&#229; tomt</msg>
+        <msg lang="sv">Skriv ett giltigt datum eller l&#228;mna tomt.</msg>
+    </MSG_LEAVE_BLANK>
+    <MSG_FILL_VERIFIER>
+        <msg lang="en">Please fill the \"Verifying Observer\" and \"Verifying Organization\" fields.</msg>
+        <msg lang="de">Bitte die Felder \"Pr&#252;fer\" und \"Pr&#252;feinrichtung\" ausf&#252;llen.</msg>
+        <msg lang="fr">Veuillez remplir les champs \"Charg&#233; de v&#233;rification\" et \"Organisme de v&#233;rification\".</msg>
+        <msg lang="it">Compilare i campi \"Addetto alla verifica\" e \"Ente verificatore\".</msg>
+        <msg lang="es">Complete los campos \"Encargado de verificaci&#243;n\" y \"Organismo de verificaci&#243;n\".</msg>
+        <msg lang="pt">Preencha os campos \"Observador de verifica&#231;&#227;o\" e \"Organismo de verifica&#231;&#227;o\".</msg>
+        <msg lang="da">Venligst udfyld felterne \" Kontrollerende observat&#248;r\" og \"Kontrollerende organisation\".</msg>
+        <msg lang="fi">T&#228;yt&#228; kent&#228;t \"Tiedot vahvistava henkil&#246;\" ja \"Tiedot vahvistava organisaatio\".</msg>
+        <msg lang="nl">Vul aub. de velden in voor \"Verifi&#235;rende waarnemer\" en \"Verifi&#235;rende organisatie\"</msg>
+        <msg lang="no">Feltene \"Bekreftende observat&#248;r\" og \"Bekreftende organisasjon\" m&#229; fylles ut.</msg>
+        <msg lang="sv">Fyll i f&#228;lten\"Verifierande observat&#246;r\" och \"Verifierande organisation\".</msg>
+    </MSG_FILL_VERIFIER>
+    <MSG_CSV_NOT_SUPPORTED>
+        <msg lang="en">Comma Separated Value(s) format is not supported for this type of report.</msg>
+        <msg lang="de">Das durch Komma getrennte Werte Format wird f&#252;r diesen Berichttyp nicht unterst&#252;tzt.</msg>
+        <msg lang="fr">Ce type de rapport n'accepte pas les virgules comme s&#233;parateur de texte.</msg>
+        <msg lang="it">Il formato Valori separati da virgola non &#232; supportato per questo tipo di referto.</msg>
+        <msg lang="es">No puede utilizarse el formato de separaci&#243;n con comas en este tipo de informe.</msg>
+        <msg lang="pt">Formato de Valor(es) Separado(s) por V&#237;rgula n&#227;o &#233; suportado neste tipo de relat&#243;rio.</msg>
+        <msg lang="da">Kommaseparerede v&#230;rdi(er) format underst&#248;dtes ikke af denne rapporttype.</msg>
+        <msg lang="fi">T&#228;lle raporttityyppille ei tueta pilkulla erotettu(j)a arvo(j)a.</msg>
+        <msg lang="nl">Comma Separated Value(s) formaat wordt voor dit type rapport niet ondersteund.</msg>
+        <msg lang="no">Kommaseparerte verdier st&#248;ttes ikke for denne typen rapport.</msg>
+        <msg lang="sv">V&#228;rden som inneh&#229;ller kommatecken st&#246;ds inte av denna typ av rapport.</msg>
+    </MSG_CSV_NOT_SUPPORTED>
+    <MSG_PATIENT_IDENTIFICATION_MISSING>
+        <msg lang="en">Warning: This report does not contain patient identification information. Do not use for diagnostic or clinical purposes.</msg>
+        <msg lang="de">Achtung: Dieser Bericht enth&#228;lt keine Patientendaten. Nicht zur Diagnose oder f&#252;r klinische Zwecke verwenden.</msg>
+        <msg lang="fr">Avertissement : ce rapport ne contient pas les informations d'identification du patient. Ne l'utilisez pas &#224; des fins diagnostiques ou cliniques.</msg>
+        <msg lang="it">Attenzione: questo report  non contiene informazione sull'identificazione del paziente. Non usare per scopi diagnostici o clinici</msg>
+        <msg lang="es">Atenci&#243;n: Este informe no contiene informaci&#243;n de identificaci&#243;n del paciente. No debe usarse con prop&#243;sito cl&#237;nico o de diagn&#243;stico.</msg>
+        <msg lang="pt">Aviso: este relat&#243;rio n&#227;o cont&#233;m informa&#231;&#245;es para a identifica&#231;&#227;o do paciente. N&#227;o o utilize para fins cl&#237;nicos ou diagn&#243;sticos.</msg>
+        <msg lang="da">Advarsel: Denne rapport indeholder ikke patientidentifikationsoplysninger. M&#229; ikke anvendes til diagnostiske eller kliniske form&#229;l</msg>
+        <msg lang="fi">Varoitus: T&#228;ss&#228; raportissa ei ole potilaan tunnistustietoja. Ei saa k&#228;ytt&#228;&#228; diagnostisiin tai kliinisiin tarkoituksiin.</msg>
+        <msg lang="nl">Waarschuwing: Dit rapport bevat geen pati&#235;ntidentificatie-informatie. Niet gebruiken voor diagnostische of klinische doeleinden.</msg>
+        <msg lang="no">Advarsel: Denne rapporten inneholder ikke informasjon som kan identifisere pasienten. M&#229; ikke brukes til diagnoseform&#229;l eller kliniske form&#229;l.</msg>
+        <msg lang="sv">Varning: Den h&#228;r rapporten inneh&#229;ller inte information som identifierar patienten. Anv&#228;nd ej i diagnostiskt eller kliniskt syfte.</msg>
+    </MSG_PATIENT_IDENTIFICATION_MISSING>
+    <MSG_NOT_FOR_CLINICAL_USE>
+        <msg lang="en">NOT for clinical use !</msg>
+        <msg lang="de">NICHT zur klinischen Verwendung</msg>
+        <msg lang="fr">N'est PAS &#224; usage clinique !</msg>
+        <msg lang="it">Non adatto per uso clinico!</msg>
+        <msg lang="es">&#161;No para uso cl&#237;nico!</msg>
+        <msg lang="pt">N&#195;O utilize para fins cl&#237;nicos!</msg>
+        <msg lang="da">IKKE til klinisk brug!</msg>
+        <msg lang="fi">EI kliiniseen k&#228;ytt&#246;&#246;n!</msg>
+        <msg lang="nl">NIET voor klinische doeleinden!</msg>
+        <msg lang="no">IKKE for klinisk bruk!</msg>
+        <msg lang="sv">EJ i kliniskt syfte.</msg>
+    </MSG_NOT_FOR_CLINICAL_USE>
+    
+    <LBL_LEFT_RIGHT>
+        <item name="Right">
+            <msg lang="en">Right</msg>
+            <msg lang="de">Rechts</msg>
+            <msg lang="fr">Droite</msg>
+            <msg lang="it">Destro</msg>
+            <msg lang="es">Derecho</msg>
+            <msg lang="pt">Direita</msg>
+            <msg lang="da">H&#248;jre</msg>
+            <msg lang="fi">Oikea</msg>
+            <msg lang="nl">Rechts</msg>
+            <msg lang="no">H&#248;yre</msg>
+            <msg lang="sv">R&#228;tt</msg>
+        </item>
+        <item name="Left">
+            <msg lang="en">Left</msg>
+            <msg lang="de">Links</msg>
+            <msg lang="fr">Gauche</msg>
+            <msg lang="it">Sinistro</msg>
+            <msg lang="es">Izquierdo</msg>
+            <msg lang="pt">Esquerda</msg>
+            <msg lang="da">Venstre</msg>
+            <msg lang="fi">Vasen</msg>
+            <msg lang="nl">Links</msg>
+            <msg lang="no">Venstre</msg>
+            <msg lang="sv">V&#228;nster</msg>
+        </item>
+    </LBL_LEFT_RIGHT>
+    <LBL_MEASUREMENT>
+        <msg lang="en">Measurement</msg>
+        <msg lang="de">Messung</msg>
+        <msg lang="fr">Mesure</msg>
+        <msg lang="it">Misura</msg>
+        <msg lang="es">Medici&#243;n</msg>
+        <msg lang="pt">Medida</msg>
+        <msg lang="da">M&#229;l</msg>
+        <msg lang="fi">Mittaustulos</msg>
+        <msg lang="nl">Meting</msg>
+        <msg lang="no">M&#229;ling</msg>
+        <msg lang="sv">M&#228;tning</msg>
+    </LBL_MEASUREMENT>
+    <LBL_VALUE>
+        <msg lang="en">Value</msg>
+        <msg lang="de">Wert</msg>
+        <msg lang="fr">Valeur</msg>
+        <msg lang="it">Valore</msg>
+        <msg lang="es">Valor</msg>
+        <msg lang="pt">Valor</msg>
+        <msg lang="da">V&#230;rdi</msg>
+        <msg lang="fi">Arvo</msg>
+        <msg lang="nl">Waarde</msg>
+        <msg lang="no">Verdi</msg>
+        <msg lang="sv">V&#228;rde</msg>
+    </LBL_VALUE>
+    <LBL_SEE_IRRADIATION_IN_LONG>
+        <msg lang="en">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="de">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="fr">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="it">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="es">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="pt">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="da">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="fi">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="nl">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="no">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+        <msg lang="sv">NOTE: You can see 'Irradiation Event X-Ray Data' in Long report!</msg>
+    </LBL_SEE_IRRADIATION_IN_LONG>
+
+    <SOPClasses>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.1" name="Computed Radiography Image" abbrev="CR Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.1.1" name="Digital X-Ray Image" abbrev="DX Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.1.2" name="Digital Mammography X-Ray Image" abbrev="MG Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.1.2.1" name="Digital Mammography X-Ray Image" abbrev="MG Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.2" name="Computed Tomography Image" abbrev="CT Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.3.1" name="Ultrasound Multi-frame Image" abbrev="US Multi-frame Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.4" name="Magnetic Resonance Image" abbrev="MR Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.4.1" name="Enhanced Magnetic Resonance Image" abbrev="Enhanced MR Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.4.2" name="Magnetic Resonance Spectroscopy Image" abbrev="MR Spectroscopy Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.6" name="Ultrasound Image (RETIRED)" abbrev="US Image (retired)"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.6.1" name="Ultrasound Image" abbrev="US Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.7" name="Secondary Capture Image" abbrev="SC Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.9.1.1" name="12-lead ECG Waveform" abbrev="12-lead ECG Waveform"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.9.2.1" name="Hemodynamic Waveform" abbrev="Hemodynamic Waveform"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.9.3.1" name="Cardiac Electrophysiology Waveform" abbrev="Cardiac Electrophysiology Waveform"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.9.4.1" name="Basic Voice Audio Waveform" abbrev="Basic Voice Audio Waveform"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.12.1" name="X-Ray Angiographic Image" abbrev="XA Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.20" name="Nuclear Medicine Image" abbrev="NM Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.11" name="Basic Text SR" abbrev="Basic Text SR"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.22" name="Enhanced SR" abbrev="Enhanced SR"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.33" name="Comprehensive SR" abbrev="Comprehensive SR"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.40" name="Procedure Log Storage" abbrev="Procedure Log"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.50" name="Mammography CAD SR" abbrev="Mammography CAD SR"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.59" name="Key Object Selection Document" abbrev="Key Object Selection"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.88.65" name="Chest CAD SR" abbrev="Chest CAD SR"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.128" name="Positron Emission Tomography Image" abbrev="PT Image"></SOPClass>
+
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.481.1" name="Radiotherapy Image" abbrev="RT Image"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.481.2" name="Radiotherapy Dose" abbrev="RT Dose"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.481.3" name="Radiotherapy Structure Set" abbrev="RT Structure Set"></SOPClass>
+        <SOPClass uid="1.2.840.10008.5.1.4.1.1.481.5" name="Radiotherapy Plan" abbrev="RT Plan"></SOPClass>
+    </SOPClasses>
+
+    <Months>
+        <item value="1">
+            <msg lang="en">January</msg>
+            <msg lang="de">Januar</msg>
+            <msg lang="fr">Janvier</msg>
+            <msg lang="it">gennaio</msg>
+            <msg lang="es">Enero</msg>
+            <msg lang="pt">Janeiro</msg>
+            <msg lang="da">januar</msg>
+            <msg lang="fi">Tammikuu</msg>
+            <msg lang="nl">Januari</msg>
+            <msg lang="no">Januar</msg>
+            <msg lang="sv">januari</msg>
+        </item>
+        <item value="2">
+            <msg lang="en">February</msg>
+            <msg lang="de">Februar</msg>
+            <msg lang="fr">F&#233;vrier</msg>
+            <msg lang="it">febbraio</msg>
+            <msg lang="es">Febrero</msg>
+            <msg lang="pt">Fevereiro</msg>
+            <msg lang="da">februar</msg>
+            <msg lang="fi">Helmikuu</msg>
+            <msg lang="nl">Februari</msg>
+            <msg lang="no">Februar</msg>
+            <msg lang="sv">februari</msg>
+        </item>
+        <item value="3">
+            <msg lang="en">March</msg>
+            <msg lang="de">M&#228;rz</msg>
+            <msg lang="fr">Mars</msg>
+            <msg lang="it">marzo</msg>
+            <msg lang="es">Marzo</msg>
+            <msg lang="pt">Mar&#231;o</msg>
+            <msg lang="da">marts</msg>
+            <msg lang="fi">Maaliskuu</msg>
+            <msg lang="nl">Maart</msg>
+            <msg lang="no">Mars</msg>
+            <msg lang="sv">mars</msg>
+        </item>
+        <item value="4">
+            <msg lang="en">April</msg>
+            <msg lang="de">April</msg>
+            <msg lang="fr">Avril</msg>
+            <msg lang="it">aprile</msg>
+            <msg lang="es">Abril</msg>
+            <msg lang="pt">Abril</msg>
+            <msg lang="da">april</msg>
+            <msg lang="fi">Huhtikuu</msg>
+            <msg lang="nl">April</msg>
+            <msg lang="no">April</msg>
+            <msg lang="sv">april</msg>
+        </item>
+        <item value="5">
+            <msg lang="en">May</msg>
+            <msg lang="de">Mai</msg>
+            <msg lang="fr">Mai</msg>
+            <msg lang="it">maggio</msg>
+            <msg lang="es">Mayo</msg>
+            <msg lang="pt">Maio</msg>
+            <msg lang="da">maj</msg>
+            <msg lang="fi">Toukokuu</msg>
+            <msg lang="nl">Mei</msg>
+            <msg lang="no">Mai</msg>
+            <msg lang="sv">maj</msg>
+        </item>
+        <item value="6">
+            <msg lang="en">June</msg>
+            <msg lang="de">Juni</msg>
+            <msg lang="fr">Juin</msg>
+            <msg lang="it">giugno</msg>
+            <msg lang="es">Junio</msg>
+            <msg lang="pt">Junho</msg>
+            <msg lang="da">juni</msg>
+            <msg lang="fi">Kes&#228;kuu</msg>
+            <msg lang="nl">Juni</msg>
+            <msg lang="no">Juni</msg>
+            <msg lang="sv">juni</msg>
+        </item>
+        <item value="7">
+            <msg lang="en">July</msg>
+            <msg lang="de">Juli</msg>
+            <msg lang="fr">Juillet</msg>
+            <msg lang="it">luglio</msg>
+            <msg lang="es">Julio</msg>
+            <msg lang="pt">Julho</msg>
+            <msg lang="da">juli</msg>
+            <msg lang="fi">Hein&#228;kuu</msg>
+            <msg lang="nl">Juli</msg>
+            <msg lang="no">Juli</msg>
+            <msg lang="sv">juli</msg>
+        </item>
+        <item value="8">
+            <msg lang="en">August</msg>
+            <msg lang="de">August</msg>
+            <msg lang="fr">Ao&#251;t</msg>
+            <msg lang="it">agosto</msg>
+            <msg lang="es">Agosto</msg>
+            <msg lang="pt">Agosto</msg>
+            <msg lang="da">august</msg>
+            <msg lang="fi">Elokuu</msg>
+            <msg lang="nl">Augustus</msg>
+            <msg lang="no">August</msg>
+            <msg lang="sv">augusti</msg>
+        </item>
+        <item value="9">
+            <msg lang="en">September</msg>
+            <msg lang="de">September</msg>
+            <msg lang="fr">Septembre</msg>
+            <msg lang="it">settembre</msg>
+            <msg lang="es">Septiembre</msg>
+            <msg lang="pt">Setembro</msg>
+            <msg lang="da">september</msg>
+            <msg lang="fi">Syyskuu</msg>
+            <msg lang="nl">September</msg>
+            <msg lang="no">September</msg>
+            <msg lang="sv">september</msg>
+        </item>
+        <item value="10">
+            <msg lang="en">October</msg>
+            <msg lang="de">Oktober</msg>
+            <msg lang="fr">Octobre</msg>
+            <msg lang="it">ottobre</msg>
+            <msg lang="es">Octumbre</msg>
+            <msg lang="pt">Outubro</msg>
+            <msg lang="da">oktober</msg>
+            <msg lang="fi">Lokakuu</msg>
+            <msg lang="nl">Oktober</msg>
+            <msg lang="no">Oktober</msg>
+            <msg lang="sv">oktober</msg>
+        </item>
+        <item value="11">
+            <msg lang="en">November</msg>
+            <msg lang="de">November</msg>
+            <msg lang="fr">Novembre</msg>
+            <msg lang="it">novembre</msg>
+            <msg lang="es">Noviembre</msg>
+            <msg lang="pt">Novembro</msg>
+            <msg lang="da">november</msg>
+            <msg lang="fi">Marraskuu</msg>
+            <msg lang="nl">November</msg>
+            <msg lang="no">November</msg>
+            <msg lang="sv">november</msg>
+        </item>
+        <item value="12">
+            <msg lang="en">December</msg>
+            <msg lang="de">Dezember</msg>
+            <msg lang="fr">D&#233;cembre</msg>
+            <msg lang="it">dicembre</msg>
+            <msg lang="es">Diciembre</msg>
+            <msg lang="pt">Dezembro</msg>
+            <msg lang="da">december</msg>
+            <msg lang="fi">Joulukuu</msg>
+            <msg lang="nl">December</msg>
+            <msg lang="no">Desember</msg>
+            <msg lang="sv">december</msg>
+        </item>
+    </Months>
+
+<!-- ====================================================================================================
+    Coded entries
+-->
+
+    <codes>
+<!-- DCM Coding Scheme -->
+        <code csd="DCM" cv="121080">
+            <msg lang="en">Best Illustration of finding</msg>
+            <msg lang="de">Beste Abbildung des Findens</msg>
+            <msg lang="fr">La meilleure illustration de la conclusion</msg>
+            <msg lang="it">Illustrazione migliore di individuazione</msg>
+            <msg lang="es">La mejor ilustraci&#243;n de encontrar</msg>
+            <msg lang="pt">A melhor ilustra&#231;&#227;o de encontrar</msg>
+            <msg lang="da">Bedste illustration af resultat</msg>
+            <msg lang="fi">Paras kuvaus l&#246;yd&#246;ksest&#228;</msg>
+            <msg lang="nl">Beste omschrijving van bevindingen</msg>
+            <msg lang="no">Beste illustrasjon av resulta</msg>
+            <msg lang="sv">B&#228;st illustration av fynd</msg>
+        </code>
+<!-- SNM3 Coding Scheme -->
+        <code csd="SNM3" cv="G-A166">
+            <msg lang="en">Area</msg>
+            <msg lang="de">Fl&#228;che</msg>
+            <msg lang="fr">Zone</msg>
+            <msg lang="it">Zona</msg>
+            <msg lang="es">&#193;rea</msg>
+            <msg lang="pt">&#193;rea</msg>
+            <msg lang="da">Omr&#229;de</msg>
+            <msg lang="fi">Alue</msg>
+            <msg lang="nl">Gebied</msg>
+            <msg lang="no">Omr&#229;de</msg>
+            <msg lang="sv">Omr&#229;de</msg>
+        </code>
+<!-- UCUM Coding Scheme -->
+        <code csd="UCUM" ver="1.4" cv="mm3">
+            <msg lang="en">Cubic millimeter</msg>
+            <msg lang="de">Cubic millimeter</msg>
+            <msg lang="fr">Cubic millimeter</msg>
+            <msg lang="it">Millimetri cubici</msg>
+            <msg lang="es">Cubic millimeter</msg>
+            <msg lang="pt">Mil&#237;metro c&#250;bico</msg>
+            <msg lang="da">Kubikmillimeter</msg>
+            <msg lang="fi">Kuutiomillimetri</msg>
+            <msg lang="nl">Kubieke millimeter</msg>
+            <msg lang="no">Kubikkmillimeter</msg>
+            <msg lang="sv">Kubikmillimeter</msg>
+        </code>
+        <code csd="UCUM" ver="1.4" cv="cm3">
+            <msg lang="en">Cubic centimeter</msg>
+            <msg lang="de">Cubic centimeter</msg>
+            <msg lang="fr">Cubic centimeter</msg>
+            <msg lang="it">Centimetri cubici</msg>
+            <msg lang="es">Cubic centimeter</msg>
+            <msg lang="pt">Cent&#237;metro c&#250;bico</msg>
+            <msg lang="da">Kubikcentimeter</msg>
+            <msg lang="fi">Kuutiosenttimetri</msg>
+            <msg lang="nl">Kubieke centimeter</msg>
+            <msg lang="no">Kubikkcentimeter</msg>
+            <msg lang="sv">Kubikcentimeter</msg>
+        </code>
+<!-- 99GEMS Coding Scheme -->
+        <code csd="99GEMS" cv="AW-VA0007">
+            <msg lang="en">Measurement Name</msg>
+            <msg lang="de">Messen-Name</msg>
+            <msg lang="fr">Nom de Mesure</msg>
+            <msg lang="it">Nome di Misura</msg>
+            <msg lang="es">Nombre de la Medida</msg>
+            <msg lang="pt">Nome da Medida</msg>
+            <msg lang="da">M&#229;lingensnavn</msg>
+            <msg lang="fi">Mittauksen nimi</msg>
+            <msg lang="nl">Naam meetwaarneming</msg>
+            <msg lang="no">Navn p&#229; m&#229;ling</msg>
+            <msg lang="sv">M&#228;tningens namn</msg>
+        </code>
+    </codes>
+
+    <unknown>
+        <msg lang="en">unknown</msg>
+        <msg lang="de">unbekannt</msg>
+        <msg lang="fr">inconnu</msg>
+        <msg lang="it">sconosciuto</msg>
+        <msg lang="es">desconocido</msg>
+        <msg lang="pt">desconhecido</msg>
+        <msg lang="da">ubekendt</msg>
+        <msg lang="fi">tuntematon</msg>
+        <msg lang="nl">onbekend</msg>
+        <msg lang="no">ukjent</msg>
+        <msg lang="sv">ok&#228;nt</msg>
+    </unknown>
+
+</Messages>

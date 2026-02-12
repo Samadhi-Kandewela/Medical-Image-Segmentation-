@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- ####################################################################################################
+    DICOM Value Representations (VR)
+-->
+
+<VRs>
+    <vr id="AE" name="Application Entity" length="16"/>
+    <vr id="AS" name="Age String" length="4"/>
+    <vr id="AT" name="Attribute Tag" length="4"/>
+    <vr id="CS" name="Code String" length="16"/>
+    <vr id="DA" name="Date" length="8"/>
+    <vr id="DS" name="Decimal String" length="16"/>
+    <vr id="DT" name="Date Time" length="26"/>
+    <vr id="FL" name="Floating Point Single" length="4"/>
+    <vr id="FD" name="Floating Point Double" length="8"/>
+    <vr id="IS" name="Integer String" length="12"/>
+    <vr id="LO" name="Long String" length="64"/>
+    <vr id="LT" name="Long Text" length="1024"/>
+    <vr id="OB" name="Other Byte String" length="?"/>
+</VRs>

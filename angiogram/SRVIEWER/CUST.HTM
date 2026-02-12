@@ -1,0 +1,57 @@
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>TemplateCustomizer Applet</TITLE>
+</HEAD>
+<BODY style="background-color: #BABECC;" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" >
+
+<!-- This part is for IE -->
+<!-- Use the same ARCHIVE parameter for both applet to have the same plug-in class loader -->
+<OBJECT
+    classid = "clsid:CAFEEFAC-0015-0000-FFFF-ABCDEFFEDCBA"
+    codebase = "http://java.sun.com/update/1.5.0/jinstall-1_5_0_22-windows-i586.cab"
+    NAME        = "TemplateCustomizerApplet"
+    WIDTH       = "100%"
+    HEIGHT      = "100%"
+    ALIGN       = middle
+    VSPACE      = 0
+    HSPACE      = 0 >
+    <PARAM name = CODE value = "rpttool.customizer.TemplateCustomizerApplet.class" >
+    <PARAM name = CODEBASE value = "JARS" >
+    <PARAM name = ARCHIVE value = "RPTTOOL.JAR,JDT.JAR,SRJDOM.JAR,PTK2.JAR,FOP.JAR,XALAN.JAR,AVALON.JAR,BATIK.JAR" >
+    <PARAM name = "type" value = "application/x-java-applet;version=1.5"
+    <PARAM name = "progressbar" value = "true">
+    <PARAM name = "progresscolor" value = "#6877A0">
+    <PARAM name = "boxbgcolor" value = "#BABECC">
+    <PARAM name = "scriptable" value = "true">
+
+    <COMMENT>
+
+<!-- This part is for Netscape -->
+<!-- Use the same ARCHIVE parameter for both applet to have the same plug-in class loader -->
+    <EMBED
+        type            = "application/x-java-applet;version=1.5"
+        CODE            = "rpttool.customizer.TemplateCustomizerApplet.class"
+        JAVA_CODEBASE   = "JARS"
+        ARCHIVE         = "RPTTOOL.JAR,JDT.JAR,SRJDOM.JAR,PTK2.JAR,FOP.JAR,XALAN.JAR,AVALON.JAR,BATIK.JAR"
+        NAME            = "TemplateCustomizerApplet"
+        WIDTH           = "100%"
+        HEIGHT          = "100%"
+        ALIGN           = middle
+        VSPACE          = 0
+        HSPACE          = 0
+        progressbar     = true
+	    progresscolor   = "#6875A3"
+	    boxbgcolor      = "#BABECC"
+        scriptable      = true
+        pluginspage     = "http://java.sun.com/products/plugin/index.html#download">
+        <NOEMBED>
+        </NOEMBED>
+    </EMBED>
+
+    </COMMENT>
+</OBJECT>
+
+</BODY>
+</HTML>

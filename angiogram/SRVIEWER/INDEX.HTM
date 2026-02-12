@@ -1,0 +1,39 @@
+<HTML>
+    <HEAD>
+
+<script language="JavaScript">
+<!--
+	// Let 1 pixel for Robot mouse movements.
+    window.screenX=1;
+    window.screenY=0;
+    window.outerWidth=1280;
+    window.outerHeight=1024;
+//-->
+</script>
+
+<TITLE>Reporting Tool</TITLE>
+    </HEAD>
+<!-- P3 CUI color for borders -->
+    <FRAMESET id="mainFrame" cols="20%, *" border="3" framespacing="3" bordercolor="#BABECC">
+        <FRAME style="min-width: 20%"
+               id           = "rptToolFrame"
+               name         = "rptToolFrame"
+               src          = "RPTTOOL.HTM"
+               scrolling    = "no"
+               frameborder  = "0"
+               marginheight = "0"
+               marginwidth  = "0"/>
+
+        <FRAME style="min-width: 20%"
+               id           = "reportFrame"
+               name         = "reportFrame"
+               src          = "INFO.HTM"
+               scrolling    = "auto"
+               frameborder  = "1"
+               marginheight = "5"
+               marginwidth  = "5"/>
+        <NOFRAMES>
+            <P>Your browser doesn't support frames.
+        </NOFRAMES>
+    </FRAMESET>
+</HTML>
