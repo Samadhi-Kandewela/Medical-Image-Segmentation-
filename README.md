@@ -2,13 +2,9 @@
 
 This project implements a high-performance deep learning framework for real-time angiography segmentation. It includes a **State-of-the-Art SegFormer Teacher** model and a **Lightweight MobileUNet Student** model.
 
-## 🚀 Quick Start (For Collaborators)
-
-If you are running this on a new machine (e.g., a friend's GPU laptop), follow these steps carefully.
-
 ### 1. Requirements
-*   **Python 3.8+**
-*   **NVIDIA GPU** (RTX 3060 or better recommended for SegFormer)
+*   Python 3.8+
+*   NVIDIA GPU (RTX 3060 or better recommended for SegFormer)
 *   CUDA Toolkit installed
 
 ### 2. Setup Environment
@@ -27,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Dataset Setup
-1.  **Download** the dataset (ARCADE or similar).
+1.  **Download** the dataset.
 2.  **Extract** it into a folder named `dataset` in the project root.
 3.  Structure should look like this:
     ```
@@ -42,7 +38,7 @@ pip install -r requirements.txt
     ```
 
 ### 4. Running the Training (The "Heavy" Job)
-To train the **SegFormer-B4 Teacher** (Best Accuracy):
+To train the **SegFormer-B4 Teacher** :
 
 ```bash
 python src/train_teacher_transformer.py --epochs 30 --batch-size 4 --data-dir dataset
@@ -50,12 +46,15 @@ python src/train_teacher_transformer.py --epochs 30 --batch-size 4 --data-dir da
 *   **Note**: If you get "Out of Memory" (OOM) errors, reduce `--batch-size` to `2`.
 *   **Checkpoints**: The model will be saved to `checkpoints/teacher_transformer/teacher_transformer_best.pth`.
 
-### 5. Running the Demo (Visualize Results)
-Once you have a trained model (or checkpoint), you can run the interactive demo:
+```
+
+### 5. Running the Student Training (Knowledge Distillation)
+After the Teacher is trained (or if you have the `checkpoints/teacher_transformer/teacher_transformer_best.pth` file), you can train the **Student (MobileUNet-v3)**:
 
 ```bash
-streamlit run src/demo_app.py
+python src/train_distillation.py --teacher checkpoints/teacher_transformer/teacher_transformer_best.pth --epochs 50 --batch-size 8 --data-dir dataset
 ```
+*   **Result**: This creates the fast, lightweight model in `checkpoints/student_distilled/`.
 
 ## Repository Structure
 *   `src/train_teacher_transformer.py`: Training script for SOTA SegFormer.
