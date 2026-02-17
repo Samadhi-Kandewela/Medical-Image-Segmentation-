@@ -37,7 +37,7 @@ pip install -r requirements.txt
     └── ...
     ```
 
-### 4. Running the Training (The "Heavy" Job)
+### 4. Running the Training 
 To train the **SegFormer-B4 Teacher** :
 
 ```bash
@@ -48,7 +48,7 @@ python src/train_teacher_transformer.py --epochs 30 --batch-size 4 --data-dir da
 
 ```
 
-### 5. Running the Student Training (Knowledge Distillation)
+**### 5. Running the Student Training (Knowledge Distillation)**
 After the Teacher is trained (or if you have the `checkpoints/teacher_transformer/teacher_transformer_best.pth` file), you can train the **Student (MobileUNet-v3)**:
 
 ```bash
