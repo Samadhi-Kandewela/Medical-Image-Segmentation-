@@ -60,4 +60,33 @@ python src/train_distillation.py --teacher checkpoints/teacher_transformer/teach
 *   `src/train_teacher_transformer.py`: Training script for SOTA SegFormer.
 *   `src/model_lightweight.py`: Definitions for MobileUNet-v3 (Student).
 *   `src/train_distillation.py`: Script to distill knowledge from Teacher to Student.
+*   `src/desktop_app.py`: **PyQt5 Real-Time Segmentation Viewer** (Desktop GUI).
 *   `src/benchmark.py`: Tools to measure latency and FPS.
+
+### 6. Running the Desktop App (Real-Time Viewer)
+
+The desktop app is a native PyQt5 application that streams video and shows real-time segmentation overlays.
+
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Run the app:**
+```bash
+python src/desktop_app.py
+```
+
+**How to use:**
+1. Click **📂 Open Video** to select an angiogram video file (`.mp4`, `.avi`, `.mov`).
+2. Click **🧠 Load Model** to select your trained model (`.onnx` or `.pth`).
+3. Adjust the **Threshold** slider to control segmentation sensitivity (default: 0.50).
+4. Choose an **Overlay Color** (Green, Red, Blue, Yellow).
+5. Click **▶ Play** to start real-time streaming and segmentation.
+6. Use **⏸ Pause** and **⏹ Stop** to control playback.
+
+**UI Features:**
+- **Dual Panels**: Original video frame on the left, AI segmentation overlay on the right.
+- **Real-Time Metrics**: Live FPS and Latency (ms) displayed below the panels.
+- **Dark Theme**: Professional dark interface.
+- **Supports ONNX & PyTorch**: Use `.onnx` models for maximum speed or `.pth` checkpoints directly.

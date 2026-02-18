@@ -1,3 +1,5 @@
+import segmentation_models_pytorch as smp
+
 import argparse
 import logging
 import os
@@ -8,7 +10,7 @@ import torch.nn.functional as F
 from torch import optim
 from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
-from torchvision import models
+# from torchvision import models # DeepLab Not needed anymore
 
 from dataset import SegmentationDataset
 from model_lightweight import MobileUNetv3
@@ -30,10 +32,6 @@ class DistillationLoss(nn.Module):
         # Soften probabilities with temperature
         student_soft = F.log_softmax(student_logits / self.temperature, dim=1)
         teacher_soft = F.softmax(teacher_logits / self.temperature, dim=1)
-        
-        # Since we have binary segmentation (1 channel output), we need to be careful with Softmax/KL
-        # Standard KL is for multi-class. For binary, logits are usually (B, 1, H, W).
-        # We can treat it as 2 classes (Background, Foreground) for KL divergence.
         
         # Expand to 2 channels for KL
         student_2ch = torch.cat([-student_logits, student_logits], dim=1) # (B, 2, H, W)
@@ -57,11 +55,14 @@ def train_distillation(teacher_path, data_dir, epochs=50, batch_size=8, lr=1e-4,
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
     val_loader = DataLoader(val_set, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=True, drop_last=True)
 
-    # 2. Load Teacher (Frozen)
-    logging.info(f"Loading Teacher from {teacher_path}...")
-    teacher = models.segmentation.deeplabv3_resnet101(weights=None)
-    teacher.classifier[4] = nn.Conv2d(256, 1, kernel_size=1)
-    teacher.aux_classifier[4] = nn.Conv2d(256, 1, kernel_size=1)
+    # 2. Load Teacher (SegFormer-B4)
+    logging.info(f"Loading Teacher (SegFormer) from {teacher_path}...")
+    teacher = smp.Segformer(
+        encoder_name="mit_b4",
+        encoder_weights=None, # Loading custom weights anyway
+        in_channels=3,
+        classes=1,
+    )
     teacher.load_state_dict(torch.load(teacher_path, map_location=device))
     teacher.to(device)
     teacher.eval()
@@ -91,7 +92,8 @@ def train_distillation(teacher_path, data_dir, epochs=50, batch_size=8, lr=1e-4,
 
                 # Teacher inference (No Grad)
                 with torch.no_grad():
-                    teacher_out = teacher(imgs)['out']
+                    # SegFormer returns tensor directly, not dict
+                    teacher_out = teacher(imgs)
                 
                 # Student inference
                 student_out = student(imgs)
@@ -144,6 +146,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     try:
-        train_distillation(args.teacher, epochs=args.epochs, batch_size=args.batch_size, lr=args.lr, data_dir=args.data_dir)
+        train_distillation(args.teacher, data_dir=args.data_dir, epochs=args.epochs, batch_size=args.batch_size, lr=args.lr)
     except KeyboardInterrupt:
         sys.exit(0)

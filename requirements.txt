@@ -8,3 +8,4 @@ streamlit
 onnxruntime
 imageio
 pillow
+PyQt5
