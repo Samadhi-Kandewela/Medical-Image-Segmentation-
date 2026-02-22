@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import models
 from torchvision import models
-from torchvision.models.segmentation import deeplabv3_mobilenet_v3_large
+from torchvision.models.segmentation import deeplabv3_mobilenet_v3_large, deeplabv3_resnet101
 from torchvision.models import mobilenet_v3_large
 
 class ChannelAttention(nn.Module):
@@ -461,7 +461,7 @@ class MobileUNetv3(nn.Module):
         d5 = self.att5(d5)
         
         out = self.final_conv(d5)
-        return out
+        return {'out': out, 'features': x_4}
 
 class DeepLabV3Plus(nn.Module):
     """
@@ -496,6 +496,25 @@ class DeepLabV3Plus(nn.Module):
         output = self.model(x)['out']
         return output
 
+class DeepLabV3ResNet(nn.Module):
+    """
+    DeepLabV3 with standard ResNet101 Backbone.
+    Heavy Teacher Model.
+    """
+    def __init__(self, n_classes, pretrained=True):
+        super(DeepLabV3ResNet, self).__init__()
+        self.model = deeplabv3_resnet101(pretrained=pretrained)
+        
+        in_channels = 256 # DeepLabV3 ResNet101 classifier hidden dim
+        self.model.classifier[4] = nn.Conv2d(in_channels, n_classes, kernel_size=1)
+        
+        if self.model.aux_classifier is not None:
+             self.model.aux_classifier = None
+
+    def forward(self, x):
+        output = self.model(x)['out']
+        return output
+
 def get_model(model_name='unet', n_channels=3, n_classes=1):
     if model_name == 'dscunet':
         return DSCUNet(n_channels, n_classes)
@@ -509,6 +528,8 @@ def get_model(model_name='unet', n_channels=3, n_classes=1):
         return MobileUNetv3(n_classes)
     elif model_name == 'deeplabv3':
         return DeepLabV3Plus(n_classes)
+    elif model_name == 'deeplabv3_resnet':
+        return DeepLabV3ResNet(n_classes)
     else:
         return None
 

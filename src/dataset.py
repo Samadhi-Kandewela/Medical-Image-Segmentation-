@@ -4,7 +4,8 @@ import cv2
 import numpy as np
 import torch
 from torch.utils.data import Dataset
-from torchvision import transforms
+import albumentations as A
+from albumentations.pytorch import ToTensorV2
 
 class SegmentationDataset(Dataset):
     def __init__(self, root_dir, dataset_type='syntax', split='train', image_size=(512, 512), transform=None):
@@ -12,7 +13,6 @@ class SegmentationDataset(Dataset):
         self.dataset_type = dataset_type
         self.split = split
         self.image_size = image_size
-        self.transform = transform
         
         self.images_dir = os.path.join(root_dir, dataset_type, split, 'images')
         self.json_path = os.path.join(root_dir, dataset_type, split, 'annotations', f'{split}.json')
@@ -29,6 +29,31 @@ class SegmentationDataset(Dataset):
             self.annotations[img_id].append(ann)
             
         self.image_ids = list(self.image_info.keys())
+
+        # Define Albumentations transforms
+        if transform is not None:
+            self.transform = transform
+        else:
+            if split == 'train':
+                self.transform = A.Compose([
+                    A.Resize(height=image_size[0], width=image_size[1]),
+                    A.HorizontalFlip(p=0.5),
+                    A.VerticalFlip(p=0.3),
+                    A.RandomRotate90(p=0.5),
+                    A.ShiftScaleRotate(shift_limit=0.0625, scale_limit=0.1, rotate_limit=30, p=0.5),
+                    A.CLAHE(clip_limit=3.0, tile_grid_size=(8, 8), p=0.8), # Strong CLAHE for angiograms
+                    A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.5),
+                    A.ElasticTransform(alpha=120, sigma=120 * 0.05, alpha_affine=120 * 0.03, p=0.3), # Deformations simulate vessels
+                    A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
+                    ToTensorV2(),
+                ])
+            else:
+                self.transform = A.Compose([
+                    A.Resize(height=image_size[0], width=image_size[1]),
+                    A.CLAHE(clip_limit=2.0, tile_grid_size=(8, 8), p=1.0), # Consistent CLAHE for val/test
+                    A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
+                    ToTensorV2(),
+                ])
         
     def __len__(self):
         return len(self.image_ids)
@@ -41,20 +66,9 @@ class SegmentationDataset(Dataset):
         img_path = os.path.join(self.images_dir, img_data['file_name'])
         image = cv2.imread(img_path)
         if image is None:
-            # Handle missing image gracefully or raise error
             raise FileNotFoundError(f"Image not found: {img_path}")
             
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
-        # Apply CLAHE (Contrast Limited Adaptive Histogram Equalization)
-        # This enhances local contrast, making vessels pop out from background.
-        # We work on the L channel of LAB color space to preserve color info (if any).
-        lab = cv2.cvtColor(image, cv2.COLOR_RGB2LAB)
-        l, a, b = cv2.split(lab)
-        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
-        cl = clahe.apply(l)
-        limg = cv2.merge((cl,a,b))
-        image = cv2.cvtColor(limg, cv2.COLOR_LAB2RGB)
         
         # Create Mask
         mask = np.zeros((img_data['height'], img_data['width']), dtype=np.uint8)
@@ -64,22 +78,19 @@ class SegmentationDataset(Dataset):
                     poly = np.array(seg).reshape((-1, 2)).astype(np.int32)
                     cv2.fillPoly(mask, [poly], 1) # Binary mask (1 for foreground)
                     
-        # Resize
-        if self.image_size:
-            image = cv2.resize(image, self.image_size)
-            mask = cv2.resize(mask, self.image_size, interpolation=cv2.INTER_NEAREST)
+        # Apply Albumentations
+        if self.transform:
+            augmented = self.transform(image=image, mask=mask)
+            image = augmented['image']
+            mask = augmented['mask']
             
-        # Transform to Tensor
-        image = image.astype(np.float32) / 255.0
-        image = torch.from_numpy(image).permute(2, 0, 1) # C, H, W
-        
-        mask = torch.from_numpy(mask).long() # H, W
+        mask = mask.long() # H, W
         
         return image, mask
 
 if __name__ == '__main__':
     # Test the dataset
-    dataset = SegmentationDataset('e:/Research/dataset', split='train')
+    dataset = SegmentationDataset('dataset', split='train')
     img, mask = dataset[0]
     print(f"Image shape: {img.shape}, Mask shape: {mask.shape}")
     print(f"Unique mask values: {torch.unique(mask)}")

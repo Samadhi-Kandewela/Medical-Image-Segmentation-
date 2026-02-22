@@ -64,7 +64,7 @@ if __name__ == "__main__":
     parser.add_argument('--device', type=str, default='cpu', help='Device to benchmark on (cpu or cuda)')
     args = parser.parse_args()
     
-    models_to_test = ['unet', 'dscunet', 'mobileunet']
+    models_to_test = ['unet', 'dscunet', 'mobileunet', 'mobileunetv3']
     results = []
     
     for m in models_to_test:

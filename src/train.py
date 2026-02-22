@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from dataset import SegmentationDataset
 from model import UNet
-from model_lightweight import DSCUNet, MobileUNet, MobileUNetv2, MobileUNetv3, DeepLabV3Plus
+from model_lightweight import DSCUNet, MobileUNet, MobileUNetv2, MobileUNetv3, DeepLabV3Plus, DeepLabV3ResNet
 
 def dice_loss(pred, target, smooth=1.):
     pred = pred.contiguous()
@@ -63,7 +63,8 @@ def train_net(net, device, args, epochs=5, batch_size=1, lr=1e-4, val_percent=0.
                 images = images.to(device=device, dtype=torch.float32)
                 true_masks = true_masks.to(device=device, dtype=torch.float32)
 
-                masks_pred = net(images)
+                masks_pred_raw = net(images)
+                masks_pred = masks_pred_raw['out'] if isinstance(masks_pred_raw, dict) else masks_pred_raw
                 
                 # Squeeze the channel dim of masks_pred (B, 1, H, W) -> (B, H, W)
                 # But BCEWithLogitsLoss expects (B, 1, H, W) if target is (B, 1, H, W)
@@ -107,7 +108,8 @@ def evaluate(net, dataloader, device):
             mask_true = mask_true.to(device=device, dtype=torch.float32)
             mask_true = mask_true.unsqueeze(1)
 
-            mask_pred = net(image)
+            mask_pred_raw = net(image)
+            mask_pred = mask_pred_raw['out'] if isinstance(mask_pred_raw, dict) else mask_pred_raw
             mask_pred = (F.sigmoid(mask_pred) > 0.5).float()
             
             # Dice calculation
@@ -133,7 +135,7 @@ def get_args():
     parser.add_argument('--validation', '-v', dest='val', type=float, default=10.0, help='Percent of the data that is used as validation (0-100)')
     parser.add_argument('--bilinear', action='store_true', default=False, help='Use bilinear upsampling')
     parser.add_argument('--classes', '-c', type=int, default=1, help='Number of classes')
-    parser.add_argument('--model', '-m', type=str, default='unet', choices=['unet', 'dscunet', 'mobileunet', 'mobileunetv2', 'mobileunetv3', 'deeplabv3'], help='Model architecture')
+    parser.add_argument('--model', '-m', type=str, default='unet', choices=['unet', 'dscunet', 'mobileunet', 'mobileunetv2', 'mobileunetv3', 'deeplabv3', 'deeplabv3_resnet'], help='Model architecture')
     parser.add_argument('--data-dir', type=str, default='dataset', help='Path to dataset root directory')
     
     return parser.parse_args()
@@ -160,6 +162,8 @@ if __name__ == '__main__':
         net = MobileUNetv3(n_classes=args.classes)
     elif args.model == 'deeplabv3':
         net = DeepLabV3Plus(n_classes=args.classes)
+    elif args.model == 'deeplabv3_resnet':
+        net = DeepLabV3ResNet(n_classes=args.classes)
     else:
         raise ValueError(f"Unknown model: {args.model}")
 

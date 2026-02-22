@@ -8,9 +8,8 @@ import torch.nn.functional as F
 from torch import optim
 from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
-from torchvision import models
-
 from dataset import SegmentationDataset
+from model_CBAM_UNet import CBAM_UNet
 
 class FocalTverskyLoss(nn.Module):
     def __init__(self, alpha=0.3, beta=0.7, gamma=2.0, smooth=1.0):
@@ -19,6 +18,7 @@ class FocalTverskyLoss(nn.Module):
         self.beta = beta
         self.gamma = gamma
         self.smooth = smooth
+        self.eps = 1e-6
 
     def forward(self, inputs, targets):
         inputs = torch.sigmoid(inputs)
@@ -32,16 +32,16 @@ class FocalTverskyLoss(nn.Module):
         FP = ((1-targets) * inputs).sum()
         FN = (targets * (1-inputs)).sum()
         
-        Tversky = (TP + self.smooth) / (TP + self.alpha*FP + self.beta*FN + self.smooth)  
-        FocalTversky = (1 - Tversky)**self.gamma
+        Tversky = (TP + self.smooth) / (TP + self.alpha*FP + self.beta*FN + self.smooth + self.eps)  
+        FocalTversky = (1 - Tversky + self.eps)**self.gamma
                        
         return FocalTversky
 
-def train_net(net, device, data_dir, epochs=50, batch_size=2, lr=1e-4, save_cp=True, dir_checkpoint='checkpoints/teacher/'):
+def train_net(net, device, data_dir, epochs=50, batch_size=2, lr=1e-5, save_cp=True, dir_checkpoint='checkpoints/teacher/'):
     # Use data_dir passed from arguments
-    # High-Res Training: 768x768 (Capture small vessels)
-    train_dataset = SegmentationDataset(data_dir, split='train', image_size=(768, 768))
-    val_dataset = SegmentationDataset(data_dir, split='test', image_size=(768, 768)) 
+    # Lower High-Res Training from 768 to 512 to prevent OOM
+    train_dataset = SegmentationDataset(data_dir, split='train', image_size=(512, 512))
+    val_dataset = SegmentationDataset(data_dir, split='test', image_size=(512, 512)) 
     # ideally we should split train into train/val, but for now using test as val for simplicity 
     # or better, stick to the original split if we have one. 
     # train.py used 10% val split from train. Let's stick to that consistency.
@@ -52,8 +52,8 @@ def train_net(net, device, data_dir, epochs=50, batch_size=2, lr=1e-4, save_cp=T
     n_train = len(dataset) - n_val
     train_set, val_set = random_split(dataset, [n_train, n_val], generator=torch.Generator().manual_seed(0))
     
-    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
-    val_loader = DataLoader(val_set, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=True, drop_last=True)
+    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True)
+    val_loader = DataLoader(val_set, batch_size=batch_size, shuffle=False, num_workers=0, pin_memory=True, drop_last=True)
     
     logging.info(f'''Starting training:
         Epochs:          {epochs}
@@ -71,6 +71,7 @@ def train_net(net, device, data_dir, epochs=50, batch_size=2, lr=1e-4, save_cp=T
     
     best_dice = 0.0
 
+
     for epoch in range(epochs):
         net.train()
         epoch_loss = 0
@@ -84,17 +85,19 @@ def train_net(net, device, data_dir, epochs=50, batch_size=2, lr=1e-4, save_cp=T
                 # Fix dimensions: (B, H, W) -> (B, 1, H, W)
                 true_masks = true_masks.unsqueeze(1)
 
-                pred = net(imgs)['out']
-                
-                # Switch to Focal Tversky Loss for better recall on small vessels
-                # alpha=0.3, beta=0.7 penalizes False Negatives more (Recall focused)
-                loss = criterion(pred, true_masks)
-                
-                epoch_loss += loss.item()
-                
                 optimizer.zero_grad()
+                
+                pred = net(imgs)['out']
+                loss = criterion(pred, true_masks)
+
                 loss.backward()
+                
+                # Clip gradients to prevent exploding gradients (NaN loss)
+                torch.nn.utils.clip_grad_norm_(net.parameters(), max_norm=1.0)
+                
                 optimizer.step()
+
+                epoch_loss += loss.item()
 
                 pbar.set_postfix(**{'loss (batch)': loss.item()})
                 pbar.update(imgs.shape[0])
@@ -147,20 +150,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--epochs', type=int, default=30)
     parser.add_argument('--batch-size', type=int, default=4)
-    parser.add_argument('--lr', type=float, default=1e-4)
+    parser.add_argument('--lr', type=float, default=1e-5)
     parser.add_argument('--data-dir', type=str, default='dataset', help='Path to dataset root')
     parser.add_argument('--load', type=str, default=None, help='Path to checkpoint to resume from')
     args = parser.parse_args()
 
-    # Load massive pre-trained model
-    # DeepLabV3+ with ResNet101
-    logging.info("Loading Teacher: DeepLabV3 ResNet101...")
-    net = models.segmentation.deeplabv3_resnet101(weights='DEFAULT')
-    
-    # Modify classifier for 1 class
-    net.classifier[4] = nn.Conv2d(256, 1, kernel_size=1)
-    net.aux_classifier[4] = nn.Conv2d(256, 1, kernel_size=1)
-
+    # Load state-of-the-art Teacher: CBAM-UNet
+    logging.info("Loading Teacher: CBAM-UNet...")
+    net = CBAM_UNet(n_channels=3, n_classes=1)
     net.to(device=device)
 
     if args.load:

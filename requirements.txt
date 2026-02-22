@@ -9,3 +9,4 @@ onnxruntime
 imageio
 pillow
 PyQt5
+albumentations
