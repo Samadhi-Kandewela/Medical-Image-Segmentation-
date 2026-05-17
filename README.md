@@ -11,7 +11,7 @@
 
 ## Presentation & Live Simulation Walkthrough
 
-Click the clinical AI dashboard card below to watch the full **12-minute research defense, clinical motivation, and live simulation run** demonstrating real-time vessel segmentation:
+Click the clinical AI dashboard card below to watch the full **12 minute research defense, clinical motivation, and live simulation run** demonstrating real-time vessel segmentation:
 
 <div align="center">
   <a href="https://drive.google.com/file/d/1Y2Oy-SYkkO0OpSiqCmTpWslodi2gi2N6/view?usp=sharing" target="_blank">
@@ -29,8 +29,8 @@ In interventional cardiology catheterization labs (cath labs), **X-ray Coronary 
 ### The Challenge
 State-of-the-art deep learning models require expensive, high-power workstation GPUs to run at clinically useful speeds (30+ FPS). This makes real-time deployment on standard hospital CPU workstations or low-power clinical cart monitors highly difficult.
 
-### Our Solution (SLIMNet / MobileUNetv3)
-This project introduces **SLIMNet**—a custom-designed, latency-aware **MobileUNetv3** model optimized for high-speed CPU inference. By pairing a pre-trained **MobileNetV3-Large encoder** with a highly customized, lightweight **attention-guided decoder**, SLIMNet delivers clinical-grade segmentation accuracy at real-time speeds on standard hospital hardware.
+### Solution (SLIMNet / MobileUNetv3)
+This project introduces **SLIMNet**, a custom designed, latency-aware **MobileUNetv3** model optimized for high speed CPU inference. By pairing a pre-trained **MobileNetV3-Large encoder** with a highly customized, lightweight **attention guided decoder**, SLIMNet delivers clinical-grade segmentation accuracy at real-time speeds on standard hospital hardware.
 
 ---
 
@@ -166,8 +166,4 @@ python src/benchmark.py --device cpu
 
 ---
 
-## Citation & Research Credit
-```text
-Kandewela, S. Latency-Aware Deep Learning Framework for Real-Time Angiographic Medical Image Segmentation. 
-ARCADE Dataset courtesy of Nature Scientific Data (s41597-023-02871-z).
-```
+
