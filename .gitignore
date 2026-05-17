@@ -1,15 +1,48 @@
+# Core Python & Environments
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+venv/
+.venv/
+
+# Local Datasets & Models
 dataset/
+dataset_augmented/
+local_data/
 checkpoints/
 *.pth
+*.onnx
+*.onnx.data
+INTERRUPTED.pth
+
+# Media & Videos
 *.zip
 *.tar.gz
 *.mp4
 *.avi
-local_data/
-wandb/
+*.mov
+*.png
+!Professional_Accuracy_Latency_Tradeoff.png
+
+# Exclude all figures except the clinical presentation thumbnail
+figures/*
+!figures/presentation_thumbnail.png
+
+# Local Workspace Documentation & Intermediate Scripts
+Researching Latency-Aware Models.md
+cloud_training_guide.md
+inspect_data.py
+_err_masks.txt
+_error.txt
+_error2.txt
+_ckpt_info.txt
+_out_info.txt
+
+# Academic & Proposal Drafts
+*.pdf
+
+# IDE & OS files
 .vscode/
 .idea/
-venv/
+.DS_Store
+Thumbs.db

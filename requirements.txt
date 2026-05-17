@@ -1,12 +1,27 @@
-segmentation-models-pytorch
-torch
-torchvision
-opencv-python
-tqdm
-numpy
-streamlit
-onnxruntime
-imageio
-pillow
-PyQt5
-albumentations
+# =============================================================================
+# Core Deep Learning & Tensor Operations
+# =============================================================================
+torch>=2.0.0
+torchvision>=0.15.0
+
+# =============================================================================
+# Medical Image Processing & Computer Vision
+# =============================================================================
+opencv-python>=4.7.0.72
+segmentation-models-pytorch>=0.3.3
+albumentations>=1.3.0
+pillow>=9.4.0
+imageio>=2.26.0
+
+# =============================================================================
+# Latency Profiling & Computation Analytics
+# =============================================================================
+thop>=0.1.1  # PyTorch FLOPs/Params Profiling
+numpy>=1.24.2
+tqdm>=4.65.0
+
+# =============================================================================
+# Deployment Interfaces & Interactive Demos
+# =============================================================================
+PyQt5>=5.15.9  # Native Desktop Real-time GUI
+streamlit>=1.20.0  # Interactive Web Dashboard UI

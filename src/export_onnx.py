@@ -6,6 +6,7 @@ import onnx
 import onnxruntime as ort
 import numpy as np
 from model_lightweight import MobileUNetv3, MobileUNetv2, DeepLabV3Plus, MobileUNet
+from model import UNet
 
 def to_numpy(tensor):
     return tensor.detach().cpu().numpy() if tensor.requires_grad else tensor.cpu().numpy()
@@ -23,6 +24,9 @@ def export_model(model_path, output_path, model_name='mobileunetv3'):
         model = DeepLabV3Plus(n_classes=1, pretrained=False)
     elif model_name == 'mobileunet':
         model = MobileUNet(n_classes=1, pretrained=False)
+    elif model_name == 'unet':
+        # Ensure bilinear matches the checkpoint
+        model = UNet(n_channels=3, n_classes=1, bilinear=False)
     else:
         raise ValueError(f"Unknown model: {model_name}")
 
@@ -70,10 +74,17 @@ def export_model(model_path, output_path, model_name='mobileunetv3'):
     with torch.no_grad():
         torch_out = model(dummy_input)
 
+    # Some models (like torchvision's deeplabv3) return an OrderedDict.
+    # We need to extract the tensor (usually 'out') for comparison.
+    if isinstance(torch_out, dict):
+        torch_out_tensor = torch_out['out']
+    else:
+        torch_out_tensor = torch_out
+
     # compare ONNX Runtime and PyTorch results
     # Relaxed tolerance: Upsampling layers often cause minor differences
     try:
-        np.testing.assert_allclose(to_numpy(torch_out), ort_outs[0], rtol=1e-02, atol=1e-03)
+        np.testing.assert_allclose(to_numpy(torch_out_tensor), ort_outs[0], rtol=1e-02, atol=1e-03)
         print("Exported model has been tested with ONNXRuntime, and the result looks good!")
     except AssertionError as e:
         print(f"Warning: Minor differences found between PyTorch and ONNX outputs.")
