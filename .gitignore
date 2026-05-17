@@ -9,6 +9,7 @@ venv/
 dataset/
 dataset_augmented/
 exports/
+angiogram/
 local_data/
 checkpoints/
 *.pth

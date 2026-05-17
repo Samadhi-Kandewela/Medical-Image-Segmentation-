@@ -125,7 +125,6 @@ Research/
 │   ├── dataset.py                      # Custom PyTorch Medical Dataset Loaders
 │   └── train.py                        # PyTorch model trainer
 ├── requirements.txt                    # Annotated version-pinned dependencies
-├── Professional_Accuracy_Latency_Tradeoff.png
 └── README.md                           # Master clinical AI documentation
 ```
 
