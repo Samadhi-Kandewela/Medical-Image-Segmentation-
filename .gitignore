@@ -8,6 +8,7 @@ venv/
 # Local Datasets & Models
 dataset/
 dataset_augmented/
+exports/
 local_data/
 checkpoints/
 *.pth
@@ -22,7 +23,6 @@ INTERRUPTED.pth
 *.avi
 *.mov
 *.png
-!Professional_Accuracy_Latency_Tradeoff.png
 
 # Exclude all figures except the clinical presentation thumbnail
 figures/*
